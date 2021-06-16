@@ -1,0 +1,166 @@
+---
+contentTimeTotal:
+  literatureTime: 173
+  optionalLiteratureTime: 260
+notInTopic:
+  literature:
+  - title: "Introductory HTTP - Beginner-friendly book on HTTP"
+    url: https://launchschool.com/books/http/read/what_is_a_url
+    timeType: Article
+    timeMinutes: 6
+    timeBadge: info
+topics:
+  - topic: "URL and Routing"
+    literatureTime: 76
+    optionalLiteratureTime: 6
+    description-include: url_and_routing.md
+    literature:
+    - title: "What is a URL? - Learn web development - MDN"
+      url: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL
+      timeType: Article
+      timeMinutes: 8
+      timeBadge: info
+    - title: "Routing to controller actions in ASP.NET Core - Microsoft Docs"
+      url: https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-5.0
+      timeType: Article
+      timeMinutes: 68
+      timeBadge: info
+    optionalLiterature:
+    - title: "Google Takes Its First Steps Toward Killing the URL"
+      url: https://www.wired.com/story/google-chrome-kill-url-first-steps/
+      timeType: Article
+      timeMinutes: 6
+      timeBadge: info
+  - topic: "REST API design"
+    literatureTime: 27
+    optionalLiteratureTime: 52
+    description-include: rest_api_design.md
+    literature:
+    - title: "An Introduction to APIs For the Uninitiated"
+      url: https://nordicapis.com/an-introduction-to-apis-for-the-uninitiated/
+      timeType: Article
+      timeMinutes: 8
+      timeBadge: info
+    - title: "Introduction To REST Concepts"
+      url: https://www.javacodegeeks.com/2012/10/introduction-to-rest-concepts.html
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+    - title: "RESTful API Design — Step By Step Guide"
+      url: https://hackernoon.com/restful-api-design-step-by-step-guide-2f2c9f9fcdbf
+      timeType: Article
+      timeMinutes: 6
+      timeBadge: info
+    - title: "Understanding the API-First Approach to Building Products"
+      url: https://swagger.io/resources/articles/adopting-an-api-first-approach/
+      timeType: Article
+      timeMinutes: 6
+      timeBadge: info
+    recommendedLiterature:
+    - title: "REST API Tutorial"
+      url: https://www.restapitutorial.com/
+    - title: "Three Principles of API First Design"
+      url: https://medium.com/adobetech/three-principles-of-api-first-design-fa6666d9f694
+    - title: "API Design Guidelines and Best Practices Cheat Sheet"
+      url: https://github.com/RestCheatSheet/api-cheat-sheet#api-design-cheat-sheet
+      timeType: Repository
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        RestCheatSheet/api-cheat-sheet
+    - title: "Web API Design"
+      url: https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf
+      timeType: PDF
+      timeMinutes: 0
+      timeBadge: dark
+    optionalLiterature:
+    - title: "REST API Versioning Guide"
+      url: https://restfulapi.net/versioning/
+      timeType: Article
+      timeMinutes: 2
+      timeBadge: info
+    - title: "Fielding Dissertation: CHAPTER 5: Representational State Transfer (REST)"
+      url: https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      timeType: Article
+      timeMinutes: 35
+      timeBadge: info
+    - title: "Key Lessons From 100 API Projects"
+      url: https://nordicapis.com/key-lessons-from-100-api-projects/
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
+    - title: "The Three Principles of Excellent API Design"
+      url: https://nordicapis.com/the-three-principles-of-excellent-api-design/
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+    - title: "Understanding API First Design"
+      url: https://www.programmableweb.com/api-university/understanding-api-first-design
+      timeType: Collection
+      timeMinutes: 3
+      timeBadge: info
+  - topic: "OpenAPI"
+    literatureTime: 17
+    optionalLiteratureTime: 152
+    description-include: openapi.md
+    literature:
+    - title: "Intro to Swagger – A Structured Approach to Creating an API"
+      url: https://spin.atomicobject.com/2018/08/30/swagger-api-intro/
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+    - title: "Basic Structure"
+      url: https://swagger.io/docs/specification/basic-structure/
+      timeType: Article
+      timeMinutes: 10
+      timeBadge: info
+    recommendedLiterature:
+    - title: "How to host Swagger API documentation with GitHub Pages"
+      url: https://github.com/peter-evans/swagger-github-pages
+      timeType: Repository
+      timeMinutes: 0
+      timeBadge: dark
+    - title: "Adding Examples"
+      url: https://swagger.io/docs/specification/adding-examples/
+    optionalLiterature:
+    - title: "OpenAPI Specification"
+      url: https://swagger.io/specification/
+      timeType: Specification
+      timeMinutes: 143
+      timeBadge: info
+    - title: "REST API and OpenAPI: It’s Not an Either/Or Question"
+      url: https://www.youtube.com/watch?v=pRS9LRBgjYg
+      timeType: Video
+      timeMinutes: 9
+      timeBadge: danger
+  - topic: "REST API with ASP.NET Core"
+    literatureTime: 47
+    optionalLiteratureTime: 50
+    description-include: rest_api_with_asp_net_core.md
+    literature:
+    - title: "Create a web API with ASP.NET Core"
+      url: https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio
+      timeType: Tutorial
+      timeMinutes: 47
+      timeBadge: info
+    recommendedLiterature:
+    - title: "Beginner's Series to: Web APIs"
+      url: https://channel9.msdn.com/Series/Beginners-Series-to-Web-APIs
+      timeType: Collection
+      timeMinutes: 0
+      timeBadge: dark
+    - title: "Generate Client for ASP.NET Core Web API using OpenAPI"
+      url: https://www.davidhayden.me/blog/generate-client-for-asp-net-core-web-api-using-openapi
+    - title: "Asp.Net Core 5 Rest API Step by Step - DEV Community"
+      url: https://dev.to/moe23/asp-net-core-5-rest-api-step-by-step-2mb6
+    optionalLiterature:
+    - title: "API versioning with ASP.NET Core and Swashbuckle"
+      url: https://codingfreaks.de/dotnet-core-api-versioning/
+      timeType: Article
+      timeMinutes: 15
+      timeBadge: info
+    - title: "Implementing HATEOAS in ASP.NET Core Web API"
+      url: https://code-maze.com/hateoas-aspnet-core-web-api/
+      timeType: Article
+      timeMinutes: 35
+      timeBadge: info

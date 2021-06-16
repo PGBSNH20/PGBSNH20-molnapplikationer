@@ -1,0 +1,72 @@
+---
+contentTimeTotal:
+  literatureTime: 98
+  optionalLiteratureTime: 145
+notInTopic:
+  literature:
+  - title: "What is the 3-Tier Architecture?"
+    url: http://tonymarston.net/php-mysql/3-tier-architecture.html
+    timeType: Article
+    timeMinutes: 68
+    timeBadge: info
+  - title: "What is a Monolith?"
+    url: http://www.codingthearchitecture.com/2014/11/19/what_is_a_monolith.html
+    timeType: Article
+    timeMinutes: 5
+    timeBadge: info
+  - title: "Common web application architectures"
+    url: https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
+    timeType: Article
+    timeMinutes: 19
+    timeBadge: info
+  - title: "MVC Framework - Introduction"
+    url: https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm
+    timeType: Article
+    timeMinutes: 4
+    timeBadge: info
+  optionalLiterature:
+  - title: "N-Tier Architecture in ASP.NET Core"
+    url: https://chathuranga94.medium.com/n-tier-architecture-in-asp-net-core-d1f1b14f2010
+    timeType: Article
+    timeMinutes: 8
+    timeBadge: info
+    description: >
+      Build layered architecture for separation of concern, scalability and maintenance
+  - title: "GUI Architectures"
+    url: https://martinfowler.com/eaaDev/uiArchs.html
+    timeType: Article
+    timeMinutes: 36
+    timeBadge: info
+    description: >
+      min
+  - title: "Microservices"
+    url: https://martinfowler.com/articles/microservices.html
+    timeType: Article
+    timeMinutes: 33
+    timeBadge: info
+  - title: "Vertical Slice Architecture"
+    url: https://www.youtube.com/watch?v=T6nglsEDaqA&list=PLZQDTUIhS27A_qsf8J38xx4LwVEEUfh22&index=5
+    timeType: Video
+    timeMinutes: 55
+    timeBadge: danger
+  - title: "Conway's law"
+    url: https://en.wikipedia.org/wiki/Conway%27s_law
+    timeType: Wiki
+    timeMinutes: 4
+    timeBadge: info
+  - title: "Model-View-ViewModel (MVVM) Applications: General Introduction"
+    url: https://docs.microsoft.com/da-dk/archive/blogs/ivo_manolov/model-view-viewmodel-mvvm-applications-general-introduction
+    timeType: Article
+    timeMinutes: 9
+    timeBadge: info
+topics:
+  - topic: "ASP.NET alternatives"
+    literatureTime: 2
+    optionalLiteratureTime: 0
+    description-include: asp_net_alternatives.md
+    literature:
+    - title: "Solution stack"
+      url: https://en.wikipedia.org/wiki/Solution_stack
+      timeType: Wiki
+      timeMinutes: 2
+      timeBadge: info

@@ -1,0 +1,47 @@
+---
+contentTimeTotal:
+  literatureTime: 14
+  optionalLiteratureTime: 25
+notInTopic:
+  literature:
+  - title: "Unit testing"
+    url: https://nbarbettini.gitbooks.io/little-asp-net-core-book/content/chapters/automated-testing/unit-testing.html
+    timeType: Article
+    timeMinutes: 8
+    timeBadge: info
+  - title: "Integration testing"
+    url: https://nbarbettini.gitbooks.io/little-asp-net-core-book/content/chapters/automated-testing/integration-testing.html
+    timeType: Article
+    timeMinutes: 6
+    timeBadge: info
+  recommendedLiterature:
+  - title: "Test controller logic in ASP.NET Core"
+    url: https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-5.0
+    timeType: Article
+    timeMinutes: 25
+    timeBadge: info
+  optionalLiterature:
+  - title: "VerifyTests/Verify"
+    url: https://github.com/VerifyTests/Verify
+    description: >
+      Verify is a snapshot tool that simplifies the assertion of complex data models and documents. - VerifyTests/Verify
+  - title: "Fast and reliable end-to-end testing for modern web apps - Playwright"
+    url: https://playwright.dev/dotnet/
+    description: >
+      Cross-browser end-to-end testing for modern web apps
+  - title: "Beginning Test-Driven Development in .NET Core"
+    url: https://fullstackmark.com/post/8/beginning-test-driven-development-in-net-core
+    timeType: Article
+    timeMinutes: 7
+    timeBadge: info
+  - title: "Real Browser Integration Testing with Selenium Standalone, Chrome, and ASP.NET Core 2.1"
+    url: https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21
+    timeType: Article
+    timeMinutes: 10
+    timeBadge: info
+  - title: "Launching WebDrivers in .net Core"
+    url: https://alexanderontesting.com/2018/10/11/launching-webdrivers-in-net-core/
+    timeType: Article
+    timeMinutes: 8
+    timeBadge: info
+topics:

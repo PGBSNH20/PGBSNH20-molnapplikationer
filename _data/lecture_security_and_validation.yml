@@ -1,0 +1,29 @@
+---
+contentTimeTotal:
+  literatureTime: 38
+  optionalLiteratureTime: 3
+notInTopic:
+  literature:
+  - title: "OWASP Top Ten Web Application Security Risks"
+    url: https://owasp.org/www-project-top-ten/
+    timeType: Article
+    timeMinutes: 3
+    timeBadge: info
+  - title: "Model validation in ASP.NET Core"
+    url: https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-5.0
+    timeType: Article
+    timeMinutes: 35
+    timeBadge: info
+  recommendedLiterature:
+  - title: "DotNet Security Cheat Sheet"
+    url: https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html
+    timeType: Article
+    timeMinutes: 27
+    timeBadge: info
+  optionalLiterature:
+  - title: "Secure coding guidelines for .NET - Microsoft Docs"
+    url: https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines
+    timeType: Article
+    timeMinutes: 3
+    timeBadge: info
+topics:

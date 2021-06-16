@@ -1,0 +1,71 @@
+---
+contentTimeTotal:
+  literatureTime: 48
+  optionalLiteratureTime: 113
+topics:
+  - topic: "ASP.NET Core Identity"
+    literatureTime: 23
+    optionalLiteratureTime: 51
+    description-include: asp_net_core_identity.md
+    literature:
+    - title: "Security and identity · Little ASP.NET Core Book"
+      url: https://nbarbettini.gitbooks.io/little-asp-net-core-book/content/chapters/security-and-identity/
+      timeType: Article
+      timeMinutes: 3
+      timeBadge: info
+    - title: "Introduction to Identity on ASP.NET Core"
+      url: https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-5.0&tabs=visual-studio
+      timeType: Article
+      timeMinutes: 17
+      timeBadge: info
+    - title: "Simple authorization in ASP.NET Core"
+      url: https://docs.microsoft.com/en-us/aspnet/core/security/authorization/simple?view=aspnetcore-5.0
+      timeType: Article
+      timeMinutes: 3
+      timeBadge: info
+    optionalLiterature:
+    - title: "ASP.NET Core Identity Series – Two Factor Authentication"
+      url: https://chsakell.com/2019/08/18/asp-net-core-identity-series-two-factor-authentication/
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+    - title: "ASP.NET Core 3.1 - Simple API for Authentication, Registration and User Management"
+      url: https://jasonwatmore.com/post/2019/10/14/aspnet-core-3-simple-api-for-authentication-registration-and-user-management
+      timeType: Article
+      timeMinutes: 37
+      timeBadge: info
+    - title: "How to Build and Secure Web APIs with ASP.NET Core 3.0"
+      url: https://auth0.com/blog/how-to-build-and-secure-web-apis-with-aspnet-core-3/
+    - title: "Token Authentication in ASP.NET Core 2.0 - A Complete Guide"
+      url: https://developer.okta.com/blog/2018/03/23/token-authentication-aspnetcore-complete-guide
+      timeType: Article
+      timeMinutes: 14
+      timeBadge: info
+      description: >
+        Everything you ever wanted to know about token authentication in ASP.NET Core 2.0 and beyond.
+  - topic: "Localization and Internationalization"
+    literatureTime: 25
+    optionalLiteratureTime: 62
+    description-include: localization_and_internationalization.md
+    literature:
+    - title: "Localization vs. Internationalization"
+      url: https://www.w3.org/International/questions/qa-i18n
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
+    - title: "A Deep Dive into ASP.NET Core Localization"
+      url: https://www.codemag.com/Article/2009081/A-Deep-Dive-into-ASP.NET-Core-Localization
+      timeType: Article
+      timeMinutes: 20
+      timeBadge: info
+    optionalLiterature:
+    - title: "Razor Pages Localisation - SEO-friendly URLs"
+      url: https://www.mikesdotnetting.com/article/348/razor-pages-localisation-seo-friendly-urls
+      timeType: Article
+      timeMinutes: 10
+      timeBadge: info
+    - title: "Globalization and localization in ASP.NET Core"
+      url: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization?view=aspnetcore-5.0
+      timeType: Article
+      timeMinutes: 52
+      timeBadge: info

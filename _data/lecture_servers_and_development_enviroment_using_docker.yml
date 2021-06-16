@@ -1,0 +1,95 @@
+---
+contentTimeTotal:
+  literatureTime: 56
+  optionalLiteratureTime: 94
+notInTopic:
+  literature:
+  - title: "WSL2, Visual Studio Code, Windows 10, Ubuntu/Linux + more"
+    url: https://www.youtube.com/watch?v=Owrk9UxnMdI
+    timeType: Video
+    timeMinutes: 18
+    timeBadge: danger
+  optionalLiterature:
+  - title: "How to set up a Windows 10 machine for Linux Development w/ WSL!"
+    url: https://www.youtube.com/watch?v=j0PPcUUtHlw
+    timeType: Video
+    timeMinutes: 45
+    timeBadge: danger
+    description: >
+      Scott Hanselman sits down with GitHub's Iheanyi Ekechukwu who is frustrated with his Windows computer. He's Linux/Mac person for years, vim, tmux, all that, ...
+topics:
+  - topic: "Containers"
+    literatureTime: 11
+    optionalLiteratureTime: 40
+    description-include: containers.md
+    literature:
+    - title: "WTF is a container?"
+      url: https://techcrunch.com/2016/10/16/wtf-is-a-container/
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
+    - title: "Why you should care about containers"
+      url: https://www.youtube.com/watch?v=EUitQ8DaZW8
+      timeType: Video
+      timeMinutes: 7
+      timeBadge: danger
+    optionalLiterature:
+    - title: "OS-level virtualization"
+      url: https://en.wikipedia.org/wiki/OS-level_virtualization
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
+    - title: "5 Container Alternatives to Docker"
+      url: https://containerjournal.com/topics/container-ecosystems/5-container-alternatives-to-docker/
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
+    - title: "Containers? So What? Docker 101 Explained"
+      url: https://www.youtube.com/watch?v=0oEsMwSxBsk
+      timeType: Video
+      timeMinutes: 31
+      timeBadge: danger
+  - topic: "Docker"
+    literatureTime: 27
+    optionalLiteratureTime: 9
+    description-include: docker.md
+    literature:
+    - title: "What is Docker, Why use it?"
+      url: https://www.youtube.com/watch?v=vmnvOITMoIg&list=PLdo4fOcmZ0oUvXP_Pt2zOgk8dTWagGs_P
+      timeType: Video
+      timeMinutes: 9
+      timeBadge: danger
+      description: >
+        Docker and .NET Core 101 [1 of 3]
+    - title: "Docker Tooling in Visual Studio"
+      url: https://www.youtube.com/watch?v=k2sskhYEPkI&list=PLdo4fOcmZ0oUvXP_Pt2zOgk8dTWagGs_P
+      timeType: Video
+      timeMinutes: 6
+      timeBadge: danger
+      description: >
+        Docker and .NET Core 101 [2 of 3]
+    - title: "What exactly is Docker?. An introduction to containers and…"
+      url: https://medium.com/swlh/what-exactly-is-docker-1dd62e1fde38
+      timeType: Article
+      timeMinutes: 12
+      timeBadge: info
+    optionalLiterature:
+    - title: "Introduction to Containerization Using Docker"
+      url: https://www.codemag.com/Article/2103061/Introduction-to-Containerization-Using-Docker
+    - title: "Virtual Machines vs Docker Containers - Dive Into Docker - YouTube"
+      url: https://www.youtube.com/watch?v=TvnZTi_gaNc
+      timeType: Video
+      timeMinutes: 9
+      timeBadge: danger
+    - title: "A Docker Tutorial for Beginners"
+      url: https://docker-curriculum.com/
+      timeType: Collection
+      timeMinutes: 0
+      timeBadge: dark
+    - title: "21 Days of Docker"
+      url: https://github.com/100daysofdevops/21_Days_of_Docker
+      timeType: Collection
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Collection of Docker toturials

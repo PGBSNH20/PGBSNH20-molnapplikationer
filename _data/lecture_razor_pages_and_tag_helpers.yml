@@ -1,0 +1,51 @@
+---
+contentTimeTotal:
+  literatureTime: 20
+  optionalLiteratureTime: 10
+notInTopic:
+  literature:
+  - title: "ASP.NET Core built-in Tag Helpers - Microsoft Docs"
+    url: https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/built-in/?view=aspnetcore-5.0
+  - title: "Razor syntax reference for ASP.NET Core - Microsoft Docs"
+    url: https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-5.0
+  - title: "Introduction to Razor Pages in ASP.NET Core - Microsoft Docs"
+    url: https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-5.0&tabs=visual-studio
+  optionalLiterature:
+  - title: "ASP.NET Razor Pages vs MVC: How Do Razor Pages Fit in Your Toolbox? – Stackify"
+    url: https://stackify.com/asp-net-razor-pages-vs-mvc/
+    description: >
+      There are some cool updates to ASP.NET. One of those is the addition of Razor Pages. Compare Razor Pages to MVC and get code examples.
+  - title: "An introduction to ViewComponents - a login status view component"
+    url: https://andrewlock.net/an-introduction-to-viewcomponents-a-login-status-view-component/
+  - title: "Six things I learnt about using ASP.NET Core’s Razor Pages"
+    url: https://www.thereformedprogrammer.net/six-things-i-learnt-about-using-asp-net-cores-razor-pages/
+topics:
+  - topic: "Blazor"
+    literatureTime: 20
+    optionalLiteratureTime: 10
+    description-include: blazor.md
+    literature:
+    - title: "Introduction to ASP.NET Core Blazor - Microsoft Docs"
+      url: https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
+      description: >
+        Explore ASP.NET Core Blazor, a way to build interactive client-side web UI with .NET in an ASP.NET Core app.
+    - title: "Blazor Introduction - What is Blazor? - Claudio Bernasconi"
+      url: https://www.claudiobernasconi.ch/2020/01/21/blazor-introduction-what-is-blazor/
+      timeType: Article
+      timeMinutes: 15
+      timeBadge: info
+      description: >
+        Learn in this Blazor introduction what Blazor is and how a Blazor application looks like for a .NET developer.
+    optionalLiterature:
+    - title: "Blazor Full-Stack Web Dev in ASP .NET Core"
+      url: https://wakeupandcode.com/blazor-full-stack-web-dev-in-asp-net-core/
+      timeType: Article
+      timeMinutes: 10
+      timeBadge: info
+  - topic: "MVC"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: mvc.md
