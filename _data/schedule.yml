@@ -1,6 +1,6 @@
 course: 
-  name: "Webbutveckling backend - Göteborg"
-  courseId: 1b04b46c-327b-4286-a0e0-129163493d99
+  name: "Utveckling av molnbaserade applikationer - Göteborg"
+  courseId: e08a642b-0f35-4837-ad6b-4a67b8ee2790
 weeks:
 - week: 36
   year: 2021
@@ -15,26 +15,26 @@ weeks:
       slug: lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
-      description: "Start på Webbutveckling backend"
-      start-full: 20210419T083000
-      end-full: 20210419T093000
+      description: "Start på Utveckling av molnbaserade applikationer"
+      start-full: 20210906T083000
+      end-full: 20210906T093000
     - activity: lecture
-      title: "Internet och protokoll"
-      titleEn: "Internet and protocols"
+      title: "Internet och moln"
+      titleEn: "Internet och moln"
       number: "1"
       slug: lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
       description: "Vad är internet och hur funkar det?"
-      start-full: 20210419T094500
-      end-full: 20210419T110000
+      start-full: 20210906T094500
+      end-full: 20210906T110000
     - activity: standup
       title: "Avslutning på dagen"
       titleEn: "Get together and end of day"
       slug: lectures/introduction
       description: "Är där frågor? Landing."
-      start-full: 20210419T160000
-      end-full: 20210419T163000
+      start-full: 20210906T160000
+      end-full: 20210906T163000
   - day: 2021-09-07
     weekday: "Tisdag"
     activities: null
@@ -42,25 +42,25 @@ weeks:
     weekday: "Onsdag"
     activities:
     - activity: standup
-      title: "Återkoppling till Internet och protokoll"
+      title: "Återkoppling till Internet och moln"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210421T083000
-      end-full: 20210421T090000
+      start-full: 20210908T083000
+      end-full: 20210908T090000
     - activity: lecture
-      title: "Servrar och utvecklingsmiljö"
-      titleEn: "Servers and development enviroment"
+      title: "Virtuelle maskiner och infrastruktur som kod"
+      titleEn: "Virtuelle maskiner och infrastruktur som kod"
       slug: lectures/docker
       description: "Hur kan vi skåpa med utvecklingsmiljö med docker och få dom att köra?"
-      start-full: 20210421T090000
-      end-full: 20210421T094500
+      start-full: 20210908T090000
+      end-full: 20210908T094500
       number: "2"
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210421T160000
-      end-full: 20210421T163000
+      start-full: 20210908T160000
+      end-full: 20210908T163000
   - day: 2021-09-09
     weekday: "Torsdag"
     activities: null
@@ -75,25 +75,25 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling till servere och Docker"
+      title: "Återkopling till Virtuelle maskiner och infrastruktur som kod"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210426T083000
-      end-full: 20210426T090000
+      start-full: 20210913T083000
+      end-full: 20210913T090000
     - activity: lecture
-      title: "ASP.NET Core introduktion"
-      titleEn: "ASP.NET Core introduction"
+      title: "Containrar"
+      titleEn: "Containrar"
       slug: lectures/aspnetcore
       description: "Vad är ASP.NET Core och hur kan vi bygga en simpel applikation?"
-      start-full: 20210426T090000
-      end-full: 20210426T094500
+      start-full: 20210913T090000
+      end-full: 20210913T094500
       number: "3"
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210426T160000
-      end-full: 20210426T163000
+      start-full: 20210913T160000
+      end-full: 20210913T163000
   - day: 2021-09-14
     weekday: "Tisdag"
     activities: null
@@ -101,51 +101,30 @@ weeks:
     weekday: "Onsdag"
     activities:
     - activity: standup
-      title: "Återkopling från Trådning med C#"
+      title: "Återkopling från Containrar"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210428T083000
-      end-full: 20210428T090000
+      start-full: 20210915T083000
+      end-full: 20210915T090000
     - activity: lecture
-      title: "REST APIer och routing"
-      titleEn: "REST APIs and routing"
+      title: "Automatisering av bygg och release"
+      titleEn: "Automatisering av bygg och release"
       number: "4"
       slug: lectures/restapi
       description: "Hur kan vi med ASP.NET Core bygga ett REST API? Och kontrollera sökvägen i en applikation"
-      start-full: 20210428T083000
-      end-full: 20210428T093000
+      start-full: 20210915T083000
+      end-full: 20210915T093000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210428T160000
-      end-full: 20210428T163000
+      start-full: 20210915T160000
+      end-full: 20210915T163000
   - day: 2021-09-16
     weekday: "Torsdag"
     activities: null
   - day: 2021-09-17
     weekday: "Fredag"
-    activities:
-    - activity: standup
-      title: "Återkopling från förra lektion"
-      titleEn: "Get together and start of day"
-      description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210430T083000
-      end-full: 20210430T090000
-    - activity: lecture
-      title: "Model binding"
-      titleEn: "Model binding"
-      number: "5"
-      slug: lectures/model-binding
-      description: "Hur kan vi kopla vår modeller till web förfrågningar?"
-      start-full: 20210430T090000
-      end-full: 20210430T093000
-    - activity: standup
-      title: "Sammanfattning på dagens lektion"
-      titleEn: "Summary of the lecture of the day"
-      description: "Är där frågor? Landing."
-      start-full: 20210430T160000
-      end-full: 20210430T163000
 - week: 38
   year: 2021
   description: Data och applikationsäkerhet
@@ -154,25 +133,25 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling till Automatisering av bygg och release"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210503T083000
-      end-full: 20210503T090000
+      start-full: 20210920T083000
+      end-full: 20210920T090000
     - activity: lecture
-      title: "Säkerhet och validering"
-      titleEn: "Security and validation"
-      number: "6"
-      slug: lectures/security-validation
-      description: "Vilka säkerhetsriskar har vi en webbapplikation, och hur kan vi lösa dom flesta med validering?"
-      start-full: 20210503T090000
-      end-full: 20210503T093000
+      title: "Databaser i molnet"
+      titleEn: "Databaser i molnet"
+      number: "5"
+      slug: lectures/model-binding
+      description: "Hur kan vi kopla vår modeller till web förfrågningar?"
+      start-full: 20210920T090000
+      end-full: 20210920T093000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210503T160000
-      end-full: 20210503T163000
+      start-full: 20210920T160000
+      end-full: 20210920T163000
   - day: 2021-09-21
     weekday: "Tisdag"
     activities: null
@@ -180,25 +159,25 @@ weeks:
     weekday: "Onsdag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling till Databaser i molnet"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210505T083000
-      end-full: 20210505T090000
+      start-full: 20210922T083000
+      end-full: 20210922T090000
     - activity: lecture
-      title: "Middleware i ASP.NET Core"
-      titleEn: "Middleware in ASP.NET Core"
-      number: "7"
-      slug: lectures/middleware
-      description: "Vad är middelware? Hur kan vi bygga advancerat funktionaltet med hjälp från middleware?"
-      start-full: 20210505T083000
-      end-full: 20210505T095000
+      title: "Webb applikationer i molnet"
+      titleEn: "Webb applikationer i molnet"
+      number: "6"
+      slug: lectures/security-validation
+      description: "Vilka säkerhetsriskar har vi en webbapplikation, och hur kan vi lösa dom flesta med validering?"
+      start-full: 20210922T090000
+      end-full: 20210922T093000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210505T160000
-      end-full: 20210505T163000
+      start-full: 20210922T160000
+      end-full: 20210922T163000
   - day: 2021-09-23
     weekday: "Torsdag"
     lecture: null
@@ -211,37 +190,56 @@ weeks:
   days:
   - day: 2021-09-27
     weekday: "Måndag"
-    activities: 
+    activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling till Webb applikationer i molnet"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210510T083000
-      end-full: 20210510T090000
+      start-full: 20210927T083000
+      end-full: 20210927T090000
     - activity: lecture
-      title: "Razor pages och tag helpers"
-      titleEn: "Razor pages and tag helpers"
-      number: "8"
-      slug: lectures/razor-pages
-      description: "Hur kan man generere en webbsida med Razor pages i ASP.NET Core?"
-      start-full: 20210510T083000
-      end-full: 20210510T093000
+      title: "Nätverk i molnet"
+      titleEn: "Nätverk i molnet"
+      number: "7"
+      slug: lectures/middleware
+      description: "Vad är middelware? Hur kan vi bygga advancerat funktionaltet med hjälp från middleware?"
+      start-full: 20210927T083000
+      end-full: 20210927T095000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210510T160000
-      end-full: 20210510T163000
+      start-full: 20210927T160000
+      end-full: 20210927T163000
   - day: 2021-09-28
     weekday: "Tisdag"
     activities: null
   - day: 2021-09-29
     weekday: "Onsdag"
-    activities: null
+    activities: 
+    - activity: standup
+      title: "Återkopling till Nätverk i molnet"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210929T083000
+      end-full: 20210929T090000
+    - activity: lecture
+      title: "Data i molnet"
+      titleEn: "Data i molnet"
+      number: "8"
+      slug: lectures/razor-pages
+      description: "Hur kan man generere en webbsida med Razor pages i ASP.NET Core?"
+      start-full: 20210929T083000
+      end-full: 20210929T093000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210929T160000
+      end-full: 20210929T163000
   - day: 2021-09-30
     weekday: "Torsdag"
     lecture: null
-    background-color: "#FFD0C6"
   - day: 2021-10-01
     weekday: "Fredag"
     lecture: null
@@ -253,25 +251,25 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling till Data i molnet"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210517T083000
-      end-full: 20210517T090000
+      start-full: 20211004T083000
+      end-full: 20211004T090000
     - activity: lecture
-      title: "Statefull web"
-      titleEn: "Statefull web"
+      title: "Monitorering av moln applikationer"
+      titleEn: "Monitorering av moln applikationer"
       number: "09"
       slug: lectures/statefullweb
       description: "Vad är states? Hur kan vi säkerställa att applikation kommer ihåg data?"
-      start-full: 20210517T090000
-      end-full: 20210517T160000
+      start-full: 20211004T090000
+      end-full: 20211004T160000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210517T160000
-      end-full: 20210517T163000
+      start-full: 20211004T160000
+      end-full: 20211004T163000
   - day: 2021-10-05
     weekday: "Tisdag"
     activities: null
@@ -279,25 +277,25 @@ weeks:
     weekday: "Onsdag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling till Monitorering av moln applikationer"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210519T083000
-      end-full: 20210519T090000
+      start-full: 20211006T083000
+      end-full: 20211006T090000
     - activity: lecture
-      title: "Async webbapplikation"
-      titleEn: "Async webapplication"
+      title: "Skalning, upp och ut"
+      titleEn: "Skalning, upp och ut"
       number: "10"
       slug: lectures/asyncweb
       description: "Hur kan vi bygga en applikation som gir respons direkt?"
-      start-full: 20210519T090000
-      end-full: 20210519T160000
+      start-full: 20211006T090000
+      end-full: 20211006T160000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210519T160000
-      end-full: 20210519T163000
+      start-full: 20211006T160000
+      end-full: 20211006T163000
   - day: 2021-10-07
     weekday: "Torsdag"
     activities: null
@@ -312,25 +310,25 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling till Skalning, upp och ut"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210524T083000
-      end-full: 20210524T090000
+      start-full: 20211011T083000
+      end-full: 20211011T090000
     - activity: lecture
-      title: "Authentisering och internationalisering"
-      titleEn: "Authentication and internationalization"
+      title: "Moln säkerhet"
+      titleEn: "Moln säkerhet"
       description: "Hur kan vi smidigt binda data till vår applikation och säkerställa att det är rätt person som kommer åt appliaktionen?"
       slug: lectures/aaa-i18n
-      start-full: 20210524T083000
-      end-full: 20210524T093000
+      start-full: 20211011T083000
+      end-full: 20211011T093000
       number: "11"
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210524T160000
-      end-full: 20210524T163000
+      start-full: 20211011T160000
+      end-full: 20211011T163000
   - day: 2021-10-12
     weekday: "Tisdag"
     activities: null
@@ -338,25 +336,25 @@ weeks:
     weekday: "Onsdag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling till Moln säkerhet"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
-      start-full: 20210526T083000
-      end-full: 20210526T090000
+      start-full: 20211013T083000
+      end-full: 20211013T090000
     - activity: lecture
-      title: "Automatisk test"
-      titleEn: "Automatic testing"
+      title: "Livscykel och miljö + LIA"
+      titleEn: "Livscykel och miljö + LIA"
       number: "12"
       slug: lectures/testing
       description: "Hur kan vi automatisk testa vår webbapplikationer?"
-      start-full: 20210526T090000
-      end-full: 20210526T160000
+      start-full: 20211013T090000
+      end-full: 20211013T160000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210526T160000
-      end-full: 20210526T163000
+      start-full: 20211013T160000
+      end-full: 20211013T163000
   - day: 2021-10-14
     weekday: "Torsdag"
     activities: null
@@ -367,5 +365,5 @@ weeks:
       title: "Tenta uppgift"
       titleEn: "Exam"
       description: ""
-      start-full: 20210604T083000
-      end-full: 20210604T093000
+      start-full: 20211015T083000
+      end-full: 20211015T093000
