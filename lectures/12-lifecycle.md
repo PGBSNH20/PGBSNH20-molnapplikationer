@@ -2,7 +2,7 @@
 layout: lecture
 title: Livscykel och miljö + LIA
 lectureDate: Onsdag den 26:e Maj 2021
-permalink: /lectures/testing
+permalink: /lectures/lifecycle
 ---
 
 Lektion 12 av 12

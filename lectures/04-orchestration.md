@@ -1,8 +1,8 @@
 ---
 layout: lecture
-title: Automatisering av bygg och release
+title: Orkestrering
 lectureDate: Onsdag den 26:e April 2021
-permalink: /lectures/restapi
+permalink: /lectures/orchestration 
 ---
 Lektion 4 av 12
 

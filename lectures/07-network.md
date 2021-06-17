@@ -2,7 +2,7 @@
 layout: lecture
 title: Nätverk i molnet
 lectureDate: Onsdag den 5:e Maj 2021
-permalink: /lectures/middleware
+permalink: /lectures/network
 ---
 
 Lektion 7 av 12

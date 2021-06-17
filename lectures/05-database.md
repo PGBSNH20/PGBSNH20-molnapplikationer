@@ -2,7 +2,7 @@
 layout: lecture
 title: Databaser i molnet
 lectureDate: Fredag den 30:e April 2021
-permalink: /lectures/model-binding
+permalink: /lectures/databases
 ---
 
 Lektion 5 av 12

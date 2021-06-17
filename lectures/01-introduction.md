@@ -2,7 +2,7 @@
 layout: lecture
 title: Internet och moln
 lectureDate: Måndag den 9:e September 2021
-permalink: /lectures/introduction
+permalink: /cloud-lectures/introduction
 ---
 
 Lektion 1 av 12

@@ -2,7 +2,7 @@
 layout: lecture
 title: Skalning, upp och ut
 lectureDate: Onsdag den 19:e Maj 2021
-permalink: /lectures/asyncweb
+permalink: /lectures/scaling
 ---
 
 Lektion 10 av 12

@@ -12,7 +12,7 @@ weeks:
     - activity: lecture
       title: "Introduktion"
       titleEn: "Introduction"
-      slug: lectures/introduction
+      slug: cloud-lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
       description: "Start på Utveckling av molnbaserade applikationer"
@@ -22,7 +22,7 @@ weeks:
       title: "Internet och moln"
       titleEn: "Internet och moln"
       number: "1"
-      slug: lectures/introduction
+      slug: cloud-lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
       description: "Vad är internet och hur funkar det?"
@@ -31,7 +31,7 @@ weeks:
     - activity: standup
       title: "Avslutning på dagen"
       titleEn: "Get together and end of day"
-      slug: lectures/introduction
+      slug: cloud-lectures/introduction
       description: "Är där frågor? Landing."
       start-full: 20210906T160000
       end-full: 20210906T163000
@@ -48,9 +48,9 @@ weeks:
       start-full: 20210908T083000
       end-full: 20210908T090000
     - activity: lecture
-      title: "Virtuelle maskiner och infrastruktur som kod"
-      titleEn: "Virtuelle maskiner och infrastruktur som kod"
-      slug: lectures/docker
+      title: "Automatisering av bygg och release"
+      titleEn: "Automatisering av bygg och release"
+      slug: cloud-lectures/ci
       description: "Hur kan vi skåpa med utvecklingsmiljö med docker och få dom att köra?"
       start-full: 20210908T090000
       end-full: 20210908T094500
@@ -75,7 +75,7 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling till Virtuelle maskiner och infrastruktur som kod"
+      title: "Återkopling till Automatisering av bygg och release"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
       start-full: 20210913T083000
@@ -83,7 +83,7 @@ weeks:
     - activity: lecture
       title: "Containrar"
       titleEn: "Containrar"
-      slug: lectures/aspnetcore
+      slug: cloud-lectures/containers
       description: "Vad är ASP.NET Core och hur kan vi bygga en simpel applikation?"
       start-full: 20210913T090000
       end-full: 20210913T094500
@@ -107,11 +107,11 @@ weeks:
       start-full: 20210915T083000
       end-full: 20210915T090000
     - activity: lecture
-      title: "Automatisering av bygg och release"
-      titleEn: "Automatisering av bygg och release"
+      title: "Orkestrering"
+      titleEn: "Orkestrering"
       number: "4"
-      slug: lectures/restapi
-      description: "Hur kan vi med ASP.NET Core bygga ett REST API? Och kontrollera sökvägen i en applikation"
+      slug: cloud-lectures/databases
+      description: "Kubernetes"
       start-full: 20210915T083000
       end-full: 20210915T093000
     - activity: standup
@@ -133,7 +133,7 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling till Automatisering av bygg och release"
+      title: "Återkopling till Orkestrering"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
       start-full: 20210920T083000
@@ -142,7 +142,7 @@ weeks:
       title: "Databaser i molnet"
       titleEn: "Databaser i molnet"
       number: "5"
-      slug: lectures/model-binding
+      slug: cloud-lectures/webapplications
       description: "Hur kan vi kopla vår modeller till web förfrågningar?"
       start-full: 20210920T090000
       end-full: 20210920T093000
@@ -168,7 +168,7 @@ weeks:
       title: "Webb applikationer i molnet"
       titleEn: "Webb applikationer i molnet"
       number: "6"
-      slug: lectures/security-validation
+      slug: cloud-lectures/databases
       description: "Vilka säkerhetsriskar har vi en webbapplikation, och hur kan vi lösa dom flesta med validering?"
       start-full: 20210922T090000
       end-full: 20210922T093000
@@ -201,7 +201,7 @@ weeks:
       title: "Nätverk i molnet"
       titleEn: "Nätverk i molnet"
       number: "7"
-      slug: lectures/middleware
+      slug: cloud-lectures/network
       description: "Vad är middelware? Hur kan vi bygga advancerat funktionaltet med hjälp från middleware?"
       start-full: 20210927T083000
       end-full: 20210927T095000
@@ -227,7 +227,7 @@ weeks:
       title: "Data i molnet"
       titleEn: "Data i molnet"
       number: "8"
-      slug: lectures/razor-pages
+      slug: cloud-lectures/data
       description: "Hur kan man generere en webbsida med Razor pages i ASP.NET Core?"
       start-full: 20210929T083000
       end-full: 20210929T093000
@@ -260,7 +260,7 @@ weeks:
       title: "Monitorering av moln applikationer"
       titleEn: "Monitorering av moln applikationer"
       number: "09"
-      slug: lectures/statefullweb
+      slug: cloud-lectures/monitoring
       description: "Vad är states? Hur kan vi säkerställa att applikation kommer ihåg data?"
       start-full: 20211004T090000
       end-full: 20211004T160000
@@ -286,7 +286,7 @@ weeks:
       title: "Skalning, upp och ut"
       titleEn: "Skalning, upp och ut"
       number: "10"
-      slug: lectures/asyncweb
+      slug: cloud-lectures/scaling
       description: "Hur kan vi bygga en applikation som gir respons direkt?"
       start-full: 20211006T090000
       end-full: 20211006T160000
@@ -319,7 +319,7 @@ weeks:
       title: "Moln säkerhet"
       titleEn: "Moln säkerhet"
       description: "Hur kan vi smidigt binda data till vår applikation och säkerställa att det är rätt person som kommer åt appliaktionen?"
-      slug: lectures/aaa-i18n
+      slug: cloud-lectures/security
       start-full: 20211011T083000
       end-full: 20211011T093000
       number: "11"
@@ -345,7 +345,7 @@ weeks:
       title: "Livscykel och miljö + LIA"
       titleEn: "Livscykel och miljö + LIA"
       number: "12"
-      slug: lectures/testing
+      slug: cloud-lectures/lifecycle
       description: "Hur kan vi automatisk testa vår webbapplikationer?"
       start-full: 20211013T090000
       end-full: 20211013T160000

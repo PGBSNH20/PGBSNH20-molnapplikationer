@@ -2,7 +2,7 @@
 layout: lecture
 title: Moln säkerhet
 lectureDate: Måndag den 24:e Maj 2021
-permalink: /lectures/aaa-i18n
+permalink: /lectures/security
 ---
 
 Lektion 11 av 1

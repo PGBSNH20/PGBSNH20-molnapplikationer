@@ -2,7 +2,7 @@
 layout: lecture
 title: Containrar
 lectureDate: Måndag den 26:e April 2021
-permalink: /lectures/aspnetcore
+permalink: /lectures/containers
 ---
 
 Lektion 3 av 12
