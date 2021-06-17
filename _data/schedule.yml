@@ -110,7 +110,7 @@ weeks:
       title: "Orkestrering"
       titleEn: "Orkestrering"
       number: "4"
-      slug: cloud-lectures/databases
+      slug: cloud-lectures/orchestration
       description: "Kubernetes"
       start-full: 20210915T083000
       end-full: 20210915T093000
@@ -142,7 +142,7 @@ weeks:
       title: "Databaser i molnet"
       titleEn: "Databaser i molnet"
       number: "5"
-      slug: cloud-lectures/webapplications
+      slug: cloud-lectures/databases
       description: "Hur kan vi kopla vår modeller till web förfrågningar?"
       start-full: 20210920T090000
       end-full: 20210920T093000
@@ -168,7 +168,7 @@ weeks:
       title: "Webb applikationer i molnet"
       titleEn: "Webb applikationer i molnet"
       number: "6"
-      slug: cloud-lectures/databases
+      slug: cloud-lectures/webapplications
       description: "Vilka säkerhetsriskar har vi en webbapplikation, och hur kan vi lösa dom flesta med validering?"
       start-full: 20210922T090000
       end-full: 20210922T093000
