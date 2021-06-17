@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: Moln-livscykel och miljöpåverkning
-lectureDate: Onsdag den 12:e Oktober 2021
+lectureDate: Onsdag den 13:e Oktober 2021
 permalink: /cloud-lectures/lifecycle
 ---
 
