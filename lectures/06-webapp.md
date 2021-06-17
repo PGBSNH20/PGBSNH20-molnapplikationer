@@ -2,7 +2,7 @@
 layout: lecture
 title: Webb applikationer i molnet
 lectureDate: Måndag den 3:e Maj 2021
-permalink: /lectures/webapplications
+permalink: /cloud-lectures/webapplications
 ---
 
 Lektion 6 av 12

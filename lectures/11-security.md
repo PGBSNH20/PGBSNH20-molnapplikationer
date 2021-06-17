@@ -1,11 +1,11 @@
 ---
 layout: lecture
-title: Moln säkerhet
+title: Moln-säkerhet
 lectureDate: Måndag den 24:e Maj 2021
-permalink: /lectures/security
+permalink: /cloud-lectures/security
 ---
 
-Lektion 11 av 1
+Lektion 11 av 12
 
 ## Lektionsplan
 

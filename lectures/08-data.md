@@ -2,7 +2,7 @@
 layout: lecture
 title: Data i molnet
 lectureDate: Måndag den 10:e Maj 2021
-permalink: /lectures/data
+permalink: /cloud-lectures/data
 ---
 
 Lektion 8 av 12

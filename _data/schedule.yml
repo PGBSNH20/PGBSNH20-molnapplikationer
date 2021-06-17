@@ -259,7 +259,7 @@ weeks:
     - activity: lecture
       title: "Monitorering av moln applikationer"
       titleEn: "Monitorering av moln applikationer"
-      number: "09"
+      number: "9"
       slug: cloud-lectures/monitoring
       description: "Vad är states? Hur kan vi säkerställa att applikation kommer ihåg data?"
       start-full: 20211004T090000
@@ -342,8 +342,8 @@ weeks:
       start-full: 20211013T083000
       end-full: 20211013T090000
     - activity: lecture
-      title: "Livscykel och miljö + LIA"
-      titleEn: "Livscykel och miljö + LIA"
+      title: "Moln-livscykel och miljöpåverkning"
+      titleEn: "Moln-livscykel och miljöpåverkning "
       number: "12"
       slug: cloud-lectures/lifecycle
       description: "Hur kan vi automatisk testa vår webbapplikationer?"

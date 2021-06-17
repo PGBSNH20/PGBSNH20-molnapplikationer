@@ -1,12 +1,13 @@
 ---
 layout: lecture
-title: Livscykel och miljö + LIA
+title: Moln-livscykel och miljöpåverkning
 lectureDate: Onsdag den 26:e Maj 2021
-permalink: /lectures/lifecycle
+permalink: /cloud-lectures/lifecycle
 ---
 
 Lektion 12 av 12
 Test
+LIA
 
 ## Lektionsplan
 

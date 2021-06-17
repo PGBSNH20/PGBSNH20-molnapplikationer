@@ -2,7 +2,7 @@
 layout: lecture
 title: Monitorering av moln applikationer
 lectureDate: Måndag den 17:e Maj 2021
-permalink: /lectures/monitoring
+permalink: /cloud-lectures/monitoring
 ---
 
 Lektion 9 av 12

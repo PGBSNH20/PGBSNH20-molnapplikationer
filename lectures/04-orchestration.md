@@ -2,7 +2,7 @@
 layout: lecture
 title: Orkestrering
 lectureDate: Onsdag den 26:e April 2021
-permalink: /lectures/orchestration 
+permalink: /cloud-lectures/orchestration 
 ---
 Lektion 4 av 12
 
