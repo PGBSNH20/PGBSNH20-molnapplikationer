@@ -1,0 +1,14 @@
+---
+contentTimeTotal:
+  literatureTime: 22
+  optionalLiteratureTime: 0
+notInTopic:
+  literature:
+  - title: "What is the Cloud? Soft and Fluffy Edition - Computer Stuff They Didn't Teach You #10"
+    url: https://www.youtube.com/watch?v=BO6jvQ88ICQ
+    timeType: Video
+    timeMinutes: 22
+    timeBadge: danger
+    description: >
+      A gentle and clear explanation of cloud computing. This 20 min video talks about the components of a computer, starting with a Raspberry Pi, Laptops, Phones,...
+topics:

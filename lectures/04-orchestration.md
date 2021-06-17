@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: Orkestrering
-lectureDate: Onsdag den 26:e April 2021
+lectureDate: Onsdag den 15:e September 2021
 permalink: /cloud-lectures/orchestration 
 ---
 Lektion 4 av 12
@@ -13,10 +13,10 @@ Lektion 4 av 12
 ## Lektionslitteratur
 *Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion, det antas att du har läst/set/lystnad detta innan lektionen starter.*
 
-Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_rest_apis_and_routing.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_rest_apis_and_routing.contentTimeTotal.optionalLiteratureTime}} min)
+Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_orkestrering.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_orkestrering.contentTimeTotal.optionalLiteratureTime}} min)
 
-{% include lecturenontopics.html lectureData="lecture_rest_apis_and_routing" %}
-{% include lecturetopics.html lectureData="lecture_rest_apis_and_routing" %}
+{% include lecturenontopics.html lectureData="lecture_orkestrering" %}
+{% include lecturetopics.html lectureData="lecture_orkestrering" %}
 
 ## Uppgifter
 

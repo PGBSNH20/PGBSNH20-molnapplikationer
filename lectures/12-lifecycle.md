@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: Moln-livscykel och miljöpåverkning
-lectureDate: Onsdag den 26:e Maj 2021
+lectureDate: Onsdag den 12:e Oktober 2021
 permalink: /cloud-lectures/lifecycle
 ---
 
@@ -17,10 +17,10 @@ LIA
 *Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion, det antas att du har läst/set/lystnad detta innan lektionen starter.*
 
 
-Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_automatic_testing.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_automatic_testing.contentTimeTotal.optionalLiteratureTime}} min)
+Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_moln-livscykel_och_miljoepaaverkning.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_moln-livscykel_och_miljoepaaverkning.contentTimeTotal.optionalLiteratureTime}} min)
 
-{% include lecturenontopics.html lectureData="lecture_automatic_testing" %}
-{% include lecturetopics.html lectureData="lecture_automatic_testing" %}
+{% include lecturenontopics.html lectureData="lecture_moln-livscykel_och_miljoepaaverkning" %}
+{% include lecturetopics.html lectureData="lecture_moln-livscykel_och_miljoepaaverkning" %}
 
 ## Uppgifter
 

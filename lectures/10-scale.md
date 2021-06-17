@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: Skalning, upp och ut
-lectureDate: Onsdag den 19:e Maj 2021
+lectureDate: Onsdag den 6:e Oktober 2021
 permalink: /cloud-lectures/scaling
 ---
 
@@ -15,10 +15,10 @@ Lektion 10 av 12
 *Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion, det antas att du har läst/set/lystnad detta innan lektionen starter.*
 
 
-Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_async_webapplication.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_async_webapplication.contentTimeTotal.optionalLiteratureTime}} min)
+Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_skalning_upp_och_ut.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_skalning_upp_och_ut.contentTimeTotal.optionalLiteratureTime}} min)
 
-{% include lecturenontopics.html lectureData="lecture_async_webapplication" %}
-{% include lecturetopics.html lectureData="lecture_async_webapplication" %}
+{% include lecturenontopics.html lectureData="lecture_skalning_upp_och_ut" %}
+{% include lecturetopics.html lectureData="lecture_skalning_upp_och_ut" %}
 
 ## Uppgifter
 

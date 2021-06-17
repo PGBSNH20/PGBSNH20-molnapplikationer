@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: Containrar
-lectureDate: Måndag den 26:e April 2021
+lectureDate: Måndag den 13:e September 2021
 permalink: /cloud-lectures/containers
 ---
 
@@ -14,9 +14,9 @@ Lektion 3 av 12
 ## Lektionslitteratur
 *Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion, det antas att du har läst/set/lystnad detta innan lektionen starter.*
 
-Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_asp_net_core_introduction.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_asp_net_core_introduction.contentTimeTotal.optionalLiteratureTime}} min)
+Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_containrar.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_containrar.contentTimeTotal.optionalLiteratureTime}} min)
 
-{% include lecturenontopics.html lectureData="lecture_asp_net_core_introduction" %}
-{% include lecturetopics.html lectureData="lecture_asp_net_core_introduction" %}
+{% include lecturenontopics.html lectureData="lecture_containrar" %}
+{% include lecturetopics.html lectureData="lecture_containrar" %}
 
 ## Uppgifter
