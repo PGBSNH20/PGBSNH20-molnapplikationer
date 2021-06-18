@@ -227,7 +227,7 @@ weeks:
       title: "Filer i molnet"
       titleEn: "Filer i molnet"
       number: "8"
-      slug: cloud-lectures/data
+      slug: cloud-lectures/files
       description: "Hur kan man generere en webbsida med Razor pages i ASP.NET Core?"
       start-full: 20210929T083000
       end-full: 20210929T093000
