@@ -224,8 +224,8 @@ weeks:
       start-full: 20210929T083000
       end-full: 20210929T090000
     - activity: lecture
-      title: "Data i molnet"
-      titleEn: "Data i molnet"
+      title: "Filer i molnet"
+      titleEn: "Filer i molnet"
       number: "8"
       slug: cloud-lectures/data
       description: "Hur kan man generere en webbsida med Razor pages i ASP.NET Core?"
@@ -251,7 +251,7 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling till Data i molnet"
+      title: "Återkopling till Filer i molnet"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
       start-full: 20211004T083000
