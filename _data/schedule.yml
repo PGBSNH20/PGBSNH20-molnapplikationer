@@ -107,11 +107,11 @@ weeks:
       start-full: 20210915T083000
       end-full: 20210915T090000
     - activity: lecture
-      title: "Orkestrering"
-      titleEn: "Orkestrering"
+      title: "Serverless"
+      titleEn: "Serverless"
       number: "4"
-      slug: cloud-lectures/orchestration
-      description: "Kubernetes"
+      slug: cloud-lectures/serverless
+      description: "Server less"
       start-full: 20210915T083000
       end-full: 20210915T093000
     - activity: standup

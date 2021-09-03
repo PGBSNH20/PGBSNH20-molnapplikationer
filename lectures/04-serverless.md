@@ -2,7 +2,7 @@
 layout: lecture
 title: Orkestrering
 lectureDate: Onsdag den 15:e September 2021
-permalink: /cloud-lectures/orchestration 
+permalink: /cloud-lectures/serverless 
 ---
 Lektion 4 av 12
 
