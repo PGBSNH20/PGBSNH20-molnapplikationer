@@ -1,10 +1,10 @@
 ---
 contentTimeTotal:
-  literatureTime: 149
-  optionalLiteratureTime: 346
+  literatureTime: 182
+  optionalLiteratureTime: 424
 notInTopic:
   literature:
-  - title: "The Internet: Crash Course Computer Science #29"
+  - title: "The Internet"
     url: https://youtube.com/watch?v=AEaKrq3SpW8
     timeType: Video
     timeMinutes: 12
@@ -13,9 +13,83 @@ notInTopic:
       Today, we're going to talk about how the Internet works. Specifically, how that stream of characters you punch into your browser's address bar, like "youtube.com", return this very website. Just to clarify we're talking in a broader sense about that massive network of networks connecting millions of computers together, not just the World Wide Web, which is a portion of the Internet, and our topic for next week. Today, we're going to focus on how data is passed back and forth - how a domain name is registered by the Domain Name System, and of course how the data requested or sent gets to the right person in little packets following standard Internet Protocol, or IP.  We'll also discuss two different approaches to transferring this data: Transmission Control Protocol, or TCP, when we need to be certain no information is lost, and User Datagram Protocol, or UDP, for those time sensitive applications - because nobody wants an email with missing text, but they also don't want to get lag-fragged in their favorite first person shooter.
 topics:
   - topic: "Networking"
-    literatureTime: 0
-    optionalLiteratureTime: 0
+    literatureTime: 33
+    optionalLiteratureTime: 78
     description-include: networking.md
+    literature:
+    - title: "Computer Networks"
+      url: https://youtube.com/watch?v=3QhU9jd03a0
+      timeType: Video
+      timeMinutes: 12
+      timeBadge: danger
+      description: >
+        Crash Course Computer Science #28
+        Today we start a three episode arc on the rise of a global telecommunications network that changed the world forever. We’re going to begin with computer networks, and how they grew from small groups of connected computers on LAN networks to eventually larger worldwide networks like the ARPANET and even the Internet we know today. We'll also discuss how many technologies like Ethernet, MAC addresses, IP Addresses, packet switching, network switches, and TCP/IP were implemented to new problems as our computers became ever-increasingly connected. Next week we’ll talk about the Internet, and the week after the World Wide Web!
+    - title: "A Brief Explanation of Computer Network Protocols"
+      url: https://lifewire.com/definition-of-protocol-network-817949
+      timeType: Article
+      timeMinutes: 2
+      timeBadge: info
+      description: >
+        Network protocols serve as different languages of communication among computing devices that facilitate device identification and data transfer.
+    - title: "Introduction to TCP/IP Reference Model"
+      url: https://studytonight.com/computer-networks/tcp-ip-reference-model
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
+      description: >
+        TCP/IP means transmission control protocol and internet protocol. Here we will cover introduction to TCP/IP model, its layer, it's application, advantages and disadvantages.
+    - title: "Networking Basics Tutorial"
+      url: https://youtube.com/watch?v=ozG8BWbYY0M
+      timeType: Video
+      timeMinutes: 15
+      timeBadge: danger
+      description: >
+        IP Address | Subnet | Gateway
+        In this video, I am going through a Networking Basics Tutorial. I will be covering IP Address, Subnet, Gateway, and DNS for topics. Here are links to DNS benchmark on windows:
+        https://www.grc.com/dns/benchmark.htm
+        
+        I also made an article about DNS benchmarks on my website:
+        https://www.christitus.com/2017/03/09/benchmark-dns-server/
+        
+        Networking Guide Creation Live Stream: https://www.youtube.com/watch?v=cA215lGbo64
+    optionalLiterature:
+    - title: "Networking zine"
+      url: https://jvns.ca/networking-zine.pdf
+      timeType: Comic
+      timeMinutes: 10
+      timeBadge: info
+    - title: "Basic Home Networking 101"
+      url: https://youtube.com/watch?t=420s&v=lp_CJba4RmU
+      timeType: Video
+      timeMinutes: 32
+      timeBadge: danger
+      description: >
+        Basic Home Networking 101 - We will talk about IP addresses, general Networking, setting up Wi-Fi, DHCP, DNS, and general troubleshooting!
+    - title: "IPv6 Adoption in 2021"
+      url: https://labs.ripe.net/author/stephen_strowes/ipv6-adoption-in-2021
+      timeType: Article
+      timeMinutes: 6
+      timeBadge: info
+    - title: "Difference Between IPv4 and IPv6 (with Comparison Chart)"
+      url: https://techdifferences.com/difference-between-ipv4-and-ipv6.html
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+      description: >
+        The crucial difference between IPv4 and IPv6 protocol is the number of bits, IPv4 has 32-bit format whereas IPv6 uses a 128-bit format that is the reason for large address space generation by IPv6.
+    - title: "Network+/Standards/TCP/IP Model/Introduction"
+      url: https://en.wikiversity.org/wiki/Network%2B/Standards/TCP/IP_Model/Introduction
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
+    - title: "Ports and Processes! What Process has that Port open?"
+      url: https://youtube.com/watch?v=4P0KXWC3V0U
+      timeType: Video
+      timeMinutes: 19
+      timeBadge: danger
+      description: >
+        Port already in use? ERR! What app has that Port open? What's the relationship between ports and processes? What if I use Windows? What about Linux? Can I manage my ports and processes at the cmd line? bash? All this, and more, one take, all demos.
   - topic: "Cloud"
     literatureTime: 50
     optionalLiteratureTime: 203
