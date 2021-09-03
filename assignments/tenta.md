@@ -4,9 +4,9 @@ title: Tentamen
 permalink: /assignments/tenta
 ---
 
-Deadline fredag den x:e y kl 13:00.
+Deadline fredag den 15:e oktober kl 13:00.
 
-Ni kommer att få tillgång till tentan onsdag eftermiddag den 2:a juni 2021.
+Ni kommer att få tillgång till tentan onsdag eftermiddag den 13:e oktober 2021.
 
 Tentan kommer att vara online (på GitHub) så ni kan sitta vart ni känner för det.
 

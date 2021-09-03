@@ -23,6 +23,6 @@ Uppgiften kommer att vara en reflektion över kursen med en rad frågor som öns
 
 [Information om tenta](tenta)
 
-Ni får tillgång till tentan på torsdagen (2021-0x-0x, runt kl 15), den förväntade arbetsinsats är 4 timmar (man får såklart lägga båda mer och mindre).
+Ni får tillgång till tentan på efter lektionen (onsdag 2021-10-13, runt kl 15), den förväntade arbetsinsats är 8 timmar (man får såklart lägga båda mer och mindre).
 
-Deadline: 2021-0x-0x kl 13:00
+Deadline: Fredag 2021-10-15 kl 13:00
