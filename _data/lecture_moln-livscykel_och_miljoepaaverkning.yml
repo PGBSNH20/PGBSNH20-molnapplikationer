@@ -11,4 +11,10 @@ notInTopic:
     timeBadge: dark
     description: >
       Cloud computing is having a profound effect on the software application lifecycle. Almost every phase of creating and rolling out software applications is now addressed by a growing number of cloud services: from prototyping, to development, testing & QA, continuous...
+  optionalLiterature:
+  - title: "Human Factors in Software Development: A Systematic Literature Review"
+    url: https://publications.lib.chalmers.se/records/fulltext/126748.pdf
+    timeType: Document
+    timeMinutes: 0
+    timeBadge: dark
 topics:
