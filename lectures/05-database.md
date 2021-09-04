@@ -7,6 +7,8 @@ permalink: /cloud-lectures/databases
 
 Lektion 5 av 12
 
+Oftast när vi bygger en applikation har vi ett behov att ha data på ett strukturerat sätt, vanligvis i någon sort av databas. Denna lektion introducera någon av dom databas funktioner som finns i Azure.
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=1 lectureDay=4 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

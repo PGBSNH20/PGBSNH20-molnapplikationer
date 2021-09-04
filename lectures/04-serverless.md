@@ -6,6 +6,8 @@ permalink: /cloud-lectures/serverless
 ---
 Lektion 4 av 12
 
+Termen serverless gör det extremt enkelt att börja att använda sig av molnet, vi kan skriva kod lokalt och med få steg få det att köra i Azure vid hjälp av Azure Functions.
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=1 lectureDay=2 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

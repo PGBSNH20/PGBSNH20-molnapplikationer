@@ -7,6 +7,8 @@ permalink: /cloud-lectures/network
 
 Lektion 7 av 12
 
+Att ha en ensam appliktion i molnet räcker oftast inte, ofta måste vi ha flera applikationer att prata ihop. Denna lektion är om hur vi får detta till och dom möjlighetter som finns i Azure till att bygga privata netvärk.
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=2 lectureDay=2 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

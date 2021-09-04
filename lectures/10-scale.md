@@ -7,6 +7,8 @@ permalink: /cloud-lectures/scaling
 
 Lektion 10 av 12
 
+En av styrkorna vid molnet är möjligheten till at enkelt skala sin applikation, men innan vi kan det måste vi säkerställa oss att vår applikation kan skala. Ett vikitigt ord för att lyckas med en applikation som kan skala är stateless.
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=4 lectureDay=2 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

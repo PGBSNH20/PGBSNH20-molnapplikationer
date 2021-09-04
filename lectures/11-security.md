@@ -7,6 +7,8 @@ permalink: /cloud-lectures/security
 
 Lektion 11 av 12
 
+Vi kommer att prata om någon av dom säkerhets lösningar som finns i Azure som kan hjälpa oss utvecklare med att hålla vår applikation sikker.
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=5 lectureDay=0 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

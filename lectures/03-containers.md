@@ -7,6 +7,8 @@ permalink: /cloud-lectures/containers
 
 Lektion 3 av 12
 
+Vi har tidigere pratat om containere och Docker, denna lektion kommer att bli litet repitaion på denna snak. Men med fokus på hur vi själv kan bygga en ett docker image och använda det,
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=1 lectureDay=0 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

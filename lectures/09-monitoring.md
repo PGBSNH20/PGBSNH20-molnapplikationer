@@ -7,6 +7,8 @@ permalink: /cloud-lectures/monitoring
 
 Lektion 9 av 12
 
+När en appliktion lever i molnet är det lätt händt att man tappar kontakten till appliktionen, där för är det viktigt att vi har en bra bild av vilka verktyg vi kan använda för att kunna övervaka vår applikation.
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=4 lectureDay=0 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

@@ -7,6 +7,8 @@ permalink: /cloud-lectures/webapplications
 
 Lektion 6 av 12
 
+Det vi oftast som udviklare är att använda molnet till att göra vår webbappliktion tillgänglig i molnet. Denna lektion handlar om någon av dom möjlighet vi har till att servicera en webbapplikation med Azure.
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=2 lectureDay=0 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

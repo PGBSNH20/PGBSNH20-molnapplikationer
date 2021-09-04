@@ -7,6 +7,8 @@ permalink: /cloud-lectures/files
 
 Lektion 8 av 12
 
+Dom flesta applikation handtera i något mån filar eller data om inte hör hemma i en databas, denna lektion handlar om dissa filar och data, hur vi ska förhålla os till dom, och hur vilka lösningar som finns i Azure för att handtera dissa.
+
 ## Lektionsplan
 
 {% include lectureplan.html lectureWeek=3 lectureDay=0 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}

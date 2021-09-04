@@ -6,8 +6,10 @@ permalink: /cloud-lectures/lifecycle
 ---
 
 Lektion 12 av 12
-Test
-LIA
+
+Denna lektion är en mjukstart på nästa kurs "Producera och leverera mjukvara" och kanske med ett par tips till eran LIA. Fokus på lektionen kommer att bli det som kallas Systems Development Life Cycle (SDLC) och vi kommer såklart att fokusera på hur molnet påverkar denna.
+
+Efter denna lektion kommer ni att få tillgång till tenta uppgiften.
 
 ## Lektionsplan
 
