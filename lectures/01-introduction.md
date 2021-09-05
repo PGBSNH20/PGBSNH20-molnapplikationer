@@ -23,7 +23,7 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_int
 {% include lecturenontopics.html lectureData="lecture_internet_och_moln" %}
 {% include lecturetopics.html lectureData="lecture_internet_och_moln" %}
 
-# Övning med buddy
+# Övningsuppgifter med buddy
 
 Gå tillsammans två och två (kanske tre, men helst två)
 
@@ -40,7 +40,7 @@ Hitta en eller fler hosting företag (svenska, nordiska eller inom EU), och samm
 
 Hitta priset för att drifta en server (24x7x365), tänk att servern ska köra en simple websida med en enkel databas, alt installerat på samma server. Kanske krävs 2 CPUs, 8GB RAM och 10 GB disk på en Linux server i Europa.
 
-# Individuell uppgift
+# Indviduella övningsuppgifter
 
 ## Kurs om huvudprinciperna bakom molntjänster
 
@@ -64,6 +64,7 @@ Gör följande:
 * Styla din nya blogg med en Jekyll mall, där finns en del gratis maller på: [Free Jekyll Themes](https://jekyllthemes.io/free)
 
 # Individuell inlämningsuppgift
+
 ## Blogg post
 
 **Deadline** för inlämning via PingPong, Tisdag den 07:e September kl 23:55. Posta ett länk till dagens blog post.
