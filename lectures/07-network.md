@@ -21,11 +21,12 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_nae
 {% include lecturenontopics.html lectureData="lecture_naetverk_i_molnet" %}
 {% include lecturetopics.html lectureData="lecture_naetverk_i_molnet" %}
 
-## Uppgifter
+# Övningsuppgifter
 
-# Individuell uppgift
+TBA
 
-## Indviduellt blogg post
+# Individuell inlämningsuppgift
+## Blogg post
 
 Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
 

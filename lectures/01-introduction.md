@@ -63,8 +63,8 @@ Gör följande:
 * Följ guiden, kommandon `jekyll new` gir dig en helt grundläggand blogg
 * Styla din nya blogg med en Jekyll mall, där finns en del gratis maller på: [Free Jekyll Themes](https://jekyllthemes.io/free)
 
-
-## Indviduellt blogg post
+# Individuell inlämningsuppgift
+## Blogg post
 
 **Deadline** för inlämning via PingPong, Tisdag den 07:e September kl 23:55. Posta ett länk till dagens blog post.
 

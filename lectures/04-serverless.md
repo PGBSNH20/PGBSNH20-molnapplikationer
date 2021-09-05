@@ -20,7 +20,9 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_ork
 {% include lecturenontopics.html lectureData="lecture_orkestrering" %}
 {% include lecturetopics.html lectureData="lecture_orkestrering" %}
 
-## Uppgifter
+# Övningsuppgifter
+
+TBA
 
 ## Azure
 
@@ -40,9 +42,8 @@ Create an account at Azure and install the [Azure CLI](https://docs.microsoft.co
 Browse around to get a feeling of the possibilities in Azure, but besides this you don't need to do anything.
 
 
-# Individuell uppgift
-
-## Indviduellt blogg post
+# Individuell inlämningsuppgift
+## Blogg post
 
 Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
 

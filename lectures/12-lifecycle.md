@@ -24,5 +24,7 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_mol
 {% include lecturenontopics.html lectureData="lecture_moln-livscykel_och_miljoepaaverkning" %}
 {% include lecturetopics.html lectureData="lecture_moln-livscykel_och_miljoepaaverkning" %}
 
-## Uppgifter
+# Tenta
+
+Se [tenta](/tenta)
 

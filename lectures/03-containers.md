@@ -21,7 +21,7 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_con
 {% include lecturenontopics.html lectureData="lecture_containrar" %}
 {% include lecturetopics.html lectureData="lecture_containrar" %}
 
-## Uppgifter
+# Övningsuppgifter
 
 ca 30 min
 https://ibm.com/cloud/architecture/content/course/kubernetes-101/kubernetes-101
@@ -100,9 +100,8 @@ Ni har nu skåpat ett Docker image som ligger tillgängligt på internet (äntli
 Där finns många sätt at få den att köra i Azure och vi kommer att träna två ACI och AKS. Vart AKS är det mer avancerade variant. 
 
 
-# Individuell uppgift
-
-## Indviduellt blogg post
+# Individuell inlämningsuppgift
+## Blogg post
 
 Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
 
