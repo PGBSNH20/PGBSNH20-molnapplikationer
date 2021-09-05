@@ -4,7 +4,7 @@ course:
 weeks:
 - week: 36
   year: 2021
-  description: Fundament för att förstå webbaplikationer
+  description: Fundament för att förstå molnet
   days:
   - day: 2021-09-06
     weekday: "Måndag"
@@ -60,7 +60,7 @@ weeks:
       title: "Automatisering av bygg och release"
       titleEn: "Automatisering av bygg och release"
       slug: cloud-lectures/ci
-      description: "Hur kan vi skåpa med utvecklingsmiljö med docker och få dom att köra?"
+      description: "Molnet kan använns till att hjälpa oss utvecklare med att säkerställa vår bygg och release av vår kod"
       start-full: 20210908T090000
       end-full: 20210908T094500
       number: "2"
@@ -78,7 +78,7 @@ weeks:
     activities: null
 - week: 37
   year: 2021
-  description: Start på ASP.NET Core
+  description: Dom första byggstenar i en molnapplikation
   days:
   - day: 2021-09-13
     weekday: "Måndag"
@@ -90,10 +90,10 @@ weeks:
       start-full: 20210913T083000
       end-full: 20210913T090000
     - activity: lecture
-      title: "Containrar"
-      titleEn: "Containrar"
+      title: "Containrar och orkestrering"
+      titleEn: "Containers and orchestration"
       slug: cloud-lectures/containers
-      description: "Vad är ASP.NET Core och hur kan vi bygga en simpel applikation?"
+      description: "Containrar har blivet det nya sättet att jobba med applikation i molnet, orkestrering använns till att kontrollera hur dom körs"
       start-full: 20210913T090000
       end-full: 20210913T094500
       number: "3"
@@ -120,7 +120,7 @@ weeks:
       titleEn: "Serverless"
       number: "4"
       slug: cloud-lectures/serverless
-      description: "Server less"
+      description: "Serveless kör det möjligt att köra kod i molnet utan att tänka servere"
       start-full: 20210915T083000
       end-full: 20210915T093000
     - activity: standup
@@ -136,7 +136,7 @@ weeks:
     weekday: "Fredag"
 - week: 38
   year: 2021
-  description: Data och applikationsäkerhet
+  description: Data och webb i molnet
   days:
   - day: 2021-09-20
     weekday: "Måndag"
@@ -149,10 +149,10 @@ weeks:
       end-full: 20210920T090000
     - activity: lecture
       title: "Databaser i molnet"
-      titleEn: "Databaser i molnet"
+      titleEn: "Databases in the cloud"
       number: "5"
       slug: cloud-lectures/databases
-      description: "Hur kan vi kopla vår modeller till web förfrågningar?"
+      description: "Molnet gör det enkelt att jobba med databaser"
       start-full: 20210920T090000
       end-full: 20210920T093000
     - activity: standup
@@ -175,10 +175,10 @@ weeks:
       end-full: 20210922T090000
     - activity: lecture
       title: "Webb applikationer i molnet"
-      titleEn: "Webb applikationer i molnet"
+      titleEn: "Webapplications in the cloud"
       number: "6"
       slug: cloud-lectures/webapplications
-      description: "Vilka säkerhetsriskar har vi en webbapplikation, och hur kan vi lösa dom flesta med validering?"
+      description: "Molnet är byggd till at köra webbapplikationer"
       start-full: 20210922T090000
       end-full: 20210922T093000
     - activity: standup
@@ -195,7 +195,7 @@ weeks:
     lecture: null
 - week: 39
   year: 2021
-  description: Start på utveckling av websidor
+  description: "Nätverk och filer i molnet"
   days:
   - day: 2021-09-27
     weekday: "Måndag"
@@ -208,10 +208,10 @@ weeks:
       end-full: 20210927T090000
     - activity: lecture
       title: "Nätverk i molnet"
-      titleEn: "Nätverk i molnet"
+      titleEn: "Cloud networking"
       number: "7"
       slug: cloud-lectures/network
-      description: "Vad är middelware? Hur kan vi bygga advancerat funktionaltet med hjälp från middleware?"
+      description: "I molnet är det möjligt att bygga upp virtuella netvärk som kan vara ett viktigt verktyg för utveklarer"
       start-full: 20210927T083000
       end-full: 20210927T095000
     - activity: standup
@@ -234,10 +234,10 @@ weeks:
       end-full: 20210929T090000
     - activity: lecture
       title: "Filer i molnet"
-      titleEn: "Filer i molnet"
+      titleEn: "Files in the cloud"
       number: "8"
       slug: cloud-lectures/files
-      description: "Hur kan man generere en webbsida med Razor pages i ASP.NET Core?"
+      description: "Stora datamängder kan uppbevaras i molnet med olika lösningar"
       start-full: 20210929T083000
       end-full: 20210929T093000
     - activity: standup
@@ -254,7 +254,7 @@ weeks:
     lecture: null
 - week: 40
   year: 2021
-  description: Levande webbaplikationer
+  description: Avancerede moln tekniker
   days:
   - day: 2021-10-04
     weekday: "Måndag"
@@ -267,10 +267,10 @@ weeks:
       end-full: 20211004T090000
     - activity: lecture
       title: "Monitorering av moln applikationer"
-      titleEn: "Monitorering av moln applikationer"
+      titleEn: "Monitoring of cloud applications"
       number: "9"
       slug: cloud-lectures/monitoring
-      description: "Vad är states? Hur kan vi säkerställa att applikation kommer ihåg data?"
+      description: "Monitorering är viktigt för att vi kan hålla koll på vår moln applikation"
       start-full: 20211004T090000
       end-full: 20211004T160000
     - activity: standup
@@ -293,10 +293,10 @@ weeks:
       end-full: 20211006T090000
     - activity: lecture
       title: "Skalning, upp och ut"
-      titleEn: "Skalning, upp och ut"
+      titleEn: "Scaling in and out"
       number: "10"
       slug: cloud-lectures/scaling
-      description: "Hur kan vi bygga en applikation som gir respons direkt?"
+      description: "Molnet gör det möjligt att ändra server kapciteten när det behövs"
       start-full: 20211006T090000
       end-full: 20211006T160000
     - activity: standup
@@ -313,7 +313,7 @@ weeks:
     activities: null
 - week: 41
   year: 2021
-  description: Mer säkerhet och hur vi får applikationen tillgänglig för fler
+  description: Säkerhet och livscykel
   days:
   - day: 2021-10-11
     weekday: "Måndag"
@@ -325,9 +325,9 @@ weeks:
       start-full: 20211011T083000
       end-full: 20211011T090000
     - activity: lecture
-      title: "Moln säkerhet"
-      titleEn: "Moln säkerhet"
-      description: "Hur kan vi smidigt binda data till vår applikation och säkerställa att det är rätt person som kommer åt appliaktionen?"
+      title: "Molnsäkerhetsfunktioner"
+      titleEn: "Cloud security functionality"
+      description: "Där finns fler olika funktioner som kan hjälpa skydda vår applikation molnet"
       slug: cloud-lectures/security
       start-full: 20211011T083000
       end-full: 20211011T093000
@@ -352,10 +352,10 @@ weeks:
       end-full: 20211013T090000
     - activity: lecture
       title: "Moln-livscykel och miljöpåverkning"
-      titleEn: "Moln-livscykel och miljöpåverkning "
+      titleEn: "Lifecycle for cloud applications and enviromental effects"
       number: "12"
       slug: cloud-lectures/lifecycle
-      description: "Hur kan vi automatisk testa vår webbapplikationer?"
+      description: "Hur lever vår applikation i molnet och vad kan man gör åt miljöpåverkan"
       start-full: 20211013T090000
       end-full: 20211013T160000
     - activity: standup
@@ -373,6 +373,6 @@ weeks:
     - activity: exam
       title: "Tenta uppgift"
       titleEn: "Exam"
-      description: ""
+      description: "Deadline 2021-10-15 kl 13:00"
       start-full: 20211015T083000
       end-full: 20211015T093000
