@@ -17,7 +17,16 @@ weeks:
       dirname: untitled-lecture
       description: "Start på Utveckling av molnbaserade applikationer"
       start-full: 20210906T083000
-      end-full: 20210906T093000
+      end-full: 20210906T091500
+    - activity: lecture
+      title: "Repetition av webbackend"
+      titleEn: "Run-through of webbackend"
+      slug: cloud-lectures/introduction
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Vad var det vi gjorde innan sommaran"
+      start-full: 20210906T093000
+      end-full: 20210906T110000
     - activity: lecture
       title: "Internet och moln"
       titleEn: "Internet och moln"
@@ -26,8 +35,8 @@ weeks:
       filename: Untitled
       dirname: untitled-lecture
       description: "Vad är internet och hur funkar det?"
-      start-full: 20210906T094500
-      end-full: 20210906T110000
+      start-full: 20210906T111500
+      end-full: 20210906T123000
     - activity: standup
       title: "Avslutning på dagen"
       titleEn: "Get together and end of day"
