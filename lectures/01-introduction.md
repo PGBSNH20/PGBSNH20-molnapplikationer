@@ -65,6 +65,8 @@ Gör följande:
 
 # Individuell inlämningsuppgift
 
+Inlämnas via PingPong, men sparas i GitHub
+
 ## Blogg post
 
 **Deadline** för inlämning via PingPong, Tisdag den 07:e September kl 23:55. Posta ett länk till dagens blog post.
