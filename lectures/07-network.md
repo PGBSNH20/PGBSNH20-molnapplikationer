@@ -23,3 +23,16 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_nae
 
 ## Uppgifter
 
+# Individuell uppgift
+
+## Indviduellt blogg post
+
+Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
+
+Deadline på PingPong, XXdag den XX:e XXX kl 23:55. Posta ett länk till dagens blog post.
+
+Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
+* 1
+* 2
+
+Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
