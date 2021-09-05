@@ -7,9 +7,9 @@ permalink: /cloud-lectures/introduction
 
 Lektion 1 av 12
 
-I denna lektion börjar vi med att repetition av dom delar av teori ni har haft tidigere som rör denna kurs, härunder specielt nätverksteori, dock byggar hela kursen på primärt webbutveckling backend, så vi kommer att röra dom flesta delar under kursen.
+I denna lektion börjar vi med en repetition av dom teori-delar ni har haft tidigere kurs som rör denna kurs, dock byggar hela kursen på primärt webbutveckling backend.
 
-Utover repetition av nätverksteori kommer vi att prata mere om molnet, vad är det och vad kan det.
+Utover repetition av speciellt nätverksteori, kommer vi att prata mere om molnet, vad är det och vad kan det.
 
 ## Lektionsplan
 
@@ -38,8 +38,7 @@ Ta fram prisen per månad för en virtuell server hos olika moln operatör.
 
 Hitta en eller fler hosting företag (svenska, nordiska eller inom EU), och sammanhåll prisen med dom stora jätterna (Azure, AWS och Google).
 
-Tanken är att servern ska köra en simple websida med en enkel databas, alt installerat på samma server. Kanske krävs 2 CPUs, 8GB RAM och 10 GB disk på en Linux server i Europa
-
+Hitta priset för att drifta en server (24x7x365), tänk att servern ska köra en simple websida med en enkel databas, alt installerat på samma server. Kanske krävs 2 CPUs, 8GB RAM och 10 GB disk på en Linux server i Europa.
 
 # Individuell uppgift
 
@@ -48,13 +47,13 @@ Tanken är att servern ska köra en simple websida med en enkel databas, alt ins
 Gå igenom denna kurs (62 min): [Molnbegrepp – principerna bakom molnbaserad databehandling](https://docs.microsoft.com/sv-se/learn/modules/principles-cloud-computing/)
 
 
-## Skåpa en blogg på GitHub och Jekyll
+## Skåpa en blogg på GitHub med Jekyll
 
 GitHub gir möjlighet till att skåpa en "page" för vilket som helst repository, man kan även skåpa en page for en profil eller oganization, och det är det du ska i denna övning.
 
-Tanken är du ska skåpa en egen websita/blog med hjälp av GitHub, så om du har GitHub-använder *123koder*, kommer din nya websita/blog att finnas på 123koder.github.io, man kan även knyta ett äget domännamn till en GitHub-page.
+Tanken är du ska skåpa en egen websita/blog med hjälp av GitHub, så om du har GitHub-använder *123koder*, kommer din nya websita/blog att finnas på *123koder.github.io*, man kan även knyta ett äget domännamn (eller subdomän) till en GitHub-page.
 
-PS. om du redan har en GitHub page för din profil (eller av något skäll inte önskar att använda profil page till detta), skåpa ett nytt repo för denna blogg
+PS. om du redan har en GitHub page för din profil (eller av något skäll inte önskar att använda din profil page till detta), skåpa ett nytt repo för denna blogg
 
 Gör följande:
 * Gå till: [Websites for you and your projects](https://pages.github.com/)
@@ -67,9 +66,9 @@ Gör följande:
 
 ## Indviduellt blogg post
 
-Deadline på PingPong, Tisdag den 07:e September kl 23:55. Posta ett länk till dagens blog post.
+**Deadline** för inlämning via PingPong, Tisdag den 07:e September kl 23:55. Posta ett länk till dagens blog post.
 
-Skriv din blogg på Svenska eller Engelska, andra spårk är tillåten men då kan jag inte ge feedback till innehållet.
+Skriv din blogg på Svenska eller Engelska, andra spårk är tillåten men då kan jag inte ge vettigt feedback till innehållet.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
 * Vad är molnet?
