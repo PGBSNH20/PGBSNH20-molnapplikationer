@@ -12,7 +12,7 @@ weeks:
     - activity: lecture
       title: "Introduktion"
       titleEn: "Introduction"
-      slug: cloud-lectures/introduction
+      slug: /cloud-lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
       description: "Start på Utveckling av molnbaserade applikationer"
@@ -21,7 +21,7 @@ weeks:
     - activity: lecture
       title: "Repetition av webbackend"
       titleEn: "Run-through of webbackend"
-      slug: cloud-lectures/introduction
+      slug: /cloud-lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
       description: "Vad var det vi gjorde innan sommaran"
@@ -31,7 +31,7 @@ weeks:
       title: "Internet och moln"
       titleEn: "Internet och moln"
       number: "1"
-      slug: cloud-lectures/introduction
+      slug: /cloud-lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
       description: "Vad är internet och hur funkar det?"
@@ -40,7 +40,7 @@ weeks:
     - activity: standup
       title: "Avslutning på dagen"
       titleEn: "Get together and end of day"
-      slug: cloud-lectures/introduction
+      slug: /cloud-lectures/introduction
       description: "Är där frågor? Landing."
       start-full: 20210906T160000
       end-full: 20210906T163000
@@ -59,7 +59,7 @@ weeks:
     - activity: lecture
       title: "Automatisering av bygg och release"
       titleEn: "Automatisering av bygg och release"
-      slug: cloud-lectures/ci
+      slug: /cloud-lectures/ci
       description: "Molnet kan använns till att hjälpa oss utvecklare med att säkerställa vår bygg och release av vår kod"
       start-full: 20210908T090000
       end-full: 20210908T094500
@@ -92,7 +92,7 @@ weeks:
     - activity: lecture
       title: "Containrar och orkestrering"
       titleEn: "Containers and orchestration"
-      slug: cloud-lectures/containers
+      slug: /cloud-lectures/containers
       description: "Containrar har blivet det nya sättet att jobba med applikation i molnet, orkestrering använns till att kontrollera hur dom körs"
       start-full: 20210913T090000
       end-full: 20210913T094500
@@ -119,7 +119,7 @@ weeks:
       title: "Serverless"
       titleEn: "Serverless"
       number: "4"
-      slug: cloud-lectures/serverless
+      slug: /cloud-lectures/serverless
       description: "Serveless kör det möjligt att köra kod i molnet utan att tänka servere"
       start-full: 20210915T083000
       end-full: 20210915T093000
@@ -151,7 +151,7 @@ weeks:
       title: "Databaser i molnet"
       titleEn: "Databases in the cloud"
       number: "5"
-      slug: cloud-lectures/databases
+      slug: /cloud-lectures/databases
       description: "Molnet gör det enkelt att jobba med databaser"
       start-full: 20210920T090000
       end-full: 20210920T093000
@@ -177,7 +177,7 @@ weeks:
       title: "Webb applikationer i molnet"
       titleEn: "Webapplications in the cloud"
       number: "6"
-      slug: cloud-lectures/webapplications
+      slug: /cloud-lectures/webapplications
       description: "Molnet är byggd till at köra webbapplikationer"
       start-full: 20210922T090000
       end-full: 20210922T093000
@@ -210,7 +210,7 @@ weeks:
       title: "Nätverk i molnet"
       titleEn: "Cloud networking"
       number: "7"
-      slug: cloud-lectures/network
+      slug: /cloud-lectures/network
       description: "I molnet är det möjligt att bygga upp virtuella netvärk som kan vara ett viktigt verktyg för utveklarer"
       start-full: 20210927T083000
       end-full: 20210927T095000
@@ -236,7 +236,7 @@ weeks:
       title: "Filer i molnet"
       titleEn: "Files in the cloud"
       number: "8"
-      slug: cloud-lectures/files
+      slug: /cloud-lectures/files
       description: "Stora datamängder kan uppbevaras i molnet med olika lösningar"
       start-full: 20210929T083000
       end-full: 20210929T093000
@@ -269,7 +269,7 @@ weeks:
       title: "Monitorering av moln applikationer"
       titleEn: "Monitoring of cloud applications"
       number: "9"
-      slug: cloud-lectures/monitoring
+      slug: /cloud-lectures/monitoring
       description: "Monitorering är viktigt för att vi kan hålla koll på vår moln applikation"
       start-full: 20211004T090000
       end-full: 20211004T160000
@@ -295,7 +295,7 @@ weeks:
       title: "Skalning, upp och ut"
       titleEn: "Scaling in and out"
       number: "10"
-      slug: cloud-lectures/scaling
+      slug: /cloud-lectures/scaling
       description: "Molnet gör det möjligt att ändra server kapciteten när det behövs"
       start-full: 20211006T090000
       end-full: 20211006T160000
@@ -328,7 +328,7 @@ weeks:
       title: "Molnsäkerhetsfunktioner"
       titleEn: "Cloud security functionality"
       description: "Där finns fler olika funktioner som kan hjälpa skydda vår applikation molnet"
-      slug: cloud-lectures/security
+      slug: /cloud-lectures/security
       start-full: 20211011T083000
       end-full: 20211011T093000
       number: "11"
@@ -354,7 +354,7 @@ weeks:
       title: "Moln-livscykel och miljöpåverkning"
       titleEn: "Lifecycle for cloud applications and enviromental effects"
       number: "12"
-      slug: cloud-lectures/lifecycle
+      slug: /cloud-lectures/lifecycle
       description: "Hur lever vår applikation i molnet och vad kan man gör åt miljöpåverkan"
       start-full: 20211013T090000
       end-full: 20211013T160000

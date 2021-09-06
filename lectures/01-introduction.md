@@ -63,6 +63,8 @@ Gör följande:
 * Följ guiden, kommandon `jekyll new` gir dig en helt grundläggand blogg
 * Styla din nya blogg med en Jekyll mall, där finns en del gratis maller på: [Free Jekyll Themes](https://jekyllthemes.io/free)
 
+PS Du får också gärna använda andra ramverk som t.ex. [HUGO](https://gohugo.io/) till att bygga din blogg, dock på eget bevåg.
+
 # Individuell inlämningsuppgift
 
 Inlämnas via PingPong, men sparas i GitHub

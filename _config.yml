@@ -7,7 +7,7 @@ description: |
     applikationer som kör i molnet, samt hur man som utvecklare 
     jobbar i området emellan utveckling och drift 
     (populärt kallat DevOps).
-baseurl: "/PGBSNH20-molnapplikationer/" # the subpath of your site, e.g. /blog/
+baseurl: "/PGBSNH20-molnapplikationer" # the subpath of your site, e.g. /blog/
 url: "https://pgbsnh20.github.io/PGBSNH20-molnapplikationer" # the base hostname & protocol for your site
 githubdir: PGBSNH20/PGBSNH20-molnapplikationer"
 lms-name: Ping Ping
