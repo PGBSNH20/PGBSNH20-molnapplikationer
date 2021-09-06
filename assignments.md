@@ -6,7 +6,15 @@ permalink: /assignments/
 
 # Övningar
 
-Vi kommer under denna kurs att  övningar
+Vi kommer under denna kurs att ha 10 övningar som är betygsgrundande
+
+## Blogg 01
+* Uppgift: Internet och moln
+* Start: 2021-09-06 - Måndag
+* Deadline: 2021-09-07 23:55 - Tisdag
+* Kammeratgranskning deadline: 2021-09-09 12:00 - Torsdag
+* Inlämning: Blogg
+* Betygsgrundande: IG / G / VG
 
 ## something
 * Mål: xx
@@ -14,7 +22,26 @@ Vi kommer under denna kurs att  övningar
 * Start: 2021-0x-x - Onsdag
 * Deadline: 2021-0x-x (x dagar) - Fredag
 * Inlämning: Kod
-* Betygsgrundande: IG / G
+* Betygsgrundande: IG / G / VG
+
+
+* Blogg 02 Automatisering av bygg och release
+* Blogg 03 Containrar och orkestrering
+* Blogg 04 Severless applikationer
+* Blogg 05 Databaser i molnet
+* Blogg 06 Webbapplikationer i molnet
+* Blogg 07 Nätverk i molnet
+* Blogg 08 Filer i molnet
+* Blogg 09 Monitorering av molnapplikationer
+
+
+## Blogg 10
+* Uppgift: Skalning, upp och ut
+* Start: 2021-10-06 - Onsdag
+* Deadline: 2021-10-07 23:55 - Torsdag
+* Kammeratgranskning deadline: 2021-09-11 12:00 - Måndag
+* Inlämning: Blogg
+* Betygsgrundande: IG / G / VG
 
 
 # Tenta / Indviduell uppgift
