@@ -69,9 +69,9 @@ Inlämnas via PingPong, men sparas i GitHub
 
 ## Blogg post
 
-**Deadline** för inlämning via PingPong, Tisdag den 07:e September kl 23:55. Posta ett länk till dagens blog post.
+**Deadline** för inlämning via PingPong, Tisdag den 07:e September kl 23:55. Posta ett länk till dagens blog-post i PingPong inlämningen.
 
-Skriv din blogg på Svenska eller Engelska, andra spårk är tillåten men då kan jag inte ge vettigt feedback till innehållet.
+Skriv din blogg på Svenska eller Engelska.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
 * Vad är molnet?
