@@ -4,9 +4,9 @@ title: Assignments
 permalink: /assignments/
 ---
 
-# Uppgifter / Projekt
+# Övningar
 
-Vi kommer under denna kurs att ha x projekt, och vi känner igen den del av uppläget.
+Vi kommer under denna kurs att  övningar
 
 ## something
 * Mål: xx
