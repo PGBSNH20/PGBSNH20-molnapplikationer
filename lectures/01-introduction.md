@@ -80,4 +80,8 @@ Skriv ett blogg post som följer denna lektion ska innehålla en text som svara 
 * Vilka för delar och nackdelar kan molnet introducera?
 * Din konklussion av eran pris undersökning
 
+Det är innehållet i eran blogg som är viktig, så om themen i Github pages strular stressa inte över denna, det går att anpassa din blog sen. 
+Och om alt blir fel, starta med att lägga upp en markdown fil med innehållet av din blogg ock länka till denna i PingPong.
+
 Om du vill kan du nu välja att dela denna första blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #cloud #azure #myfirstblog #pricing #moln
+
