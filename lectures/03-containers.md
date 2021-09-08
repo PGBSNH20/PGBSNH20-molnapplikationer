@@ -16,10 +16,10 @@ Vi har tidigere pratat om containere och Docker, denna lektion kommer att bli li
 ## Lektionslitteratur
 *Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion, det antas att du har läst/set/lystnad detta innan lektionen starter.*
 
-Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_containrar.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_containrar.contentTimeTotal.optionalLiteratureTime}} min)
+Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_containrar_och_orkestrering.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_containrar_och_orkestrering.contentTimeTotal.optionalLiteratureTime}} min)
 
-{% include lecturenontopics.html lectureData="lecture_containrar" %}
-{% include lecturetopics.html lectureData="lecture_containrar" %}
+{% include lecturenontopics.html lectureData="lecture_containrar_och_orkestrering" %}
+{% include lecturetopics.html lectureData="lecture_containrar_och_orkestrering" %}
 
 
 # Indviduella övningsuppgifter
