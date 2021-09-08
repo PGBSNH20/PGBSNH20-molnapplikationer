@@ -1,19 +1,25 @@
 ---
 contentTimeTotal:
-  literatureTime: 64
-  optionalLiteratureTime: 0
+  literatureTime: 131
+  optionalLiteratureTime: 116
 topics:
   - topic: "Containers"
-    literatureTime: 0
-    optionalLiteratureTime: 0
+    literatureTime: 11
+    optionalLiteratureTime: 4
     description-include: containers.md
     literature:
     - title: "WTF is a container?"
       url: https://techcrunch.com/2016/10/16/wtf-is-a-container
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
       description: >
         Microsoft, Google, Amazon and everybody else seems to have jumped on this bandwagon in the last year or so, but why is everybody so excited about this stuff? To understand why containers are such a big deal, let’s think about physical containers for a moment. The modern shipping industry only works as well as it does […]
     - title: "Why you should care about containers"
       url: https://youtube.com/watch?v=EUitQ8DaZW8
+      timeType: Video
+      timeMinutes: 7
+      timeBadge: danger
       description: >
         Understand how containers provide a lightweight immutable infrastructure for application deployment and more efficient utilization of underlying resources in this video of why containers matter. 
         
@@ -21,6 +27,9 @@ topics:
     optionalLiterature:
     - title: "5 Container Alternatives to Docker"
       url: https://containerjournal.com/topics/container-ecosystems/5-container-alternatives-to-docker
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
       description: >
         Docker surely gets a lot of attention. But Docker is not the only container option out there. Here are some of the alternatives to Docker.
     - title: "OS-level virtualization"
@@ -29,8 +38,8 @@ topics:
       timeMinutes: 0
       timeBadge: dark
   - topic: "Docker"
-    literatureTime: 32
-    optionalLiteratureTime: 0
+    literatureTime: 63
+    optionalLiteratureTime: 43
     description-include: docker.md
     literature:
     - title: "Containers? So What? Docker 101 Explained"
@@ -63,6 +72,9 @@ topics:
         30:00 Conclusion
     - title: "What is Docker, Why use it? - Docker and .NET Core 101 [1 of 3]"
       url: https://youtube.com/watch?list=PLdo4fOcmZ0oUvXP_Pt2zOgk8dTWagGs_P&v=vmnvOITMoIg
+      timeType: Video
+      timeMinutes: 9
+      timeBadge: danger
       description: >
         Why use containers? Docker is a way to package and distribute your applications with all its dependencies. It works on my machine, your machine and their machine. 
         
@@ -91,6 +103,9 @@ topics:
         .NET Documentation: https://docs.microsoft.com/en-us/dotnet/?WT.mc_id=Educationcontainers-c9-shyboyer
     - title: "Docker Tooling in Visual Studio - Docker and .NET Core 101 [2 of 3]"
       url: https://youtube.com/watch?list=PLdo4fOcmZ0oUvXP_Pt2zOgk8dTWagGs_P&v=k2sskhYEPkI
+      timeType: Video
+      timeMinutes: 6
+      timeBadge: danger
       description: >
         Visual Studio has always had a great set of tools to accomplish any task. See how the Docker tooling helps us containerize your apps fast with a few clicks. 
         
@@ -119,15 +134,24 @@ topics:
         .NET Documentation: https://docs.microsoft.com/en-us/dotnet/?WT.mc_id=Educationcontainers-c9-shyboyer
     - title: "What Exactly is Docker?"
       url: https://medium.com/swlh/what-exactly-is-docker-1dd62e1fde38
+      timeType: Article
+      timeMinutes: 12
+      timeBadge: info
       description: >
         An introduction to containers and Docker, including real-life examples and suggestions for complete software development lifecycle.
     - title: "A quick introduction to Docker tags"
       url: https://www.freecodecamp.org/news/an-introduction-to-docker-tags-9b5395636c2a/
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
       description: >
         If you’ve worked with Docker even for a little while, I bet you’ve come across tags. They often look like “my_image_name:1” where the part after the colon is known as a tag. The tag is not always specified when tagging images, but we’ll get
     optionalLiterature:
     - title: "Virtual Machines vs Docker Containers - Dive Into Docker"
       url: https://youtube.com/watch?v=TvnZTi_gaNc
+      timeType: Video
+      timeMinutes: 9
+      timeBadge: danger
       description: >
         Watch the complete course at: https://diveintodocker.com/?utm_source=nj&utm_medium=youtube&utm_campaign=virtual-machines-vs-docker-containers
         
@@ -146,25 +170,45 @@ topics:
         Personal Website: https://nickjanetakis.com
         Twitter: https://twitter.com/nickjanetakis
         GitHub: https://github.com/nickjj
-    - title: "A Docker Tutorial for Beginners"
-      url: https://docker-curriculum.com
-      description: >
-        Learn to build and deploy your distributed applications easily to the cloud with Docker
     - title: "Introduction to Containerization Using Docker"
       url: https://codemag.com/Article/2103061/Introduction-to-Containerization-Using-Docker
+      timeType: Article
+      timeMinutes: 29
+      timeBadge: info
       description: >
         Wei-Meng explains how Docker Engine replaces virtual machines with containers to host the apps and libraries you need, completely independent of which O...
+    - title: "A Docker Tutorial for Beginners"
+      url: https://docker-curriculum.com
+      timeType: Training
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Learn to build and deploy your distributed applications easily to the cloud with Docker
     - title: "Using volumes in Docker Compose"
       url: https://devopsheaven.com/docker/docker-compose/volumes/2018/01/16/volumes-in-docker-compose.html
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
       description: >
         Learn how to declare internal, external, named and host-mounted Docker volumes with these easy Docker Compose examples.
     - title: "GitHub - 100daysofdevops/21_Days_of_Docker"
       url: https://github.com/100daysofdevops/21_Days_of_Docker
+      timeType: Training
+      timeMinutes: 0
+      timeBadge: dark
       description: >
         Contribute to 100daysofdevops/21_Days_of_Docker development by creating an account on GitHub.
+    - title: "Play with Docker Classroom"
+      url: https://training.play-with-docker.com/
+      timeType: Training
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Learn docker through online trainings in 
+        training.play-with-docker.com
   - topic: "Orkestrering"
-    literatureTime: 32
-    optionalLiteratureTime: 0
+    literatureTime: 44
+    optionalLiteratureTime: 62
     description-include: orkestrering.md
     literature:
     - title: "Kubernetes and Container Orchestration 101"
@@ -193,11 +237,17 @@ topics:
         30:48 Conclusion
     - title: "What Is Container Orchestration?"
       url: https://newrelic.com/blog/best-practices/container-orchestration-explained
+      timeType: Article
+      timeMinutes: 12
+      timeBadge: info
       description: >
         Provisioning, scheduling, and managing containers at scale—here are the hows and whys of container orchestration.
     optionalLiterature:
     - title: "Cloud Native .NET - Mark Rendle"
       url: https://youtube.com/watch?v=77Dk3vjVa9k
+      timeType: Video
+      timeMinutes: 60
+      timeBadge: danger
       description: >
         Cloud Native applications are “containerized, dynamically orchestrated, and microservice-oriented”. In this talk I’ll explain what all that means, why you’ll want to do it, and how to get started, including a look at the current state of technology and tools that support cloud native computing.
         
@@ -208,24 +258,45 @@ topics:
         NDC Conferences
         https://ndcminnesota.com
         https://ndcconferences.com
+    - title: "NSA, CISA release Kubernetes Hardening Guidance"
+      url: https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2716980/nsa-cisa-release-kubernetes-hardening-guidance/
+      timeType: Article
+      timeMinutes: 2
+      timeBadge: info
+      description: >
+        The National Security Agency (NSA) and the Cybersecurity and Infrastructure Security Agency (CISA) released a Cybersecurity Technical Report, “Kubernetes Hardening Guidance,” today. This report
   - topic: "Kubernetes"
-    literatureTime: 0
-    optionalLiteratureTime: 0
+    literatureTime: 13
+    optionalLiteratureTime: 7
     description-include: kubernetes.md
     literature:
-    - title: "What is Kubernetes?"
-      url: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes
-      description: >
-        Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
     - title: "How Kubernetes works"
       url: https://youtube.com/watch?v=daVUONZqn88
+      timeType: Video
+      timeMinutes: 6
+      timeBadge: danger
       description: >
         Learn about the key concepts in Kubernetes, including pod, deployment, replica set, scheduler and load balancer. 
         
         Learn more: https://aka.ms/k8slearning
+    - title: "What is Kubernetes?"
+      url: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+      description: >
+        Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
     optionalLiterature:
+    - title: "Kubernetes 101"
+      url: https://www.ibm.com/cloud/architecture/content/course/kubernetes-101
+      timeType: Training
+      timeMinutes: 0
+      timeBadge: dark
     - title: "A Kubernetes story: Phippy goes to the zoo"
       url: https://youtube.com/watch?v=R9-SOzep73w
+      timeType: Video
+      timeMinutes: 7
+      timeBadge: danger
       description: >
         Join Phippy on this animated adventure, as she takes her niece on an educational trip to the Kubernetes Zoo and learns about ingresses, CronJobs, CRDs, and more! 
         
