@@ -7,7 +7,7 @@ permalink: /cloud-lectures/containers
 
 Lektion 3 av 12
 
-Vi har tidigere pratat om containere och Docker, denna lektion kommer att bli litet repitaion på denna snak. Men med fokus på hur vi själv kan bygga en ett docker image och använda det,
+Vi har tidigere pratat om containere och Docker ([Webbutveckling backend: lektion 2](https://pgbsnh20.github.io/PGBSNH20-backendweb/lectures/docker)), denna lektion kommer att bli litet repitaion på denna snak. Men med fokus på hur vi själv kan bygga en ett docker image och använda det,
 
 ## Lektionsplan
 
@@ -24,16 +24,18 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_con
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa labs på GitHub, dom är en introduktion til GitHub actions som vi kommer att jobba med under hela kursen som dissa är en del av:
+Gå igennom detta lab på GitHub:
 * [GitHub Actions: Publish to github packages](https://lab.github.com/githubtraining/github-actions:-publish-to-github-packages)
 
 
-# Övningsuppgifter i grupp
+# Övningsuppgifter i grupp (eller ensamt)
+
+Dissa övningar är bygger på varandra
 ## Övning 1: Hello World i Docker
 
 **Mål med denna övning**: Bygg en container som kan hålla Hello World webb applikationen (samma om vi använda i förra lektion). Och få applikationen att köra i Docker, så att du kan komma åt den med webbläsare: localhost:80.
 
-1. Installera Docker på din dator: [Get Docker](https://docs.docker.com/get-docker/)
+1. Installera Docker på din dator: [Get Docker](https://docs.docker.com/get-docker/) (du borde ha detta)
 2. Starta om din dator
 3. Klona ner ["Hello world" .NET Core webb applikationen](https://github.com/skjohansen/SimpleWebHalloWorld) 
 4. Lägg till en "Dockerfile"
@@ -50,7 +52,7 @@ Hints:
 
 Blogg:
 
-* Se till att beskriva dom olika delar av container filen
+* Se till att beskriva dom olika delar av container filen i eran indviduella blogg
 
 ## Övning 2: Hello World med Docker Compose
 
@@ -73,13 +75,17 @@ Ni har nu en Docker container som innehåller vår Hello World applikation (och 
 
 **Mål med denna övning**: Är att skåpa ett Docker image och publicera det till "GitHub packages" med GitHub Actions. Ni väljer själv vilken av dom två system ni vill använda.
 
+1. Skåpa en GitHub pipeline som bygger eran applikation (som [lektion 2](/cloud-lectures/ci))
+2. Utök denna pipeline med ett *step* som bygger eran container och pusher den till eran package
+   * Där finns en GitHub action som man med fördel kan använda: [Build-Push Action](https://github.com/docker/build-push-action)
+   * AKTA: API nycklar, användernamn, lösenord etc får **inte** finnas in eran pipline, använn GitHub secrets till detta: [Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets)
 
 Hints:
 
 * GitHub: [Packages](https://github.com/features/packages)
 * [Publishing and installing a package with GitHub Actions](https://docs.github.com/en/packages/managing-github-packages-using-github-actions-workflows/publishing-and-installing-a-package-with-github-actions)
 
-Ni kan nu testa att köra ert image via [Play with Docker](https://labs.play-with-docker.com/), beskriv också detta i eran blogg.
+Ni kan nu logga in på eran GitHub packages med docker och hämta ut er container och gör en pull på det med `docker pull`
 
 * Starta en ny instans
 * Pull ert image från Github Package
@@ -96,11 +102,12 @@ Gör ett nytt inlägg på din blogg som du gjorde i samband med lektion 1+2. Det
 Deadline på PingPong, tisdag den 14:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
-* Vad har in installerat
+* Vad har in installerat lokalt / Github
 * Hur har ni fått applikationen att kör i en container
-* Vad innehåller ern Docker Compose
-* Hur fick ni upp Containeren i GitHub packages
-* Tagging
+* Beskriv din docker fil
+* Beskriv din github pipeline
+* Hur har ni gjort med hemliser?
+
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
 
