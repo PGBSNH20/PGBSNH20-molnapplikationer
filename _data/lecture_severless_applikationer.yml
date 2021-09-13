@@ -1,5 +1,43 @@
 ---
 contentTimeTotal:
-  literatureTime: 0
+  literatureTime: 23
   optionalLiteratureTime: 0
+notInTopic:
+  literature:
+  - title: "Understanding Serverless Computing for the Beginner"
+    url: https://geekflare.com/know-about-serverless/
+    timeType: Article
+    timeMinutes: 16
+    timeBadge: info
+    description: >
+      When we say “serverless” computing, many assume that there is no server in this model to facilitate the code execution and other development tasks. It’s a
+  optionalLiterature:
+  - title: "Serverless Architectures"
+    url: https://www.martinfowler.com/articles/serverless.html
+    timeType: Article
+    timeMinutes: 0
+    timeBadge: dark
+    description: >
+      Length 67
+      Serverless architectures replace a managed server with a collection of third party services and FaaS
+  - title: "Why Serverless? Why Now?"
+    url: https://hackernoon.com/why-serverless-why-now-f09ce43c4767
+    timeType: Article
+    timeMinutes: 0
+    timeBadge: dark
 topics:
+  - topic: "Azure functions"
+    literatureTime: 7
+    optionalLiteratureTime: 0
+    description-include: azure_functions.md
+    literature:
+    - title: "Introduction to Azure Functions - DZone Cloud"
+      url: https://dzone.com/articles/introduction-to-azure-functions
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+      description: >
+        Check out this introduction to one of Microsoft's serverless PaaS tools, Azure Functions, and go throught the tutorial of making a simple function with it.
+    optionalLiterature:
+    - title: "Azure - Event-Driven Architecture in the Cloud with Azure Event Grid"
+      url: https://docs.microsoft.com/en-us/archive/msdn-magazine/2018/february/azure-event-driven-architecture-in-the-cloud-with-azure-event-grid

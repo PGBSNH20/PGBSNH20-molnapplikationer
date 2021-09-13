@@ -49,6 +49,17 @@ https://docs.microsoft.com/en-us/learn/modules/choose-azure-service-to-integrate
 https://docs.microsoft.com/en-us/learn/modules/create-serverless-logic-with-azure-functions/
 https://docs.microsoft.com/en-us/learn/modules/execute-azure-function-with-triggers/
 
+Bygg en function i Azure
+
+Bygg en function lokalt med git 
+
+Lav CI pipeline i Github
+
+Lav CD pipeline till azure
+
+
+
+
 # Individuell inlämningsuppgift
 
 Inlämnas via PingPong, men sparas i GitHub
