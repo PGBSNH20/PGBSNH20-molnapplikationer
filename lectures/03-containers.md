@@ -84,11 +84,12 @@ Ni har nu en Docker container som innehåller vår Hello World applikation (och 
 5. Lägg till denna PAT som en secret i ditt repo
 
 
-Så här kan eran jobs-section i action workflowen se ut:
-Se till att ersätta, med rätt info:
+Så här kan eran jobs-section i action workflowen se ut, se till att ersätta, med rätt info:
 * PROJECT_DIR
 * DITT_USER_NAME
 * PROJECT
+* OBS där är gjort ett extra mellanslag emellan { och { som inte ska vara där, men är det inte där tolker GitHub det som den parameter
+* Där är här två tags, försök i din blogg att förklara varför
 
 
 ```yaml
@@ -104,17 +105,17 @@ jobs:
       uses: docker/login-action@v1.10.0
       with:
          registry: ghcr.io
-         username: $&#123;\{ github.actor \}&#125;
-         password: $\{\{ secrets.GITHUB_PAT \}\}
+         username: ${ { github.actor } };
+         password: ${ { secrets.GITHUB_PAT } }
     - name: Build and push
       id: docker_build
       uses: docker/build-push-action@v2.7.0
       with:
         push: true
-        context: $\{\{env.working-directory\}\}/PROJECT_DIR
+        context: ${ {env.working-directory} }/PROJECT_DIR
         tags: |
           ghcr.io/DITT_USER_NAME/PROJECT:latest
-          ghcr.io/DITT_USER_NAME/PROJECT:${{ github.run_number }}
+          ghcr.io/DITT_USER_NAME/PROJECT:${ { github.run_number } }
 ```
 
 Hints:
