@@ -20,6 +20,10 @@
     list-style: none;
   }
   
+  .assignmentlist ul{
+    list-style: none;
+  }
+
   ul h6:not(:first-of-type){
     margin-top: 15px;
   }
