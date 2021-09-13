@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Orkestrering
+title: Serverless
 lectureDate: Onsdag den 15:e September 2021
 permalink: /cloud-lectures/serverless 
 ---
@@ -20,10 +20,9 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_ork
 {% include lecturenontopics.html lectureData="lecture_orkestrering" %}
 {% include lecturetopics.html lectureData="lecture_orkestrering" %}
 
-# Övningsuppgifter
 
-TBA
 
+# Indviduella övningsuppgifter
 ## Azure
 
 Vi kommer under denna kurs att jobba med Azure, och därför behöver ni en Azure konto.
@@ -41,13 +40,23 @@ Create an account at Azure and install the [Azure CLI](https://docs.microsoft.co
 
 Browse around to get a feeling of the possibilities in Azure, but besides this you don't need to do anything.
 
+# Bygg en app
+https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/function-app-container?view=azure-devops&tabs=yaml
+
+# Övningsuppgifter
+
+https://docs.microsoft.com/en-us/learn/modules/choose-azure-service-to-integrate-and-automate-business-processes/
+https://docs.microsoft.com/en-us/learn/modules/create-serverless-logic-with-azure-functions/
+https://docs.microsoft.com/en-us/learn/modules/execute-azure-function-with-triggers/
 
 # Individuell inlämningsuppgift
-## Blogg post
+
+Inlämnas via PingPong, men sparas i GitHub
+## Blogg post : Severless applikationer
 
 Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
 
-Deadline på PingPong, XXdag den XX:e XXX kl 23:55. Posta ett länk till dagens blog post.
+Deadline på PingPong, Torsdag den 16:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
 * 1
