@@ -79,6 +79,41 @@ Ni har nu en Docker container som innehåller vår Hello World applikation (och 
 2. Utök denna pipeline med ett *step* som bygger eran container och pusher den till eran package
    * Där finns en GitHub action som man med fördel kan använda: [Build-Push Action](https://github.com/docker/build-push-action)
    * AKTA: API nycklar, användernamn, lösenord etc får **inte** finnas in eran pipline, använn GitHub secrets till detta: [Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets)
+3. Information om login till [GitHub Container Registry](https://github.com/docker/login-action#github-container-registry)
+4. Skåpa en Personal Access Token (PAT) på Github: [Create a GitHub Personal Access Token](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21#0075)
+5. Lägg till denna PAT som en secret i ditt repo
+
+
+Så här kan eran jobs-section i action workflowen se ut:
+Se till att ersätta, med rätt info:
+* PROJECT_DIR
+* DITT_USER_NAME
+* PROJECT
+```yaml
+jobs:
+  build-and-push-api:
+    runs-on: ubuntu-latest
+    env: 
+      working-directory: ./Source
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2.3.4
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v1.10.0
+      with:
+         registry: ghcr.io
+         username: ${{ github.actor }}
+         password: ${{ secrets.GITHUB_PAT }}
+    - name: Build and push
+      id: docker_build
+      uses: docker/build-push-action@v2.7.0
+      with:
+        push: true
+        context: ${{env.working-directory}}/PROJECT_DIR
+        tags: |
+          ghcr.io/DITT_USER_NAME/PROJECT:latest
+          ghcr.io/DITT_USER_NAME/PROJECT:${{ github.run_number }}
+```
 
 Hints:
 
