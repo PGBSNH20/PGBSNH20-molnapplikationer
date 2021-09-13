@@ -7,7 +7,7 @@ permalink: /assignments/
 # Övningar
 
 Vi kommer under denna kurs att ha 10 övningar som är betygsgrundande
-<div class="assignmentlist">
+<div class="assignmentlist" markdown="1">
 ## Blogg 01
 * Uppgift: [Internet och moln]({{ site.baseurl }}/cloud-lectures/introduction#individuell-inlämningsuppgift)
 * Start: 2021-09-06 - Måndag
