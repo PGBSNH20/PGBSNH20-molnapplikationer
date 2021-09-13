@@ -104,7 +104,7 @@ jobs:
       uses: docker/login-action@v1.10.0
       with:
          registry: ghcr.io
-         username: $\{\{ github.actor \}\}
+         username: $&#123;\{ github.actor \}&#125;
          password: $\{\{ secrets.GITHUB_PAT \}\}
     - name: Build and push
       id: docker_build
