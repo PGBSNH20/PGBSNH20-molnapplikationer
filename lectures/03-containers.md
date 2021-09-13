@@ -133,7 +133,7 @@ Ni kan nu logga in på eran GitHub packages med docker och hämta ut er containe
 # Individuell inlämningsuppgift
 
 Inlämnas via PingPong, men sparas i GitHub
-## Blogg post
+## Blogg 03: Containrar och orkestrering
 
 Gör ett nytt inlägg på din blogg som du gjorde i samband med lektion 1+2. Det rekomenderas att skriva på samma språk som din första blogg post.
 

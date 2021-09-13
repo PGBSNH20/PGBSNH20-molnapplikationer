@@ -26,11 +26,11 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_nae
 TBA
 
 # Individuell inlämningsuppgift
-## Blogg post : Nätverk i molnet
+## Blogg 07: Nätverk i molnet
 
 Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
 
-Deadline på PingPong, Tisdag den 28:e september kl 23:55. Posta ett länk till dagens blog post.
+Deadline på PingPong, tisdag den 28:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
 * 1

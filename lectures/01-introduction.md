@@ -69,7 +69,7 @@ PS Du får också gärna använda andra ramverk som t.ex. [HUGO](https://gohugo.
 
 Inlämnas via PingPong, men sparas i GitHub
 
-## Blogg post
+## Blogg 01: Internet och moln
 
 **Deadline** för [inlämning via PingPong](https://yh.pingpong.se/courseId/13405/content.do?id=5985657), Tisdag den 07:e September kl 23:55. Posta ett länk till dagens blog-post i [PingPong inlämningen](https://yh.pingpong.se/courseId/13405/content.do?id=5985657).
 

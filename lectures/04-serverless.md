@@ -52,11 +52,11 @@ https://docs.microsoft.com/en-us/learn/modules/execute-azure-function-with-trigg
 # Individuell inlämningsuppgift
 
 Inlämnas via PingPong, men sparas i GitHub
-## Blogg post : Severless applikationer
+## Blogg 04: Severless applikationer
 
 Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
 
-Deadline på PingPong, Torsdag den 16:e september kl 23:55. Posta ett länk till dagens blog post.
+Deadline på PingPong, torsdag den 16:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
 * 1

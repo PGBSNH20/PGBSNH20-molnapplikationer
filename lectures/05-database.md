@@ -26,11 +26,11 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_dat
 TBA
 
 # Individuell inlämningsuppgift
-## Blogg post : Databaser i molnet
+## Blogg 05: Databaser i molnet
 
 Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
 
-Deadline på PingPong, Tisdag den 21:e september kl 23:55. Posta ett länk till dagens blog post.
+Deadline på PingPong, tisdag den 21:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
 * 1
