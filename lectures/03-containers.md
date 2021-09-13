@@ -76,7 +76,7 @@ Ni har nu en Docker container som innehåller vår Hello World applikation (och 
 **Mål med denna övning**: Är att skåpa ett Docker image och publicera det till "GitHub packages" med GitHub Actions. Ni väljer själv vilken av dom två system ni vill använda.
 
 1. Skåpa en GitHub pipeline som bygger eran applikation (som [lektion 2](/cloud-lectures/ci))
-2. Utök denna pipeline med ett *step* som bygger eran container och pusher den till eran package
+2. Utök denna pipeline med ett *step* som bygger eran container och pusher den till ert GitHub package storage
    * Där finns en GitHub action som man med fördel kan använda: [Build-Push Action](https://github.com/docker/build-push-action)
    * AKTA: API nycklar, användernamn, lösenord etc får **inte** finnas in eran pipline, använn GitHub secrets till detta: [Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets)
 3. Information om login till [GitHub Container Registry](https://github.com/docker/login-action#github-container-registry)
@@ -104,14 +104,14 @@ jobs:
       uses: docker/login-action@v1.10.0
       with:
          registry: ghcr.io
-         username: ${{ github.actor }}
-         password: ${{ secrets.GITHUB_PAT }}
+         username: $\{\{ github.actor \}\}
+         password: $\{\{ secrets.GITHUB_PAT \}\}
     - name: Build and push
       id: docker_build
       uses: docker/build-push-action@v2.7.0
       with:
         push: true
-        context: ${{env.working-directory}}/PROJECT_DIR
+        context: $\{\{env.working-directory\}\}/PROJECT_DIR
         tags: |
           ghcr.io/DITT_USER_NAME/PROJECT:latest
           ghcr.io/DITT_USER_NAME/PROJECT:${{ github.run_number }}
