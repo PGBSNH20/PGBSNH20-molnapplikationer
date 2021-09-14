@@ -27,16 +27,16 @@ Vi kommer under denna kurs att ha 10 uppgifter som är betygsgrundande, målet i
 ## Blogg 03
 * Uppgift: [Containrar och orkestrering]({{ site.baseurl }}/cloud-lectures/containers#individuell-inlämningsuppgift)
 * Start: 2021-09-13 - Måndag
-* Deadline: 2021-09-14 23:55 - Tisdag
-* Kammeratgranskning deadline: 2021-09-16 12:00 - Torsdag
+* Deadline: 2021-09-15 23:55 - Onsdag
+* Kammeratgranskning deadline: 2021-09-17 12:00 - Torsdag
 * Inlämning: Blogg
 * Betygsgrundande: IG / G / VG
 
 ## Blogg 04
 * Uppgift: [Severless applikationer]({{ site.baseurl }}/cloud-lectures/serverless#individuell-inlämningsuppgift)
 * Start: 2021-09-15 - Onsdag
-* Deadline: 2021-09-16 23:55 - Torsdag
-* Kammeratgranskning deadline: 2021-09-20 12:00 - Måndag
+* Deadline: 2021-09-17 23:55 - Fredag
+* Kammeratgranskning deadline: 2021-09-21 12:00 - Tisdag
 * Inlämning: Blogg
 * Betygsgrundande: IG / G / VG
 
