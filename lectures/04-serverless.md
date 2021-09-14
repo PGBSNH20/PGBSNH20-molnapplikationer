@@ -22,7 +22,8 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_sev
 
 
 # Indviduella övningsuppgifter
-## Azure
+
+## Azure konto
 
 Vi kommer under denna kurs att jobba med Azure, och därför behöver ni en Azure konto.
 
@@ -39,14 +40,16 @@ Create an account at Azure and install the [Azure CLI](https://docs.microsoft.co
 
 Browse around to get a feeling of the possibilities in Azure, but besides this you don't need to do anything.
 
-# Bygg en app
-https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/function-app-container?view=azure-devops&tabs=yaml
+## Microsoft Learn övningar
+
+Gå igennom dissa tre övningar, som är en del av kursen [Create serverless applications](https://docs.microsoft.com/en-us/learn/paths/create-serverless-applications/):
+* [Choose the best Azure service to automate your business processes](https://docs.microsoft.com/en-us/learn/modules/choose-azure-service-to-integrate-and-automate-business-processes) (44 min)
+* [Create serverless logic with Azure Functions](https://docs.microsoft.com/en-us/learn/modules/create-serverless-logic-with-azure-functions) (36 min)
+* [Execute an Azure Function with triggers](https://docs.microsoft.com/en-us/learn/modules/execute-azure-function-with-triggers/) (83 min)
+
 
 # Övningsuppgifter
 
-https://docs.microsoft.com/en-us/learn/modules/choose-azure-service-to-integrate-and-automate-business-processes/
-https://docs.microsoft.com/en-us/learn/modules/create-serverless-logic-with-azure-functions/
-https://docs.microsoft.com/en-us/learn/modules/execute-azure-function-with-triggers/
 
 Bygg en function i Azure
 
@@ -55,6 +58,7 @@ Bygg en function lokalt med git
 Lav CI pipeline i Github
 
 Lav CD pipeline till azure
+https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/function-app-container?view=azure-devops&tabs=yaml
 
 
 
