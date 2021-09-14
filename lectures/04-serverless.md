@@ -22,6 +22,7 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_sev
 
 
 # Indviduella övningsuppgifter
+<br />
 
 ## Azure konto
 
@@ -29,16 +30,26 @@ Vi kommer under denna kurs att jobba med Azure, och därför behöver ni en Azur
 
 **Azure for Students**
 
-Som en del av student erbjudande från Microsoft, ska ni har tillgång till [Azure for Students](https://azure.microsoft.com/en-us/free/students/), tyvärr kommer denna med en viktig begränsning, men får 100$ och dom är aktiva i 12 månad från start. Så om man aktiverade sin Azure konto i starten av utbildningen är denna nu gått ut på tid.
+Som en del av student erbjudande från Microsoft, ska ni har tillgång till [Azure for Students](https://azure.microsoft.com/en-us/free/students/), tyvärr kommer denna med en viktig begränsning, men får 100$ och dom är aktiva i 12 månad från start. Så om man aktiverade sin Azure konto i starten av utbildningen är denna nu gått ut på tid, dock borde ni ha fått en mail om reaktivering.
+
+Använn eran *plushogskolan.se* epost.
 
 **Azure free account**
 
 Om Azure for Students inte är en möjligt kan man skåpa en [Azure free account](https://azure.microsoft.com/en-us/free/?ref=VSDevEssentials), här får man 200$ men dom är enbart aktiva i 30 dagar från start
 
+När du har fått din konto att funka, titta runt i Azure och få en känsla av dom möjligheter som finns i Azure.
 
-Create an account at Azure and install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows)
+## Azure CLI, frivillig
 
-Browse around to get a feeling of the possibilities in Azure, but besides this you don't need to do anything.
+För utom det grafiska webb-gränssnitt i Azure, är det även möjligt kontrollera Azure gennom kommando förtolkeren (ett CLI) och även ett [REST api](https://docs.microsoft.com/en-us/rest/api/azure/).
+
+Detta är en liten frivillig övning till att göra klar Azure CLI
+* Ladda ner och installera: [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows)
+* Logga in med: `az login`
+* 
+
+
 
 ## Microsoft Learn övningar
 
@@ -48,18 +59,23 @@ Gå igennom dissa tre övningar, som är en del av kursen [Create serverless app
 * [Execute an Azure Function with triggers](https://docs.microsoft.com/en-us/learn/modules/execute-azure-function-with-triggers/) (83 min)
 
 
-# Övningsuppgifter
+# Övningsuppgift
 
+Ensamt eller fler tillsammans.
 
-Bygg en function i Azure
+Bygga en Azure Functions application, denna ska vara en mini-kalkylator som kan ta två input och addera dom.
 
-Bygg en function lokalt med git 
+Det rekomenderas att börja med bronze och sen gå på silver och på slutet guld. Silver och guld är frivilliga.
 
-Lav CI pipeline i Github
+**Brons (enkel):**
 
-Lav CD pipeline till azure
-https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/function-app-container?view=azure-devops&tabs=yaml
+Den enkla lösning är att bygga den direkt i Azures webgränssnitt. Men du kan även utveckla functions lokalt med [Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=csharp) eller [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs?tabs=in-process).
 
+**Silver (meddel):**
+Det är även möjligt att deploya sin function direkt från GitHub: [Create a function app in Azure that is deployed from GitHub](https://docs.microsoft.com/en-us/azure/azure-functions/scripts/functions-cli-create-function-app-github-continuous). Detta ska förstås på det sätt att koden ligger i ett GitHub repo och när man skåper applikationen via CLIen kan man beträtta att den ska dra koden from detta Git-repo.
+
+**Guld (mycket avancerat):**
+Slutligen finns där möjligheten att deploya en azure funtion app från GitHub actions med hjälp av [Azure Functions Action](https://github.com/marketplace/actions/azure-functions-action).
 
 
 
@@ -73,7 +89,13 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det re
 Deadline på PingPong, torsdag den 16:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
-* 1
-* 2
+* Vad är Serverless och Function As A Service (FaaS)?
+* Beskriv din/eran kalkylator.
+    * Koden?
+    * Hur har du/ni fått den att köra i Azure functions? Screenshots, scrips, pipelines
+
+Du ska **inte** beskriva hur du har satt upp din Azure konto.
+
+**Akta** att din blogg + kod + scripts + screenshots inte innehåller någon användernamn, lösenord, api nycklar etc.
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
