@@ -65,7 +65,6 @@ Bygga en Azure Functions application, denna ska vara en mini-kalkylator som kan 
 Det rekomenderas att börja med bronze och sen gå på silver och på slutet guld. Silver och guld är frivilliga.
 
 **Brons (enkel):**
-
 Den enkla lösning är att bygga den direkt i Azures webgränssnitt. Men du kan även utveckla functions lokalt med [Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=csharp) eller [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs?tabs=in-process).
 
 **Silver (meddel):**
