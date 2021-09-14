@@ -40,16 +40,13 @@ Om Azure for Students inte är en möjligt kan man skåpa en [Azure free account
 
 När du har fått din konto att funka, titta runt i Azure och få en känsla av dom möjligheter som finns i Azure.
 
-## Azure CLI, frivillig
+### Azure CLI, frivillig
 
 För utom det grafiska webb-gränssnitt i Azure, är det även möjligt kontrollera Azure gennom kommando förtolkeren (ett CLI) och även ett [REST api](https://docs.microsoft.com/en-us/rest/api/azure/).
 
 Detta är en liten frivillig övning till att göra klar Azure CLI
 * Ladda ner och installera: [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows)
 * Logga in med: `az login`
-* 
-
-
 
 ## Microsoft Learn övningar
 
@@ -84,7 +81,7 @@ Slutligen finns där möjligheten att deploya en azure funtion app från GitHub 
 Inlämnas via PingPong, men sparas i GitHub
 ## Blogg 04: Severless applikationer
 
-Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
+Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektioner. Det rekomenderas att skriva på samma språk som din första blogg post.
 
 Deadline på PingPong, torsdag den 16:e september kl 23:55. Posta ett länk till dagens blog post.
 

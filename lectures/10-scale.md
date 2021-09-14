@@ -29,7 +29,7 @@ TBA
 # Individuell inlämningsuppgift
 ## Blogg 10: Skalning, upp och ut
 
-Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
+Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektioner. Det rekomenderas att skriva på samma språk som din första blogg post.
 
 Deadline på PingPong, torsdag den 07:e oktober kl 23:55. Posta ett länk till dagens blog post.
 

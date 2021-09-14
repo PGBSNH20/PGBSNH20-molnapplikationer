@@ -28,7 +28,7 @@ TBA
 # Individuell inlämningsuppgift
 ## Blogg 05: Databaser i molnet
 
-Gör ett nytt inlägg på din blog som du gjorde i samband med lektion 1. Det rekomenderas att skriva på samma språk som din första blogg post.
+Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektioner. Det rekomenderas att skriva på samma språk som din första blogg post.
 
 Deadline på PingPong, tisdag den 21:e september kl 23:55. Posta ett länk till dagens blog post.
 
