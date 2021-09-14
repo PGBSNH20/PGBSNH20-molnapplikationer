@@ -112,7 +112,7 @@ weeks:
     - activity: standup
       title: "Återkopling från Containrar"
       titleEn: "Get together and start of day"
-      description: "Är där frågor sen förra lektion? Boarding card"
+      description: "Genomgång av upgift för blogg 03"
       start-full: 20210915T083000
       end-full: 20210915T090000
     - activity: lecture
@@ -121,12 +121,18 @@ weeks:
       number: "4"
       slug: /cloud-lectures/serverless
       description: "Serveless kör det möjligt att köra kod i molnet utan att tänka servere"
-      start-full: 20210915T083000
-      end-full: 20210915T093000
+      start-full: 20210915T091000
+      end-full: 20210915T095000
+    - activity: presentaions
+      title: "Muntliga redovisningar"
+      titleEn: "Oral presentaions"
+      description: "Automatisering av bygg och release"
+      start-full: 20210915T100000
+      end-full: 20210915T103000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
-      description: "Är där frågor? Landing."
+      description: "Är där frågor?"
       start-full: 20210915T160000
       end-full: 20210915T163000
   - day: 2021-09-16
