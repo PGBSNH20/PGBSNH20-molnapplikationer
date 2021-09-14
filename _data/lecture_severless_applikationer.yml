@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
-  literatureTime: 32
-  optionalLiteratureTime: 117
+  literatureTime: 47
+  optionalLiteratureTime: 124
 notInTopic:
   literature:
   - title: "Understanding Serverless Computing for the Beginner"
@@ -98,10 +98,40 @@ notInTopic:
       Serverless architectures replace a managed server with a collection of third party services and FaaS
 topics:
   - topic: "Azure functions"
-    literatureTime: 7
-    optionalLiteratureTime: 4
+    literatureTime: 22
+    optionalLiteratureTime: 11
     description-include: azure_functions.md
     literature:
+    - title: "Go serverless: Event-driven applications with Azure Functions"
+      url: https://www.youtube.com/watch?v=UFxQhszT450
+      timeType: Video
+      timeMinutes: 15
+      timeBadge: danger
+      description: >
+        Jeff Hollan joins Scott Hanselman to show how you can quickly develop and deploy code to run in the cloud with Azure Functions. Functions can be written in a variety of languages, and will automatically trigger and scale based on your application needs.
+        
+        1:53 - Demo
+        
+        Quickstart: Create your first function in Azure using Visual Studio
+        https://aka.ms/azfr/619/01
+        
+        Tutorial: Create and deploy serverless Azure Functions in Python with Visual Studio Code
+        https://aka.ms/azfr/619/02
+        
+        Use Key Vault references for App Service and Azure Functions
+        https://aka.ms/azfr/619/03
+        
+        Azure Functions overview
+        https://aka.ms/azfr/619/04
+        
+        Go Serverless playlist
+        https://aka.ms/azfr/go-serverless/yt
+        
+        Create a free account (Azure)
+        https://aka.ms/azfr/619/free
+        
+        
+        #microsoft #microsoftazure
     - title: "Introduction to Azure Functions - DZone Cloud"
       url: https://dzone.com/articles/introduction-to-azure-functions
       timeType: Article
@@ -109,6 +139,28 @@ topics:
       timeBadge: info
       description: >
         Check out this introduction to one of Microsoft's serverless PaaS tools, Azure Functions, and go throught the tutorial of making a simple function with it.
+    recommendedLiterature:
+    - title: "Azure Functions 2.0 – Real World Use Case for Serverless Architecture - DZone Cloud"
+      url: https://dzone.com/articles/azure-functions-20-real-world-use-case-for-serverl
+      timeType: Article
+      timeMinutes: 12
+      timeBadge: info
+      description: >
+        Microsoft recently announced an update to their Azure Functions product, and these developers wanted to test it out by creating a simple billing application.
+    - title: "What is Serverless Computing? Exploring Azure Functions"
+      url: https://www.hanselman.com/blog/what-is-serverless-computing-exploring-azure-functions
+      timeType: Article
+      timeMinutes: 9
+      timeBadge: info
+      description: >
+        There's a lot of confusing terms in the Cloud space. And that's not counting ...
+    - title: "Build serverless APIs with Azure Functions"
+      url: https://channel9.msdn.com/Shows/Azure-Friday/Build-serverless-APIs-with-Azure-Functions
+      timeType: Video
+      timeMinutes: 17
+      timeBadge: danger
+      description: >
+        Jeff Hollan joins Scott Hanselman to show how you can build highly scalable serverless APIs with Azure Functions.
     optionalLiterature:
     - title: "Azure Functions: Cold Starts in Numbers"
       url: https://mikhail.io/2018/04/azure-functions-cold-starts-in-numbers/
@@ -117,5 +169,12 @@ topics:
       timeBadge: info
       description: >
         Auto-provisioning and auto-scalability are the killer features of Function-as-a-Service cloud offerings, and Azure Functions in particular. One drawback of such dynamic provisioning is a phenomenon called “Cold Start”.
+    - title: "Using Docker with Azure Functions"
+      url: https://medium.com/@gcufaro/using-docker-with-azure-functions-9e975fd58c1c
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+      description: >
+        So,  you want to run your event-triggered code but you also want to use some kind of OS-level virtualization to implement it. If that’s…
     - title: "Azure - Event-Driven Architecture in the Cloud with Azure Event Grid"
       url: https://docs.microsoft.com/en-us/archive/msdn-magazine/2018/february/azure-event-driven-architecture-in-the-cloud-with-azure-event-grid
