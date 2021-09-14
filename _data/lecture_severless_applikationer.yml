@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
-  literatureTime: 23
-  optionalLiteratureTime: 0
+  literatureTime: 32
+  optionalLiteratureTime: 117
 notInTopic:
   literature:
   - title: "Understanding Serverless Computing for the Beginner"
@@ -11,24 +11,95 @@ notInTopic:
     timeBadge: info
     description: >
       When we say “serverless” computing, many assume that there is no server in this model to facilitate the code execution and other development tasks. It’s a
-  optionalLiterature:
-  - title: "Serverless Architectures"
-    url: https://www.martinfowler.com/articles/serverless.html
-    timeType: Article
-    timeMinutes: 0
-    timeBadge: dark
-    description: >
-      Length 67
-      Serverless architectures replace a managed server with a collection of third party services and FaaS
   - title: "Why Serverless? Why Now?"
     url: https://hackernoon.com/why-serverless-why-now-f09ce43c4767
     timeType: Article
-    timeMinutes: 0
-    timeBadge: dark
+    timeMinutes: 9
+    timeBadge: info
+  optionalLiterature:
+  - title: "How Lego Is Standardizing Their Serverless Services"
+    url: https://www.youtube.com/watch?v=Uf43M0Eh5no
+    timeType: Video
+    timeMinutes: 46
+    timeBadge: danger
+    description: >
+      In this video, we chat about what is the role of Ops in a big serverless organization as Lego. 
+      
+      ★★ README / OPEN ME ★★
+      
+      ⭐ SUBSCRIBE TO THIS CHANNEL: http://bit.ly/foobar-youtube 
+      ⭐SHARE THIS VIDEO: https://youtu.be/Uf43M0Eh5no
+      
+      ☆☆ ABOUT THIS VIDEO ☆☆
+      This is another episode on the series of interviews "This is not a podcast", where I interview experts about serverless and cloud topics. 
+      
+      In this video, I chat with Nicole Yip, platform manager at Lego. We talk about how lego is setting standards for their serverless services and how the platform team (ops) help and enable services team.
+      
+      00:00 - Introduction
+      05:04 - The serverless story of Lego
+      11:20 - Standardising the good practices
+      19:24 - The serverless lens to the rescue
+      24:12 - How to put this in practice?
+      30:44 - Ops and no ops
+      36:13 - Defining microservices in serverless
+      38:53 - Tooling at Lego
+      
+      🔍 Find Nicole on the internet
+      - Twitter: https://twitter.com/Pelicanpie88
+      
+      📺 Other videos that can be interesting for you:
+      - BUILDING RELIABILITY IN DISTRIBUTED SYSTEMS (patterns and techniques): https://youtu.be/zIjd8vuLD2o
+      -PRACTICAL TIPS TO TEST YOUR SERVERLESS APPLICATIONS (local, unit, performance, integration and e2e): https://youtu.be/tJMBjc51hSI
+      - IMPLEMENTING THE SERVERLESS LENS IN YOUR APPS (using the Lambda Power Tools): https://youtu.be/Tke8YTHqEbQ
+      - HOW TO RUN A WELL ARCHITECTED REVIEW FOR YOUR APPS (learn from an expert!): https://youtu.be/_hzfzUA2Ku0
+      
+      #foobar #serverless #thisIsNotAPodcast
+      
+      ☆☆ FOLLOW ME ONLINE ☆☆
+      
+      🐦Twitter: https://twitter.com/mavi888uy
+      📷Instagram: foobar_codes
+      📚All my Serverless Courses: https://marcia.dev/courses/ 
+      ✍️My blog - https://marcia.dev
+      
+      ☆☆ MY FAVORITE BOOKS ☆☆
+      
+      📗Steve Jobs by Isaacson, Walter: https://amzn.to/2GDQxtY
+      📗Shoe Dog: A Memoir by the Creator of NIKE by Knight, Phil: https://amzn.to/2RKy4lJ
+      📗Sapiens: A Brief History of Humankind by Harari, Yuval Noah: https://amzn.to/2GHni9J
+      
+      📘Full-stack serverless by Nader Dabit: https://amzn.to/3ep2qUV
+      📘Learn Amazon SageMaker by Julien Simon: https://amzn.to/37X0q4R
+      📘Site reliability engineer by Niall Richard Murphy: https://amzn.to/32gEoqj
+      📘The Software Craftsman by Mancuso, Sandro: https://amzn.to/2uOLQuI
+      📘The Phoenix Project by Kim, Gene: https://amzn.to/2uNIS9Y
+      📘Clean Code by Uncle Bob: https://amzn.to/36LDGAo
+      📘Refactoring: Improving the Design of Existing Code by Martin Fowler: https://amzn.to/2RKLsqd
+      📘Building Microservices by Sam Newman: https://amzn.to/36GItmJ
+      
+      ☆☆ ABOUT FOOBAR ☆☆
+      In this channel, you can find mostly coding tutorials related to cloud and serverless. 
+      In addition, I like also talking about architecture, software design, motivation, and leadership. 
+      There is a new video every Tuesday, so stay tuned :)
+      
+      Recording equipment:
+      📹Camera: https://amzn.to/36On0bE
+      📱Phone: https://amzn.to/2GDOTsq
+      🎤 Microphone: https://amzn.to/36JMWFw
+      🔭 Tripod: https://amzn.to/2tifxEb
+      
+      If you want to create a podcast and host it in the same platform that I do check this link: https://www.buzzsprout.com/?referrer_id=874075
+  - title: "Serverless Architectures"
+    url: https://www.martinfowler.com/articles/serverless.html
+    timeType: Article
+    timeMinutes: 67
+    timeBadge: info
+    description: >
+      Serverless architectures replace a managed server with a collection of third party services and FaaS
 topics:
   - topic: "Azure functions"
     literatureTime: 7
-    optionalLiteratureTime: 0
+    optionalLiteratureTime: 4
     description-include: azure_functions.md
     literature:
     - title: "Introduction to Azure Functions - DZone Cloud"
@@ -39,5 +110,12 @@ topics:
       description: >
         Check out this introduction to one of Microsoft's serverless PaaS tools, Azure Functions, and go throught the tutorial of making a simple function with it.
     optionalLiterature:
+    - title: "Azure Functions: Cold Starts in Numbers"
+      url: https://mikhail.io/2018/04/azure-functions-cold-starts-in-numbers/
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
+      description: >
+        Auto-provisioning and auto-scalability are the killer features of Function-as-a-Service cloud offerings, and Azure Functions in particular. One drawback of such dynamic provisioning is a phenomenon called “Cold Start”.
     - title: "Azure - Event-Driven Architecture in the Cloud with Azure Event Grid"
       url: https://docs.microsoft.com/en-us/archive/msdn-magazine/2018/february/azure-event-driven-architecture-in-the-cloud-with-azure-event-grid
