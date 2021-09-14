@@ -4,9 +4,9 @@ title: Assignments
 permalink: /assignments/
 ---
 
-# Övningar
+# Individuell blogg
 
-Vi kommer under denna kurs att ha 10 övningar som är betygsgrundande
+Vi kommer under denna kurs att ha 10 uppgifter som är betygsgrundande, målet i alla 10 är att skåpa en blogg post till eran GitHub blogg.
 <div class="assignmentlist" markdown="1">
 ## Blogg 01
 * Uppgift: [Internet och moln]({{ site.baseurl }}/cloud-lectures/introduction#individuell-inlämningsuppgift)
