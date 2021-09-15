@@ -1,14 +1,178 @@
 ---
 contentTimeTotal:
-  literatureTime: 3
-  optionalLiteratureTime: 0
-notInTopic:
-  literature:
-  - title: "An introduction to Message Brokers"
-    url: https://medium.com/@xaviergeerinck/an-introduction-to-message-brokers-9bd203b4ebbd
-    timeType: Article
-    timeMinutes: 3
-    timeBadge: info
-    description: >
-      What is a Message Broker?
+  literatureTime: 30
+  optionalLiteratureTime: 61
 topics:
+  - topic: "Azure Virtual Network"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: azure_virtual_network.md
+  - topic: "Virtual Private Cloud"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: virtual_private_cloud.md
+    literature:
+    - title: "Private Cloud Rules"
+      url: https://www.youtube.com/watch?v=Tzqy8lW0bk4
+      description: >
+        For the past years one of the IT mega trends has been "the cloud". Many companies are rushing to the public cloud because it's easy for them and quite honestly...because everybody else is doing so.
+        
+        But it's not really "the cloud" what everybody wants - it's the frictionless CLOUD EXPERIENCE that we love. Like all larger companies very well know, that same cloud experience can be achieved with building your own PRIVATE CLOUD. The difference is that private cloud exceeds the capabilities of public cloud, listing a few examples:
+        - More control over your precious business critical data
+        - More hardware and software security
+        - More infrastructure and application agility
+        
+        And the best part is, when you design and implement your private cloud using the best technologies from trusted vendors, private cloud will become significantly less expensive than using the same services from public cloud.
+        
+        Join me with my introduction on the differencies between traditional data centers, public cloud and private cloud.
+        
+        Who am I? Check my website: http://markus-leinonen.com
+    - title: "What is a Virtual Private Cloud?"
+      url: https://www.youtube.com/watch?v=NbkPRn1mqlU
+      description: >
+        Learn more about virtual private cloud: http://ibm.biz/learn-virtual-private-cloud 
+        Checkout IBM Cloud Virtual Servers for VPC: http://ibm.biz/vpc-cloud-product
+        
+        A virtual private cloud is a public cloud capability that provides you the ability to define and control isolated virtual networks, and then deploy cloud resources into those networks.
+        
+        Check out this lightboard video with Ryan Sumner from IBM Cloud as he walks through a basic Virtual Private Cloud architecture and explains the many benefits it can provide to a business.
+        
+        Earn a badge with FREE hands-on Kubernetes labs: http://ibm.biz/no-cost-interactive-kubernetes-labs
+        
+        Get started for free on IBM Cloud: http://ibm.biz/vpc-cloud-free
+        
+        #VirtualPrivateCloud #VPC #IBMCloud
+    - title: "Virtual private cloud - Wikipedia"
+      url: https://en.wikipedia.org/wiki/Virtual_private_cloud
+    optionalLiterature:
+    - title: "Vpc"
+      url: https://www.ibm.com/cloud/learn/vpc
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+  - topic: "Nätverk"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: naetverk.md
+    literature:
+    - title: "Firewall in Network Security"
+      url: https://medium.com/@neil.wilston123/firewall-in-network-security-2a98795fcac1
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Nowadays every organisation as well as personal computers runs on Internet that is connected with the organizational network. The internet…
+    - title: "Understanding Firewall Types"
+      url: https://medium.com/swlh/understanding-firewall-types-4a2869deb687
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Get a handle on the concept of perimeter defense and navigate the myriad of firewall types
+    - title: "How VPN Works?"
+      url: https://zicodeng.medium.com/how-vpn-works-b7549dcc6ce4
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        What is VPN? How does it work? Why is it so secure? Is it perfectly secure?
+    - title: "Networking 101: Ethernet, LANs, and How They Work"
+      url: https://www.makeuseof.com/tag/networking-101-ethernet-lans-work/
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Even for modern users, the language surrounding home networking can be a little confusing. What's a LAN? Why do I need an Ethernet cable? Isn't it all the same?
+  - topic: "Service bus"
+    literatureTime: 30
+    optionalLiteratureTime: 61
+    description-include: service_bus.md
+    literature:
+    - title: "Azure Service Bus from the ground up"
+      url: https://www.youtube.com/watch?v=FRzMPqViwuY
+      timeType: Article
+      timeMinutes: 27
+      timeBadge: info
+      description: >
+        Azure Service Bus Messaging
+        
+        https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview?WT.mc_id=ondotnet-c9-cephilli
+        
+        Compare Azure Messaging Services https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services?WT.mc_id=ondotnet-c9-cephilli
+        
+        Cloud messaging patterns
+        https://docs.microsoft.com/en-us/azure/architecture/patterns/category/messaging?WT.mc_id=ondotnet-c9-cephilli
+        
+        AMQP https://www.amqp.org/
+        
+        In this episode, we’re joined by Ashish Chhabria who is a Program Manager on the Azure Service Bus team. He’s here to talk to us about  where Service Bus fits in the Azure messaging landscape and also explain some of it’s target use cases
+        
+        [00:50] - Uses cases for the Azure Messaging
+        [08:40] - Point to point messaging
+        [12:48] - Azure Service Bus Queues and Topics
+        [17:28] - Sending messages (Demo) 
+        [19:34] - Azure Service Bus tiers
+        [22:45] - Target scenarios for the future
+    - title: "An introduction to Message Brokers"
+      url: https://medium.com/@xaviergeerinck/an-introduction-to-message-brokers-9bd203b4ebbd
+      timeType: Article
+      timeMinutes: 3
+      timeBadge: info
+      description: >
+        What is a Message Broker?
+    optionalLiterature:
+    - title: "Azure Queue Storage Tutorial"
+      url: https://www.youtube.com/watch?v=JQ6KhjU5Zsg
+      timeType: Video
+      timeMinutes: 22
+      timeBadge: danger
+      description: >
+        Azure Queue Storage is simple yet powerful service for storing large number of messages. It is one of core services for implementing scenarios like load-leveling, fan-out, fan-in and those relying on retry capabilities.
+        
+        In this episode I give you introduction to what Storage Queue service is. How can you provision it, what are the typical scenarios that you would want to leverage its capabilities?
+        
+        In this episodes live demo of
+        - Creating queue storage
+        - Managing queues and their data
+        - Implementing fan-out scenario using Logic Apps and Queues
+        
+        Next steps for you after watching the video
+        1. What is azure queue service
+         - https://docs.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction?WT.mc_id=AZ-MVP-5003556
+        2. Managing queue data from Azure Portal
+         - https://docs.microsoft.com/en-us/azure/storage/queues/storage-quickstart-queues-portal?WT.mc_id=AZ-MVP-5003556
+        3. Developing for queues using .NET
+         - https://docs.microsoft.com/en-us/azure/storage/queues/storage-quickstart-queues-dotnet?WT.mc_id=AZ-MVP-5003556
+        
+        ### Want to connect?
+        - Blog https://marczak.io/
+        - Twitter https://twitter.com/MarczakIO
+        - Facebook https://www.facebook.com/MarczakIO
+        - LinkedIn https://www.linkedin.com/in/adam-marczak/
+        - Site https://azure4everyone.com
+    - title: "Microservices + Events + Docker = A Perfect Trio"
+      url: https://www.youtube.com/watch?v=sSm2dRarhPo
+      timeType: Video
+      timeMinutes: 39
+      timeBadge: danger
+      description: >
+        Microservices are an essential enabler of agility but developing and deploying them is a challenge.
+        In order for microservices to be loosely coupled,each service must have its own datastore.
+        This makes it difficult to maintain data consistency across services.
+        Deploying microservices is also a complex problem since an application typically consists of 10s or 100s of services, written in a variety of languages and frameworks.
+        In this presentation, you will learn how to solve these problems by using an event-driven architecture to maintain data consistency and by using Docker to simplify deployment.
+        
+        SPEAKER:
+        Chris Richardson
+        
+        PERMISSIONS / ATTRIBUTIONS:
+        Original video was published with the Creative Commons Attribution license (reuse allowed). Original video source: https://www.youtube.com/watch?v=pD0rEtEEwck
+        
+        ****
+        INTERESTED IN THE STOCK MARKET?
+        I developed a profitable stock market trading model. Read about it here: https://yuriymatso.com/my-market-model/
+    - title: "Enterprise service bus - Wikipedia"
+      url: https://en.wikipedia.org/wiki/Enterprise_service_bus
+      timeType: Wiki
+      timeMinutes: 0
+      timeBadge: dark

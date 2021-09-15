@@ -2,13 +2,155 @@
 contentTimeTotal:
   literatureTime: 0
   optionalLiteratureTime: 0
-notInTopic:
-  literature:
-  - title: "Scaling Up vs. Scaling Out: What’s the Difference?"
-    url: https://pagely.com/blog/scaling-up-vs-scaling-out/
-    timeType: Article
-    timeMinutes: 0
-    timeBadge: dark
-    description: >
-      Whether you’re running a single WordPress site or a million, you’ve likely come across this question at least once: how do I scale as I grow? It’s a tough question […]
 topics:
+  - topic: "Availability, Redudancy and Resiliency"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: availability_redudancy_and_resiliency.md
+  - topic: "Scaling out and up"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: scaling_out_and_up.md
+    literature:
+    - title: "Scaling Up and Out With Microsoft® Azure"
+      url: https://www.youtube.com/watch?v=Oy32KEeREVI
+      description: >
+        Learn more: https://slrwnds.com/scaling-up
+        
+        Your infrastructure doesn't just exist in your building or your physical data center anymore. Critical applications and services can live anywhere. What started with hardware virtualization has evolved to services in the cloud. Wherever your critical services live, it’s important your users can continue to operate without interruption. This means one thing: monitoring. Join SolarWinds VP of Product Strategy Brandon Shopp and Microsoft Senior Cloud Advocate Pierre Roman for a frank discussion about overcoming the challenges as your environment scales out.
+        
+        Connect with SolarWinds:
+        THWACK IT Community: http://thwack.solarwinds.com/
+        Facebook: https://www.facebook.com/SolarWinds
+        Twitter: https://twitter.com/solarwinds
+        LinkedIn: http://www.linkedin.com/company/solarwinds
+        Instagram: http://instagram.com/solarwindsinc/
+    - title: "Scaling Up vs. Scaling Out: What’s the Difference?"
+      url: https://pagely.com/blog/scaling-up-vs-scaling-out/
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Whether you’re running a single WordPress site or a million, you’ve likely come across this question at least once: how do I scale as I grow? It’s a tough question […]
+    optionalLiterature:
+    - title: "Scale up features and capacities - Azure App Service"
+      url: https://docs.microsoft.com/en-us/azure/app-service/manage-scale-up
+      description: >
+        Learn how to scale up an app in Azure App Service. Get more CPU, memory, disk space, and extra features.
+    - title: "Cloud Scalability: Scale Up vs Scale Out"
+      url: https://blog.turbonomic.com/blog/on-technology/cloud-scalability-scale-vs-scale
+      description: >
+        Understanding how to scale your cloud environment is critical for meeting business demand. Learn the benefits of scale up vs scale out.
+  - topic: "Chaos engineering"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: chaos_engineering.md
+    literature:
+    - title: "Principles of chaos engineering"
+      url: https://principlesofchaos.org/
+    - title: "Chaos engineering - Azure Architecture Center"
+      url: https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/chaos-engineering
+      description: >
+        Understand chaos engineering fundamentals for improving the reliability of a service that's built on Azure.
+    optionalLiterature:
+    - title: "Get started with Gremlin."
+      url: https://www.gremlin.com/get-started/?ref=docs
+      description: >
+        Gremlin's Chaos Engineering tools allow you to safely, securely, and simply inject failure into your systems to find weaknesses before they cause customer-facing issues.
+    - title: "Home - Chaos Monkey"
+      url: https://netflix.github.io/chaosmonkey/
+      description: >
+        None
+    - title: "Chaos Engineering — Part 3"
+      url: https://medium.com/the-cloud-architect/chaos-engineering-part-3-61579e41edd8
+      description: >
+        Failure Injection — Tools and Methods
+    - title: "Chaos Engineering — Part 2"
+      url: https://medium.com/the-cloud-architect/chaos-engineering-part-2-b9c78a9f3dde
+      description: >
+        Planning your first experiment
+    - title: "Chaos Engineering — Part 1"
+      url: https://medium.com/the-cloud-architect/chaos-engineering-ab0cc9fbd12a
+      description: >
+        The art of breaking things purposefully
+    - title: "Principles of Chaos Engineering - Netflix - SRECon2017"
+      url: https://www.youtube.com/watch?v=6ilMZqKdMMU
+      description: >
+        https://www.usenix.org/conference/srecon17americas/program/presentation/rosenthal
+        Casey Rosenthal, Netflix
+        Abstract: 
+        Distributed systems create threats to resilience that are not addressed by classical approaches to development and testing. We’ve passed the point where individual humans can reasonably navigate these systems at scale. As we embrace a world that emphasizes automation and engineering over architecting, we left gaps open in our understanding of complex systems. 
+        
+        Chaos Engineering is a new discipline within Software Engineering, building confidence in the behavior of distributed systems at scale. SREs and dedicated practitioners adopt Chaos Engineering as a practical tool for improving resiliency. An explicit, empirical approach provides a formal framework for adopting, implementing, and measuring the success of a Chaos Engineering program. Additional best practices define an ideal implementation, establishing the gold standard for this nascent discipline. 
+        
+        Chaos Engineering isn’t the process of creating chaos, but rather surfacing chaos that is inherent in the behavior of these systems at scale. By focusing on high level business metric, we side step understanding *how* a particular model works in order to identify *whether* it work under realistic, turbulent conditions in production. This fills a gap that arms SREs with a better, holistic understanding of the system’s behavior.
+  - topic: "Azure"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: azure.md
+    literature:
+    - title: "What is Azure Load Balancer? - Azure Load Balancer"
+      url: https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview
+      description: >
+        Overview of Azure Load Balancer features, architecture, and implementation. Learn how the Load Balancer works and how to use it in the cloud.
+    - title: "How to create a load balancer - Azure Portal Series"
+      url: https://www.youtube.com/watch?v=-VMPzVoo5Nk
+      description: >
+        In this video of the Azure Portal “How To” Series, you will learn how to configure load balancers and how to add virtual machines to them in the Azure Portal. 
+        
+        Try out these features in the Azure portal: https://ms.portal.azure.com/#home  
+        Keep connected on Twitter: https://twitter.com/AzurePortal  
+        And make sure to keep an eye on our Azure Portal "How to" Series playlist for a new video every week: https://www.youtube.com/playlist?list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR
+    - title: "Autoscale on Azure App Services"
+      url: https://www.youtube.com/watch?v=7SlUWlzpTS4
+      description: >
+        Being able to dynamically scale an application in the cloud is one of the value proposition for using the cloud. Azure makes this easy with Azure App Services and Autoscaling, which enables apps to scale on all kinds of metrics. In this video, we'll show you how to use it.
+        
+        What Are Azure App Services? https://youtu.be/vfLN-P8H0KA
+        App Service Plans: https://youtu.be/YV23WNtQZmw
+        
+        Wintellect: https://www.wintellect.com/
+        WintellectNOW: https://www.wintellectnow.com/
+        Blaize's Website: https://www.blaize.net/
+        
+        
+        Twitter:
+        Blaize: http://twitter.com/theonemule
+        Wintellect: http://twitter.com/Wintellect
+        WintellectNOW: http://twitter.com/WintellectNow
+    optionalLiterature:
+    - title: "Load testing with Azure Pipelines"
+      url: https://k6.io/blog/integrating-load-testing-with-azure-pipelines/
+      description: >
+        In this tutorial, you will discover how easy and fast is to integrate your k6 performance tests into Azure Pipelines.
+    - title: "Azure Analysis Services Scale Out & Diagnostics"
+      url: https://www.youtube.com/watch?v=j_lnbxwjgyw
+      description: >
+        Christian Wade stops by to chat with Scott Hanselman about how to use Azure Analysis Services diagnostic logging and query scale out. These features provide high scalability and monitoring for IT-owned "corporate BI" and are much easier to set up in Azure than on-premises.
+        
+        For more information, see:
+        
+        Introducing query replica scale-out for Azure Analysis Services (blog) - https://azure.microsoft.com/en-us/blog/introducing-query-replica-scale-out-for-azure-analysis-services/
+        Azure Analysis Services integration with Azure Diagnostic Logs (blog) - https://azure.microsoft.com/en-us/blog/azure-analysis-services-integration-with-azure-diagnostic-logs/
+    - title: "Use geo-redundancy to design highly available applications - Azure Storage"
+      url: https://docs.microsoft.com/en-us/azure/storage/common/geo-redundant-design?tabs=current
+      description: >
+        Learn how to use geo-redundant storage to design a highly available application that is flexible enough to handle outages.
+  - topic: "Multi cloud"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: multi_cloud.md
+    literature:
+    - title: "Multi Cloud Strategies"
+      url: https://shunvel.medium.com/multi-cloud-strategies-338cf81313a2
+      description: >
+        What is Multi Cloud:
+    optionalLiterature:
+    - title: "Multi-cloud strategy: 8 things to know"
+      url: https://enterprisersproject.com/article/2017/9/multi-cloud-strategy-8-things-know
+      description: >
+        How to shape and improve your multi-cloud strategy: Expert advice
+    - title: "Multi-Cloud Architectures for the Enterprise: Part 1"
+      url: https://medium.com/swlh/multi-cloud-architectures-for-the-enterprise-part-1-623530b6b4c4
+      description: >
+        These days, many enterprises are opting for a multi-cloud strategy so they can take advantage of all the benefits multiple cloud providers…

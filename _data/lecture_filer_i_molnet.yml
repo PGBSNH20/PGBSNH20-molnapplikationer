@@ -1,14 +1,63 @@
 ---
 contentTimeTotal:
-  literatureTime: 19
-  optionalLiteratureTime: 0
-notInTopic:
-  literature:
-  - title: "AZ-900 Episode 11 - Azure Storage Services - Blob, Queue, Table, Files, Disk and Storage Tiers"
-    url: https://www.youtube.com/watch?v=_Qlkvd4ZQuo
-    timeType: Video
-    timeMinutes: 19
-    timeBadge: danger
-    description: >
-      Microsoft Azure Fundamental full course. Skills Learned- Describe products available for Storage such as   - Blob Storage,  - Files Storage,  - Queue Storage...
+  literatureTime: 22
+  optionalLiteratureTime: 15
 topics:
+  - topic: "Azure Storage Tools"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: azure_storage_tools.md
+  - topic: "Azure storage"
+    literatureTime: 19
+    optionalLiteratureTime: 15
+    description-include: azure_storage.md
+    literature:
+    - title: "Azure Cloud Storage Solutions and Services"
+      url: https://azure.microsoft.com/en-us/product-categories/storage/
+      description: >
+        View a variety of Azure storage products and tools. Find massively scalable cloud storage systems to secure your data from unauthorized access.
+    - title: "AZ-900 Episode 11 - Azure Storage Services - Blob, Queue, Table, Files, Disk and Storage Tiers"
+      url: https://www.youtube.com/watch?v=_Qlkvd4ZQuo
+      timeType: Video
+      timeMinutes: 19
+      timeBadge: danger
+      description: >
+        Microsoft Azure Fundamental full course. Skills Learned- Describe products available for Storage such as   - Blob Storage,  - Files Storage,  - Queue Storage...
+    optionalLiterature:
+    - title: "Compare Azure Storage queues and Service Bus queues - Azure Service Bus"
+      url: https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted
+      timeType: Article
+      timeMinutes: 15
+      timeBadge: info
+      description: >
+        Analyzes differences and similarities between two types of queues offered by Azure.
+  - topic: "GDPR"
+    literatureTime: 3
+    optionalLiteratureTime: 0
+    description-include: gdpr.md
+    literature:
+    - title: "Integritetsskyddsmyndigheten - IMY"
+      url: https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/grundlaggande-principer/
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Vi arbetar för att skydda alla dina personuppgifter, till exempel om hälsa och ekonomi, så att de hanteras korrekt och inte hamnar i orätta händer.
+    - title: "Introduktion till Dataskyddsförordningen/GDPR"
+      url: https://www.youtube.com/watch?v=_xGYg33mh2U
+      timeType: Video
+      timeMinutes: 3
+      timeBadge: danger
+      description: >
+        En film som beskriver Dataskyddsförordningen (GDPR), en ny lag som träder i kraft den 25 maj 2018 i syfte att skydda personuppgifter inom EU. Lagen ersätter nuvarande personuppgiftslag PuL. I filmen får du en kort introduktion till lagen samt vad den innebär för verksamheten.
+    optionalLiterature:
+    - title: "What Happens When You ‘Delete’ Something On The Internet"
+      url: https://www.techworm.net/2016/04/happens-delete-something-internet.html
+      description: >
+        Have you ever thought what really happens when you delete data on the Internet? Many a times we post something on our Facebook or Twitter wall only to
+    - title: "GDPR Developer Guide"
+      url: https://lincnil.github.io/GDPR-Developer-Guide/
+    - title: "Integritetsskyddsmyndigheten - IMY"
+      url: https://www.imy.se/verksamhet/dataskydd/
+      description: >
+        Vi arbetar för att skydda alla dina personuppgifter, till exempel om hälsa och ekonomi, så att de hanteras korrekt och inte hamnar i orätta händer.

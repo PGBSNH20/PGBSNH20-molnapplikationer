@@ -1,15 +1,59 @@
 ---
 contentTimeTotal:
-  literatureTime: 0
+  literatureTime: 9
   optionalLiteratureTime: 0
-notInTopic:
-  literature:
-  - title: "Azure Monitor overview - Azure Monitor - Microsoft Docs"
-    url: https://docs.microsoft.com/en-us/azure/azure-monitor/overview
-    timeType: Article
-    timeMinutes: 0
-    timeBadge: dark
-    description: >
-      Lenght: 8
-      Overview of Microsoft services and functionalities that contribute to a complete monitoring strategy for your Azure services and applications.
 topics:
+  - topic: "Monitoring i Azure"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: monitoring_i_azure.md
+  - topic: "Build measure learn"
+    literatureTime: 9
+    optionalLiteratureTime: 0
+    description-include: build_measure_learn.md
+    literature:
+    - title: "What Is Telemetry? How Telemetry Works, Benefits of Telemetry, Challenges, Tutorial, and More"
+      url: https://stackify.com/telemetry-tutorial/
+      description: >
+        Telemetry is a powerful feature of APM because it offers visibility into app performance. Learn more about telemetry, how it works, and why it matters.
+    - title: "The Build-Measure-Learn Feedback Loop: Creating Real Value by Testing Ideas"
+      url: https://www.mindtools.com/pages/article/build-measure-learn.htm
+      timeType: Article
+      timeMinutes: 9
+      timeBadge: info
+      description: >
+        The Build-Measure-Learn feedback loop will set you on a path to producing what your customers really want.
+    optionalLiterature:
+    - title: "DevOps Handbook Summary 2 of 4 - The Second Way"
+      url: https://agilejazz.blogspot.com/p/the-devops-handbook-summary-2-of-4.html
+      description: >
+        Book summary of  The DevOps Handbook  by Gene Kim et. al. Excerpted content is formatted in  italics .     Part IV: The Second Way - The Tec...
+    - title: "How The Build-Measure-Learn Cycle Really Works"
+      url: https://www.cleverism.com/how-build-measure-learn-cycle-really-works/
+      description: >
+        A complete guide to understanding the build-measure-learn cycle including practical insights from Zappos beginnings.
+  - topic: "Logging"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: logging.md
+    literature:
+    - title: "Logging in C# .NET Modern-day Practices: The Complete Guide"
+      url: https://michaelscodingspot.com/logging-in-dotnet/
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Logging is a big part of software development for many years now. This guide is a bird's eye view of modern solutions for logging in .NET space.
+    - title: "The Twelve-Factor App"
+      url: https://12factor.net/logs
+      description: >
+        A methodology for building modern, scalable, maintainable software-as-a-service apps.
+    - title: "Logging Best Practices: The 13 You Should Know"
+      url: https://scalyr.com/blog/the-10-commandments-of-logging
+      description: >
+        Learn the essential do's and don'ts of logging with these 13 logging best practices, and take your logging approach to the next level.
+    optionalLiterature:
+    - title: "The 10 commandments of logging - Masterzen’s Blog"
+      url: https://www.masterzen.fr/2013/01/13/the-10-commandments-of-logging/
+    - title: "How Logging Made me a Better Developer - Erik Hazzard"
+      url: http://vasir.net/blog/development/how-logging-made-me-a-better-developer
