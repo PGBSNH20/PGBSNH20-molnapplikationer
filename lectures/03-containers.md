@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Containrar
+title: Containrar och orkestrering
 lectureDate: Måndag den 13:e September 2021
 permalink: /cloud-lectures/containers
 ---

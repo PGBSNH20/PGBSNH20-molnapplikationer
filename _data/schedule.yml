@@ -110,7 +110,7 @@ weeks:
     weekday: "Onsdag"
     activities:
     - activity: standup
-      title: "Återkopling från Containrar"
+      title: "Återkopling till Containrar och orkestrering"
       titleEn: "Get together and start of day"
       description: "Genomgång av upgift för blogg 03"
       start-full: 20210915T083000
@@ -120,7 +120,7 @@ weeks:
       titleEn: "Serverless"
       number: "4"
       slug: /cloud-lectures/serverless
-      description: "Serveless kör det möjligt att köra kod i molnet utan att tänka servere"
+      description: "Serverless kör det möjligt att köra kod i molnet utan att tänka servere"
       start-full: 20210915T091000
       end-full: 20210915T095000
     - activity: presentaions
@@ -148,7 +148,7 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling till Orkestrering"
+      title: "Återkopling till Serverless"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
       start-full: 20210920T083000
@@ -159,8 +159,14 @@ weeks:
       number: "5"
       slug: /cloud-lectures/databases
       description: "Molnet gör det enkelt att jobba med databaser"
-      start-full: 20210920T090000
-      end-full: 20210920T093000
+      start-full: 20210920T091000
+      end-full: 20210920T095000
+    - activity: presentaions
+      title: "Muntliga redovisningar"
+      titleEn: "Oral presentaions"
+      description: "Containrar och orkestrering"
+      start-full: 20210920T100000
+      end-full: 20210920T103000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
