@@ -90,7 +90,7 @@ Skriv ett blogg post som följer denna lektion ska innehålla en text som svara 
     * Koden?
     * Hur har du/ni fått den att köra i Azure functions? Screenshots, scrips, pipelines
     * Hur har du testat appliktionen?
-    * Vilka säkerhets hot finns där till en applikation om din? Och har du gjort något för att säkra dig emot dissa? (hint: [OWASP top 10 - Interpretation for Serverless](https://raw.githubusercontent.com/OWASP/Serverless-Top-10-Project/master/OWASP-Top-10-Serverless-Interpretation-en.pdf))
+    * Vilka säkerhets hot finns där till en applikation om din (beskriv minst en)? Och har du gjort något för att säkra dig emot dissa? (hint: [OWASP top 10 - Interpretation for Serverless](https://raw.githubusercontent.com/OWASP/Serverless-Top-10-Project/master/OWASP-Top-10-Serverless-Interpretation-en.pdf))
 
 Du ska **inte** beskriva hur du har satt upp din Azure konto.
 
