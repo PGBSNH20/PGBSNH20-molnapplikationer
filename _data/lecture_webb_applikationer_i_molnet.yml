@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
-  literatureTime: 9
-  optionalLiteratureTime: 0
+  literatureTime: 23
+  optionalLiteratureTime: 13
 notInTopic:
   literature:
   - title: "Azure hosting recommendations for ASP.NET Core web apps - Microsoft Docs"
@@ -11,4 +11,128 @@ notInTopic:
     timeBadge: info
     description: >
       Architect Modern Web Applications with ASP.NET Core and Azure | Azure hosting recommendations for ASP.NET web apps
+  optionalLiterature:
+  - title: "Azure Function v.s. Web App aka. Serverless v.s. PaaS"
+    url: https://www.taztopia.com/single-post/2019/07/28/Azure-Function-vs-Web-App-aka-Serverless-vs-PaaS
+    timeType: Article
+    timeMinutes: 0
+    timeBadge: dark
+    description: >
+      This article will talk to some thoughts around governance / assessing the best hosting service for our applications on Azure, however these principles can be ap
+  - title: "The Twelve-Factor App"
+    url: https://12factor.net/
+    timeType: Article
+    timeMinutes: 0
+    timeBadge: dark
+    description: >
+      A methodology for building modern, scalable, maintainable software-as-a-service apps.
 topics:
+  - topic: "Cloud native"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: cloud_native.md
+    recommendedLiterature:
+    - title: "Defining Cloud Native"
+      url: https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/definition
+      timeType: Article
+      timeMinutes: 19
+      timeBadge: info
+      description: >
+        Learn about the foundational pillars that provide the bedrock for cloud-native systems
+    optionalLiterature:
+    - title: "5 steps to building a cloud-ready application architecture"
+      url: https://techbeacon.com/enterprise-it/5-steps-building-cloud-ready-application-architecture
+      description: >
+        Here are five tips for building cloud-aware application architecture that performs better, and is more resilient and easier to manage.
+    - title: "5 principles for cloud-native architecture—what it is and how to master it"
+      url: https://cloud.google.com/blog/products/application-development/5-principles-for-cloud-native-architecture-what-it-is-and-how-to-master-it
+      description: >
+        Learn to maximize your use of Google Cloud by adopting a cloud-native architecture.
+  - topic: "Microservices - Arkitektur"
+    literatureTime: 7
+    optionalLiteratureTime: 0
+    description-include: microservices_-_arkitektur.md
+    literature:
+    - title: "Why You Should Care About Microservices"
+      url: https://channel9.msdn.com/Events/dotnetConf/Focus-on-Microservices/Why-You-Should-Care-About-Microservices?ocid=player
+      timeType: Video
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Hear from the co-founder of Kubernetes about why microservices are important and why you should care about them.
+    - title: "Four architecture choices for application development"
+      url: https://www.ibm.com/cloud/blog/four-architecture-choices-for-application-development
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+    optionalLiterature:
+    - title: "Microservices Pattern: Microservice Architecture pattern"
+      url: https://microservices.io/patterns/microservices.html
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        The microservice architecture structures an application as a set of loosely coupled, deployable/executable components organized around business capabilities
+  - topic: "Azure Web Apps"
+    literatureTime: 7
+    optionalLiteratureTime: 13
+    description-include: azure_web_apps.md
+    literature:
+    - title: "Azure Web App for Containers"
+      url: https://www.youtube.com/watch?v=xnUOu-yPEzo
+      timeType: Video
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        This video covers deploying your React app sitting inside a Docker Image to Azure Web App for Containers.
+        
+        Repo: https://github.com/NZMSA/2018-Phase-1
+    - title: "How to deploy a static web app - Azure Portal Series"
+      url: https://www.youtube.com/watch?v=H2MPsgujpNk
+      timeType: Video
+      timeMinutes: 7
+      timeBadge: danger
+      description: >
+        In this video of the Azure Portal "How To" series, learn about a new offering in the App Service family, Static Web Apps.  It's designed for Static Web Apps full stack JavaScript web apps with static frontends and optional dynamic backends powered by serverless APIs. 
+         
+        Please review the Static Web Apps documentation to get started: http://aka.ms/swadocs
+        Guided learning paths are also available in Microsoft Learn for creating and publishing:
+        •an Angular, React, Svelte, or Vue JavaScript app and API: https://aka.ms/swaframeworks and 
+        •an app with the Gatsby static site generator: https://aka.ms/staticsitegen
+        
+        
+        Try out these features in the Azure portal: https://portal.azure.com   
+        Keep connected on Twitter: https://twitter.com/AzurePortal   
+        And make sure to keep an eye on our Azure Portal "How to" Series playlist: https://www.youtube.com/playlist?list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR
+    - title: "Overview - Azure App Service"
+      url: https://docs.microsoft.com/en-us/azure/app-service/overview
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Learn how Azure App Service helps you develop and host web applications
+    optionalLiterature:
+    - title: "Quickstart: Run a custom container on App Service - Azure App Service"
+      url: https://docs.microsoft.com/en-us/azure/app-service/quickstart-custom-container?pivots=container-linux&tabs=dotnet
+      timeType: Article
+      timeMinutes: 9
+      timeBadge: info
+      description: >
+        Get started with containers on Azure App Service by deploying your first custom container.
+    - title: "Azure App Service Explained - Azure for Beginners - Cloud Academy"
+      url: https://www.youtube.com/watch?v=iSzez17lMuQ
+      timeType: Video
+      timeMinutes: 4
+      timeBadge: danger
+      description: >
+        #AppService is a fully-featured and comprehensive product that integrates with many other #Azure and #Microsoft services.
+        
+        You’ve got an idea for a great web app, or maybe you’ve already started building it. The next question is how are you going to get it out there on the Internet? Learn how you can quickly and easily set up a website and publish your app to the world with Azure App Service through our course "Getting Started with Azure App Service". Of course, web apps are a lot more complex and varied than just HTML pages and we will see how App Service supports a range of programming languages, frameworks, and even operating systems. 
+        Start training at https://clda.co/3cdH9dU!
+        
+        This course is part of the learning path "AZ-203 Exam Preparation: Developing Solutions for Microsoft Azure". Start training at https://clda.co/2TKLOxG!
+        
+        For more updates follow us  🖥 
+        • LINKEDIN https://clda.co/LinkedIn
+        • FACEBOOK https://clda.co/Facebook
+        • TWITTER https://clda.co/Twitter

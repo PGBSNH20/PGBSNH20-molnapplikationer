@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
   literatureTime: 47
-  optionalLiteratureTime: 124
+  optionalLiteratureTime: 135
 notInTopic:
   literature:
   - title: "Understanding Serverless Computing for the Beginner"
@@ -17,6 +17,22 @@ notInTopic:
     timeMinutes: 9
     timeBadge: info
   optionalLiterature:
+  - title: "Serverless computing and applications"
+    url: https://azure.microsoft.com/en-us/overview/serverless-computing/
+    timeType: Article
+    timeMinutes: 0
+    timeBadge: dark
+    description: >
+      Serverless computing eliminates the need for application developers to manage infrastructure by shifting management responsibility to a cloud service provider.
+  - title: "Build apps faster with Azure Serverless"
+    url: https://www.youtube.com/watch?v=OnJt4qfsfOc
+    timeType: Video
+    timeMinutes: 11
+    timeBadge: danger
+    description: >
+      See how Azure Serverless offerings allow you to build and deploy elastic scale, cost-efficient apps on Azure using Azure Functions and Logic Apps. You'll see how adopting a serverless compute approach removes the need to worry about hardware resources and the operational complexity of running applications.
+      
+      For more in-depth information, go to this link: https://azure.microsoft.com/en-us/overview/serverless-computing/
   - title: "How Lego Is Standardizing Their Serverless Services"
     url: https://www.youtube.com/watch?v=Uf43M0Eh5no
     timeType: Video
@@ -162,6 +178,10 @@ topics:
       description: >
         Jeff Hollan joins Scott Hanselman to show how you can build highly scalable serverless APIs with Azure Functions.
     optionalLiterature:
+    - title: "Running Azure Functions in a Docker Container: A Beginner’s Guide"
+      url: https://faun.pub/running-azure-functions-in-a-docker-container-a-beginners-guide-f921c150eab4
+      description: >
+        The main goal of this tutorial is to provide the audience with sufficient background to enable -and encourage- them to take their first…
     - title: "Azure Functions: Cold Starts in Numbers"
       url: https://mikhail.io/2018/04/azure-functions-cold-starts-in-numbers/
       timeType: Article

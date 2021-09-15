@@ -1,11 +1,162 @@
 ---
 contentTimeTotal:
   literatureTime: 0
-  optionalLiteratureTime: 0
+  optionalLiteratureTime: 129
 notInTopic:
   literature:
+  - title: "SQL Database – hanterad molndatabastjänst"
+    url: https://azure.microsoft.com/sv-se/products/azure-sql/database/
+    timeType: Article
+    timeMinutes: 0
+    timeBadge: dark
+    description: >
+      Skapa appar snabbare på Azure SQL Database – den intelligenta, helt hanterade, molnbaserade relationsdatabasen.
+  - title: "Azure Cosmos DB – icke-relationsdatabas"
+    url: https://azure.microsoft.com/sv-se/services/cosmos-db/
+    description: >
+      Skapa program på en fullständigt hanterad, icke-relationell databastjänst med flera original som ger stöd för NoSQL-databas-API:er.
+  - title: "Azure Database för MariaDB – Samhällsservice"
+    url: https://azure.microsoft.com/sv-se/services/mariadb/
+    timeType: Article
+    timeMinutes: 0
+    timeBadge: dark
+    description: >
+      Kom igång med MariaDB. Skapa databaser med öppen källkod, har inbyggd hög tillgänglighet och dynamisk skalning samt har flexibel prissättning.
+  - title: "Azure-databaser – Typer av databaser i Azure"
+    url: https://azure.microsoft.com/sv-se/product-categories/databases/
+    timeType: Article
+    timeMinutes: 0
+    timeBadge: dark
+    description: >
+      Utforska olika databastyper för Azure. Databastjänsterna i Azure är säkra, har företagsklass och är helt hanterade. Dessutom har de stöd för databasmotorer med öppen källkod.
   - title: "AZ-900 Episode 12 - Database Services - Cosmos DB, SQL Database, Db for MySQL & PostgreSQL"
     url: https://www.youtube.com/watch?v=RqD4nMyBazU
     description: >
       Microsoft Azure Fundamental full course. Skills Learned- Describe the benefits and usage of   - Cosmos DB, Azure SQL Database,   - Azure Database for MySQL, ...
 topics:
+  - topic: "Cosmos DB"
+    literatureTime: 0
+    optionalLiteratureTime: 31
+    description-include: cosmos_db.md
+    optionalLiterature:
+    - title: "Azure Cosmos DB Tutorial - Globally distributed NoSQL database"
+      url: https://www.youtube.com/watch?v=R_Fi59j6BMo
+      timeType: Video
+      timeMinutes: 31
+      timeBadge: danger
+      description: >
+        Azure Cosmos DB is globally distributed and highly responsive database in the cloud. With just few clicks you can get multi-regional distribution and redundancy with high availability of 99.999%. 
+        
+        In this episode I will cover basics of Cosmos DB with live demo of Portal Features and dotnet programming, but I also will explain most important features of Cosmos DB.
+        
+        Source: https://github.com/MarczakIO/azure4everyone-samples/tree/master/azure-cosmosdb-introduction
+        
+        ### Want to connect?
+        - Blog https://marczak.io/
+        - Twitter https://twitter.com/MarczakIO
+        - Facebook https://www.facebook.com/MarczakIO
+        - LinkedIn https://www.linkedin.com/in/adam-marczak/
+        - Site https://azure4everyone.com 
+        
+        more to come..
+        
+        Next steps for you after watching the video
+        1. Check data factory docs 
+        https://docs.microsoft.com/en-us/azure/cosmos-db/introduction?WT.mc_id=AZ-MVP-5003556
+        2. Build CRUD operations with VueJS, dotnet and Cosmos DB
+        https://marczak.io/posts/netcore-vuejs-crud/
+        3. Cosmos DB intro video series from Microsoft
+        https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/?WT.mc_id=AZ-MVP-5003556
+        
+        See you next time!
+    - title: "Getting Started with Graph Databases in Azure Cosmos DB"
+      url: https://towardsdatascience.com/getting-started-with-graph-databases-in-azure-cosmos-db-cbfbf708cda5
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        In Azure Cosmos DB, we can build graph databases using the Gremlin API offering. Like many up and coming trends in the data universe, you…
+  - topic: "MariaDb + MySQL"
+    literatureTime: 0
+    optionalLiteratureTime: 47
+    description-include: mariadb_+_mysql.md
+    optionalLiterature:
+    - title: "Azure Database for MariaDB"
+      url: https://www.youtube.com/watch?v=FVG_l-ucS_U
+      timeType: Video
+      timeMinutes: 35
+      timeBadge: danger
+      description: >
+        Azure Database for MariaDB is a relational database service based on the open-source MariaDB Server engine. It's a fully managed database as a service offering that can handle mission-critical workloads with predictable performance and dynamic scalability. Develop applications with Azure Database for MariaDB leveraging the open-source tools and platform of your choice.
+        Download slide deck for the session: https://nzpowerlunchfiles.blob.core.windows.net/data/azure-database-for-mariadb-2019-04-19.pdf
+    - title: "Introduction to Azure Database for MySQL"
+      url: https://www.youtube.com/watch?v=F66qd93h-1I
+      timeType: Video
+      timeMinutes: 12
+      timeBadge: danger
+      description: >
+        In this video, Parichit Sahay Program Manager at Microsoft shares an overview of Azure Database for MySQL. He discusses why customers love MySQL, the benefits of building applications with Azure Database for MySQL and highlights popular customer use cases. 
+        
+        Learn more: http://aka.ms/mysql 
+        
+        #ParichitSahay#SanjaySoni
+  - topic: "SQL server"
+    literatureTime: 0
+    optionalLiteratureTime: 51
+    description-include: sql_server.md
+    optionalLiterature:
+    - title: "How to create an Azure SQL database - Azure Portal Series"
+      url: https://www.youtube.com/watch?v=p7X8lH_XMtI
+      timeType: Video
+      timeMinutes: 7
+      timeBadge: danger
+      description: >
+        In this video of the Azure Portal “How To” Series, you will learn how to create an Azure SQL Database in the Azure Portal and how you can be more productive in Azure.  
+        
+        Try out these features in the Azure portal: https://portal.azure.com  
+        Keep connected on Twitter: https://twitter.com/AzurePortal   
+        And make sure to keep an eye on our Azure Portal "How to" Series playlist for a new video every week: https://www.youtube.com/playlist?list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR
+    - title: "Azure SQL Database Tutorial - Relational databases in Azure"
+      url: https://www.youtube.com/watch?v=BgvEOkcR0Wk
+      timeType: Video
+      timeMinutes: 27
+      timeBadge: danger
+      description: >
+        Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this might be the right service for you.
+        
+        In this episode I give you introduction to what Azure SQL Database is and what are the key reasons to use relational databases. This video also shows what are the key drivers to choose the right pricing and performance models and a demo of creation, management and connecting to Azure SQL.
+        
+        ### Want to connect?
+        - Blog https://marczak.io/
+        - Twitter https://twitter.com/MarczakIO
+        - Facebook https://www.facebook.com/MarczakIO
+        - LinkedIn https://www.linkedin.com/in/adam-marczak/
+        - Site https://azure4everyone.com 
+        
+        Next steps for you after watching the video
+        1. Azure SQL Database documentation
+         - https://docs.microsoft.com/en-us/azure/sql-database/?WT.mc_id=AZ-MVP-5003556
+         - https://docs.microsoft.com/en-us/azure/sql-database/sql-database-technical-overview?WT.mc_id=AZ-MVP-5003556
+        2. Check self-paced labs on SQL Database
+         - https://docs.microsoft.com/en-us/learn/?WT.mc_id=AZ-MVP-5003556
+        3. Check how to load data to SQL database using ADF
+         - https://youtu.be/EpDkxTHAhOs
+    - title: "Serverless compute tier - Azure SQL Database"
+      url: https://docs.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview
+      timeType: Article
+      timeMinutes: 17
+      timeBadge: info
+      description: >
+        This article describes the new serverless compute tier and compares it with the existing provisioned compute tier for Azure SQL Database.
+    - title: "Azure SQL Database Serverless"
+      url: https://www.youtube.com/watch?v=2ykwUOfEPoU
+      timeType: Video
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Overview of Serverless and new service tier for Azure SQL Database
+    - title: "What is DTU in Azure SQL Database and How to Figure Out How Much We Need"
+      url: https://www.spotlightcloud.io/blog/what-is-dtu-in-azure-sql-database-and-how-much-do-we-need
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
