@@ -76,10 +76,10 @@ topics:
       timeBadge: dark
       description: >
         In Azure Cosmos DB, we can build graph databases using the Gremlin API offering. Like many up and coming trends in the data universe, you…
-  - topic: "MariaDb + MySQL"
+  - topic: "MariaDb och MySQL"
     literatureTime: 0
     optionalLiteratureTime: 47
-    description-include: mariadb_+_mysql.md
+    description-include: mariadb_och_mysql.md
     optionalLiterature:
     - title: "Azure Database for MariaDB"
       url: https://www.youtube.com/watch?v=FVG_l-ucS_U
