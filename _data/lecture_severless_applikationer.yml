@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
-  literatureTime: 47
-  optionalLiteratureTime: 135
+  literatureTime: 118
+  optionalLiteratureTime: 163
 notInTopic:
   literature:
   - title: "Understanding Serverless Computing for the Beginner"
@@ -114,10 +114,42 @@ notInTopic:
       Serverless architectures replace a managed server with a collection of third party services and FaaS
 topics:
   - topic: "Azure functions"
-    literatureTime: 22
-    optionalLiteratureTime: 11
+    literatureTime: 93
+    optionalLiteratureTime: 39
     description-include: azure_functions.md
     literature:
+    - title: "Intro to Azure Functions - What they are and how to create and deploy them"
+      url: https://www.youtube.com/watch?v=zIfxkub7CLY
+      timeType: Video
+      timeMinutes: 71
+      timeBadge: danger
+      description: >
+        Azure Functions embody the concept of SRP. Whether you are looking to go full out on microservices or are just looking for a way to add a lot of power to your application with little effort, Azure Functions can help you out. They are quick to build, easy to maintain, and are powerful to operate. The best part is that while they run in Microsoft Azure, they are almost always free. In this video, we are going to look at how to build Azure Functions, how to deploy them, and walk through scenarios where we might use them.
+        
+        Patreon: https://www.patreon.com/IAmTimCorey
+        Mailing List:  https://signup.iamtimcorey.com/
+        Source Code: https://leadmagnets.app/?Resource=azure-functions
+        All Access Pass: https://www.iamtimcorey.com/p/all-access-pass
+        
+        0:00 - Intro
+        1:47 - Azure Function App project
+        4:03 - What is Azure Function
+        6:08 - Azure function: Blob storage
+        7:34 - Azure function: Cosmos DB
+        8:19 - Azure function: Event and Queue trigger
+        10:36 - Azure function: HTTP trigger
+        12:30 - Azure function: IoT Hub trigger
+        12:55 - Azure function: Timer trigger
+        13:27 - Creating HTTP trigger Demo App
+        16:39 - HTTP trigger Demo App template walkthrough
+        31:42 - Azure Storage Account
+        34:48 - Azure Pricing Calculator
+        44:11 - Publishing Demo App to Azure
+        56:48 - Triggering the function form GitHub
+        1:02:06 - Information from function trigger
+        1:04:10 - Summary and concluding remarks
+        
+        Thanks to Ralfs HBK for the chapters breakdown
     - title: "Go serverless: Event-driven applications with Azure Functions"
       url: https://www.youtube.com/watch?v=UFxQhszT450
       timeType: Video
@@ -178,6 +210,11 @@ topics:
       description: >
         Jeff Hollan joins Scott Hanselman to show how you can build highly scalable serverless APIs with Azure Functions.
     optionalLiterature:
+    - title: "Azure Functions Local Debugging and More with Donna Malayeri"
+      url: https://www.youtube.com/watch?v=fxMpdVnh_sc
+      timeType: Video
+      timeMinutes: 28
+      timeBadge: danger
     - title: "Running Azure Functions in a Docker Container: A Beginner’s Guide"
       url: https://faun.pub/running-azure-functions-in-a-docker-container-a-beginners-guide-f921c150eab4
       description: >
