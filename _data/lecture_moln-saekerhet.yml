@@ -4,6 +4,12 @@ contentTimeTotal:
   optionalLiteratureTime: 0
 notInTopic:
   literature:
+  - title: "Hacking challenge at DEFCON"
+    url: https://www.youtube.com/watch?v=fHhNWAKw0bY
+    description: >
+      Watch what happens when journalist Kevin Roose challenges hackers to hack him.
+      
+      CREDIT: FUSION MEDIA NETWORK 2015
   - title: "Introduction to Azure security - Microsoft Docs"
     url: https://docs.microsoft.com/en-us/azure/security/fundamentals/overview
     timeType: Article
@@ -12,3 +18,19 @@ notInTopic:
     description: >
       Introduce yourself to Azure Security, its various services, and how it works by reading this overview.
 topics:
+  - topic: "Application Security"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: application_security.md
+  - topic: "Cloud security"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: cloud_security.md
+  - topic: "Azure säkerhet"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: azure_saekerhet.md
+  - topic: "Compliance"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: compliance.md

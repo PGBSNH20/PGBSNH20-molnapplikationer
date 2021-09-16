@@ -210,6 +210,10 @@ topics:
       description: >
         Jeff Hollan joins Scott Hanselman to show how you can build highly scalable serverless APIs with Azure Functions.
     optionalLiterature:
+    - title: "How to validate request for Azure Functions"
+      url: https://tsuyoshiushio.medium.com/how-to-validate-request-for-azure-functions-e6488c028a41
+      description: >
+        You might want to validate the HttpRequest using Azure Functions. However, we don’t have any implementation on the Azure Functions now. I…
     - title: "Azure Functions Local Debugging and More with Donna Malayeri"
       url: https://www.youtube.com/watch?v=fxMpdVnh_sc
       timeType: Video

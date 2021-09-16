@@ -1,12 +1,112 @@
 ---
 contentTimeTotal:
-  literatureTime: 30
+  literatureTime: 33
   optionalLiteratureTime: 61
 topics:
   - topic: "Azure Virtual Network"
-    literatureTime: 0
+    literatureTime: 3
     optionalLiteratureTime: 0
     description-include: azure_virtual_network.md
+    literature:
+    - title: "What is Azure Private Link?"
+      url: https://docs.microsoft.com/da-dk/azure/private-link/private-link-overview
+      timeType: Article
+      timeMinutes: 3
+      timeBadge: info
+      description: >
+        Overview of Azure Private Link features, architecture, and implementation. Learn how Azure Private Endpoints and Azure Private Link service works and how to use them.
+    - title: "Azure Virtual Network"
+      url: https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+      description: >
+        Learn about Azure Virtual Network concepts and features, including address space, subnets, regions, and subscriptions.
+    optionalLiterature:
+    - title: "Private connectivity to Azure PaaS services using Private Link"
+      url: https://www.youtube.com/watch?v=aVFV1_ZwAEY
+      timeType: Video
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Azure Private Link Preview provides private connectivity from a virtual network to Azure platform as a service (PaaS), customer-owned, or Microsoft partner services. It simplifies the network architecture and secures the connection between endpoints in Azure by eliminating data exposure to the public internet.
+        Link to download slide deck: https://nzpowerlunchfiles.blob.core.windows.net/data/azure-privatelink-for-Paas-2019-09-27.pdf
+    - title: "How to connect and deliver services privately on Azure with Azure Private Link - Azure Friday"
+      url: https://www.youtube.com/watch?v=AZ0iFcyPDkc
+      description: >
+        Narayan Annamalai joins Donovan Brown to introduce Azure Private Link. In this episode, Narayan demonstrates how you can secure Azure PaaS resources and your Azure network using Private Link and provide protection against data exfiltration.
+        
+        8:45 - Demo
+        
+        Azure Private Link overview
+        https://aka.ms/azfr/610/01
+        
+        Azure Private Link documentation
+        https://aka.ms/azfr/610/02
+        
+        What is Azure Private Endpoint?
+        https://aka.ms/azfr/610/03
+        
+        Create a free account (Azure)?
+        https://aka.ms/azfr/610/free
+        
+        #microsoft #microsoftazure
+    - title: "Azure Private Endpoint & Private Link explained in plain English with a story & demo in 5 minutes"
+      url: https://www.youtube.com/watch?v=vVDql7IKneg
+      description: >
+        This is the ridiculously simple animated explanation of Azure Private Link ( Private Endpoint and Private Link Service ) using a story analogy and a step by step demo in less than 5 minutes for each of the concepts - I can assure you wont get bored :) . Here is part 1 of the video where I explain Azure Virtual Network Service Endpoints in plain english with a story and step by step demo - https://www.youtube.com/watch?v=gxsitRRgylI 
+        
+        For more animated Azure videos and simplified Azure content and podcasts please check out https://www.azuremonk.com #lessthan5min #azure #azurein5minutes #virtualnetwork #networkinginazure #azuredemystified  #privatelink #privateendpoint #privatelinkservice #privatepaas
+    - title: "Azure Virtual Network Service Endpoints - explained in plain English with a story and demo"
+      url: https://www.youtube.com/watch?v=gxsitRRgylI
+      timeType: Video
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        This is the ridiculously simple animated explanation of Azure Virtual Network Service Endpoints and Service Endpoint Policies using a story and a step by step demo in less than 5 minutes ( well a little over 5 minutes :) - but I can assure you wont get bored. Watch for part 2 of the video where I explain Azure Private Link (Private Endpoint and Private Link Service) in less than 5 minutes using a story and step by step demo - https://www.youtube.com/watch?v=vVDql7IKneg
+        Link for the Network Security Group Video - https://www.youtube.com/watch?v=vgnSLuf_zj0 
+        
+        For more animated Azure videos and simplified Azure content and podcasts please check out https://www.azuremonk.com #lessthan5min #azure #azurein5minutes #virtualnetwork #networkinginazure #azuredemystified #virtualnetworkserviceendpoints #serviceendpoints #serviceendpointpolicies #privatelink #privateendpoint
+    - title: "Azure Private Link - Azure SQL Database and Azure Synapse Analytics"
+      url: https://docs.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Overview of Private endpoint feature.
+    - title: "How to create a cloud-based virtual network in Microsoft Azure"
+      url: https://www.techrepublic.com/article/how-to-create-a-cloud-based-virtual-network-in-microsoft-azure/
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Virtual networks provide the secure connection 
+        vital to the effective use of cloud-based services.
+    - title: "Virtual network endpoints and rules for databases in Azure SQL Database - Azure SQL Database"
+      url: https://docs.microsoft.com/en-us/azure/azure-sql/database/vnet-service-endpoint-rule-overview
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Mark a subnet as a virtual network service endpoint. Then add the endpoint as a virtual network rule to the ACL for your database. Your database then accepts communication from all virtual machines and other nodes on the subnet.
+    - title: "Azure vs AWS — Difference between Azure Virtual Network (VNet) and AWS Virtual Private Cloud (VPC)"
+      url: https://medium.com/awesome-azure/azure-vs-aws-difference-between-azure-virtual-network-vnet-and-aws-virtual-private-cloud-vpc-2e8debc3290e
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Azure Virtual Network (VNet) vs AWS Virtual Private Cloud (VPC)
+    - title: "Integrate app with Azure Virtual Network - Azure App Service"
+      url: https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Integrate app in Azure App Service with Azure virtual networks.
+    - title: "About Azure VPN Gateway"
+      url: https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Learn what VPN Gateway is, and how to use a VPN gateway to connect to IPsec IKE Site-to-Site, VNet-to-VNet, and Point-to-Site VPN virtual networks.
   - topic: "Virtual Private Cloud"
     literatureTime: 0
     optionalLiteratureTime: 0

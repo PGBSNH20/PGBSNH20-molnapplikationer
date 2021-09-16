@@ -1,12 +1,42 @@
 ---
 contentTimeTotal:
   literatureTime: 22
-  optionalLiteratureTime: 15
+  optionalLiteratureTime: 36
 topics:
   - topic: "Azure Storage Tools"
     literatureTime: 0
-    optionalLiteratureTime: 0
+    optionalLiteratureTime: 21
     description-include: azure_storage_tools.md
+    optionalLiterature:
+    - title: "How to use blob versioning"
+      url: https://www.youtube.com/watch?v=m7e9h1gedWQ
+      timeType: Video
+      timeMinutes: 5
+      timeBadge: danger
+      description: >
+        In this video of the #Azure Portal "How To" series, learn how to automatically maintain previous versions of your blob and restore an earlier version of your blob if it is erroneously modified or deleted. 
+        
+        Try out these features in the Azure portal: https://portal.azure.com 
+        Keep connected on Twitter: https://twitter.com/AzurePortal 
+        And make sure to keep an eye on our Azure Portal "How to" Series playlist: https://www.youtube.com/playlist?list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR
+    - title: "Azure Storage Explorer – cloud storage management"
+      url: https://azure.microsoft.com/en-us/features/storage-explorer/#overview
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Easily manage your Azure storage accounts in the cloud, from Windows, macOS, or Linux, using Azure Storage Explorer.
+    - title: "Use the Azure Storage Emulator for development and testing (deprecated)"
+      url: https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator
+      timeType: Article
+      timeMinutes: 16
+      timeBadge: info
+      description: >
+        The Azure Storage Emulator (deprecated) provides a free local development environment for developing and testing your Azure Storage applications.
+    - title: "GitHub - Azure/Azurite"
+      url: https://github.com/azure/azurite
+      description: >
+        A lightweight server clone of Azure Storage that simulates most of the commands supported by it with minimal dependencies - GitHub - Azure/Azurite: A lightweight server clone of Azure Storage that ...
   - topic: "Azure storage"
     literatureTime: 19
     optionalLiteratureTime: 15

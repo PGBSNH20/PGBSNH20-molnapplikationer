@@ -7,6 +7,36 @@ topics:
     literatureTime: 0
     optionalLiteratureTime: 0
     description-include: availability_redudancy_and_resiliency.md
+    literature:
+    - title: "The Ultimate Guide to Running Healthy Apps in the Cloud"
+      url: https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html
+      description: >
+        Modern-day data centers are extremely complex and have many moving parts. VMs can restart or move, systems are upgraded, and file servers are scaled up and down. All these events are to be expected in a cloud environment. However, you can make your cloud application resilient to these events by following best practices. This document outlines 13 crucial steps that you can take to ensure that your app is cloud ready. By taking these steps, you will ensure that any events in the data center will have negligible effects on your app and that your app will be more resilient and future proof.
+    - title: "Architecting for Resiliency"
+      url: https://medium.com/capital-one-tech/architecting-for-resiliency-9ec663db5c94
+      description: >
+        Do We Need It Vs. How Much Of It Do We Need?
+    - title: "Cloud Management: 5 Best Practices to Ensure Cloud Success"
+      url: https://daydigital.com/cloud-management-best-practices
+      description: >
+        This article will guide you with 5 Cloud management best practices to avoid pitfalls and ensure that your business is getting the most from your cloud.
+    - title: "Architecting for resiliency and availability - Azure Architecture Center"
+      url: https://docs.microsoft.com/en-us/azure/architecture/reliability/architect
+      description: >
+        Learn how to build resiliency and availability into your Azure application by starting at the design stage and building key elements into your architecture.
+    - title: "Principles of the reliability pillar - Azure Architecture Center"
+      url: https://docs.microsoft.com/en-us/Azure/architecture/framework/resiliency/principles
+      description: >
+        Understand the principles of the reliability pillar. Review application framework tips to make the application more reliable.
+    optionalLiterature:
+    - title: "High Availability Architecture and Best Practices - FileCloud"
+      url: https://www.getfilecloud.com/blog/an-introduction-to-high-availability-architecture/
+      description: >
+        One of the best practice of high availability architecture is to make sure that your system can handle a wide range of loads and failures with minimal or no downtime.
+    - title: "Make all things redundant - Azure Application Architecture Guide"
+      url: https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/redundancy
+      description: >
+        Use these recommendations to avoid having single points of failure, by building redundancy into your application.
   - topic: "Scaling out and up"
     literatureTime: 0
     optionalLiteratureTime: 0
