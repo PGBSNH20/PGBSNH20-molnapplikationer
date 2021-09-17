@@ -1,23 +1,26 @@
 ---
 contentTimeTotal:
-  literatureTime: 0
-  optionalLiteratureTime: 129
+  literatureTime: 16
+  optionalLiteratureTime: 154
 notInTopic:
   literature:
   - title: "SQL Database – hanterad molndatabastjänst"
     url: https://azure.microsoft.com/sv-se/products/azure-sql/database/
-    timeType: Article
+    timeType: Reklam
     timeMinutes: 0
     timeBadge: dark
     description: >
       Skapa appar snabbare på Azure SQL Database – den intelligenta, helt hanterade, molnbaserade relationsdatabasen.
   - title: "Azure Cosmos DB – icke-relationsdatabas"
     url: https://azure.microsoft.com/sv-se/services/cosmos-db/
+    timeType: Reklam
+    timeMinutes: 0
+    timeBadge: dark
     description: >
       Skapa program på en fullständigt hanterad, icke-relationell databastjänst med flera original som ger stöd för NoSQL-databas-API:er.
   - title: "Azure Database för MariaDB – Samhällsservice"
     url: https://azure.microsoft.com/sv-se/services/mariadb/
-    timeType: Article
+    timeType: Reklam
     timeMinutes: 0
     timeBadge: dark
     description: >
@@ -25,18 +28,21 @@ notInTopic:
   - title: "Azure-databaser – Typer av databaser i Azure"
     url: https://azure.microsoft.com/sv-se/product-categories/databases/
     timeType: Article
-    timeMinutes: 0
-    timeBadge: dark
+    timeMinutes: 3
+    timeBadge: info
     description: >
       Utforska olika databastyper för Azure. Databastjänsterna i Azure är säkra, har företagsklass och är helt hanterade. Dessutom har de stöd för databasmotorer med öppen källkod.
   - title: "AZ-900 Episode 12 - Database Services - Cosmos DB, SQL Database, Db for MySQL & PostgreSQL"
     url: https://www.youtube.com/watch?v=RqD4nMyBazU
+    timeType: Video
+    timeMinutes: 13
+    timeBadge: danger
     description: >
       Microsoft Azure Fundamental full course. Skills Learned- Describe the benefits and usage of   - Cosmos DB, Azure SQL Database,   - Azure Database for MySQL, ...
 topics:
   - topic: "Cosmos DB"
     literatureTime: 0
-    optionalLiteratureTime: 31
+    optionalLiteratureTime: 37
     description-include: cosmos_db.md
     optionalLiterature:
     - title: "Azure Cosmos DB Tutorial - Globally distributed NoSQL database"
@@ -72,8 +78,8 @@ topics:
     - title: "Getting Started with Graph Databases in Azure Cosmos DB"
       url: https://towardsdatascience.com/getting-started-with-graph-databases-in-azure-cosmos-db-cbfbf708cda5
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 6
+      timeBadge: info
       description: >
         In Azure Cosmos DB, we can build graph databases using the Gremlin API offering. Like many up and coming trends in the data universe, you…
   - topic: "MariaDb och MySQL"
@@ -102,7 +108,7 @@ topics:
         #ParichitSahay#SanjaySoni
   - topic: "SQL server"
     literatureTime: 0
-    optionalLiteratureTime: 51
+    optionalLiteratureTime: 70
     description-include: sql_server.md
     optionalLiterature:
     - title: "How to create an Azure SQL database - Azure Portal Series"
@@ -151,12 +157,12 @@ topics:
     - title: "Azure SQL Database Serverless"
       url: https://www.youtube.com/watch?v=2ykwUOfEPoU
       timeType: Video
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 12
+      timeBadge: danger
       description: >
         Overview of Serverless and new service tier for Azure SQL Database
     - title: "What is DTU in Azure SQL Database and How to Figure Out How Much We Need"
       url: https://www.spotlightcloud.io/blog/what-is-dtu-in-azure-sql-database-and-how-much-do-we-need
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 7
+      timeBadge: info

@@ -30,6 +30,16 @@ topics:
     literatureTime: 0
     optionalLiteratureTime: 0
     description-include: azure_saekerhet.md
+    recommendedLiterature:
+    - title: "Azure Security Best Practices"
+      url: https://microsoft.github.io/AzureTipsAndTricks/blog/tip272.html
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+    - title: "Azure Defender"
+      url: https://azure.microsoft.com/en-us/services/azure-defender/#features
+      description: >
+        Protect your hybrid cloud workloads with Azure Defender—helping you streamline security with AI and automation.
   - topic: "Compliance"
     literatureTime: 0
     optionalLiteratureTime: 0

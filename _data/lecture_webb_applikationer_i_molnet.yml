@@ -11,6 +11,9 @@ notInTopic:
     timeBadge: info
     description: >
       Architect Modern Web Applications with ASP.NET Core and Azure | Azure hosting recommendations for ASP.NET web apps
+  recommendedLiterature:
+  - title: "Top 5 VS Code extensions for Azure Developers"
+    url: https://microsoft.github.io/AzureTipsAndTricks/blog/tip248.html
   optionalLiterature:
   - title: "Azure Function v.s. Web App aka. Serverless v.s. PaaS"
     url: https://www.taztopia.com/single-post/2019/07/28/Azure-Function-vs-Web-App-aka-Serverless-vs-PaaS
