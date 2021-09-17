@@ -25,15 +25,16 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_dat
 
 Gå igennom dissa tre övningar, som är en del av kursen [Work with NoSQL data in Azure Cosmos DB](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/):
 * [Create an Azure Cosmos DB database built to scale](https://docs.microsoft.com/en-us/learn/modules/create-cosmos-db-for-scale/), 35 min
-* [Insert and query data in your Azure Cosmos DB database](https://docs.microsoft.com/en-us/learn/modules/access-data-with-cosmos-db-and-sql-api/)
+* [Insert and query data in your Azure Cosmos DB database](https://docs.microsoft.com/en-us/learn/modules/access-data-with-cosmos-db-and-sql-api/), 58 min
 * [Build a .NET Core app for Azure Cosmos DB in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/build-cosmos-db-app-with-vscode/), 54 min
+
 # Övningsuppgift
 
-Ensamt eller fler tillsammans. Det rekomenderas att börja med bronze och sen gå på silver och på slutet guld. Silver och guld är frivilliga.
+Göras ensamt eller fler tillsammans. Det rekomenderas att börja med bronze och sen gå på silver och på slutet guld. Silver och guld är frivilliga, och man behöver enbart i slutet att ha ett nivå, gå inte på silver/guld om du inte tror att du klara det innom deadline. VG är möjligt på alla nivåer.
 
 Skriv ett enkelt Azure Functions API som kan hämta och spara data i en databas som kör i molnet.
 
-Du får välja vad APIet gör så länga dett involvera en databas, där finns möjlighet att bygge videre på denna applikation under resten av kursen.
+Du får välja vad APIet gör, bara detta involvera en databas, där finns möjlighet att bygge videre på denna applikation under resten av kursen.
 
 Ett förslag är ett API som har en POST som kan lägga till en item till en lista som spara i databasen, och en GET som hämter ut alla värden i databasen.
 
@@ -61,7 +62,7 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 Deadline på PingPong, tisdag den 21:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
-* 1
+* 
 * 2
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
