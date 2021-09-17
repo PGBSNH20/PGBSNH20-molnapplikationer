@@ -124,7 +124,7 @@ weeks:
       start-full: 20210915T091000
       end-full: 20210915T095000
     - activity: presentaions
-      title: "Muntliga redovisningar"
+      title: "Redovisning av Automatisering av bygg och release"
       titleEn: "Oral presentaions"
       description: "Automatisering av bygg och release"
       start-full: 20210915T100000
@@ -162,7 +162,7 @@ weeks:
       start-full: 20210920T091000
       end-full: 20210920T095000
     - activity: presentaions
-      title: "Muntliga redovisningar"
+      title: "Redovisning av Containrar och orkestrering"
       titleEn: "Oral presentaions"
       description: "Containrar och orkestrering"
       start-full: 20210920T100000
