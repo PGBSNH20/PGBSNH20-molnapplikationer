@@ -22,9 +22,23 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_ska
 {% include lecturenontopics.html lectureData="lecture_skalning_upp_och_ut" %}
 {% include lecturetopics.html lectureData="lecture_skalning_upp_och_ut" %}
 
-# Övningsuppgifter
+# Indviduella övningsuppgifter
 
-TBA
+Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
+* [x](x), x min
+
+# Övningsuppgift
+
+Ensamt eller fler tillsammans. Det rekomenderas att börja med bronze och sen gå på silver och på slutet guld. Silver och guld är frivilliga.
+
+**Brons (enkel):**
+b
+
+**Silver (meddel):**
+s
+
+**Guld (avancerat):**
+g
 
 # Individuell inlämningsuppgift
 ## Blogg 10: Skalning, upp och ut

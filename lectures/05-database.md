@@ -21,9 +21,37 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_dat
 {% include lecturenontopics.html lectureData="lecture_databaser_i_molnet" %}
 {% include lecturetopics.html lectureData="lecture_databaser_i_molnet" %}
 
-# Övningsuppgifter
+# Indviduella övningsuppgifter
 
-TBA
+Gå igennom dissa tre övningar, som är en del av kursen [Work with NoSQL data in Azure Cosmos DB](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/):
+* [Create an Azure Cosmos DB database built to scale](https://docs.microsoft.com/en-us/learn/modules/create-cosmos-db-for-scale/), 35 min
+* [Insert and query data in your Azure Cosmos DB database](https://docs.microsoft.com/en-us/learn/modules/access-data-with-cosmos-db-and-sql-api/)
+* [Build a .NET Core app for Azure Cosmos DB in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/build-cosmos-db-app-with-vscode/), 54 min
+# Övningsuppgift
+
+Ensamt eller fler tillsammans. Det rekomenderas att börja med bronze och sen gå på silver och på slutet guld. Silver och guld är frivilliga.
+
+Skriv ett enkelt Azure Functions API som kan hämta och spara data i en databas som kör i molnet.
+
+Du får välja vad APIet gör så länga dett involvera en databas, där finns möjlighet att bygge videre på denna applikation under resten av kursen.
+
+Ett förslag är ett API som har en POST som kan lägga till en item till en lista som spara i databasen, och en GET som hämter ut alla värden i databasen.
+
+
+
+
+**Brons (enkel):**
+Azure function
+sql server serverless
+
+**Silver (meddel):**
+Azure function
+cosmos db
+
+**Guld (avancerat):**
+Azure funtion
+cosmos db
+build and deploy github actions
 
 # Individuell inlämningsuppgift
 ## Blogg 05: Databaser i molnet

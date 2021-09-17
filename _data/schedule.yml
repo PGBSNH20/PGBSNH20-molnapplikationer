@@ -191,8 +191,14 @@ weeks:
       number: "6"
       slug: /cloud-lectures/webapplications
       description: "Molnet är byggd till at köra webbapplikationer"
-      start-full: 20210922T090000
-      end-full: 20210922T093000
+      start-full: 20210922T091000
+      end-full: 20210922T095000
+    - activity: presentaions
+      title: "Redovisning av Serverless"
+      titleEn: "Oral presentaions"
+      description: "Muntlig redovisning av Serverless"
+      start-full: 20210922T100000
+      end-full: 20210922T103000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
@@ -224,8 +230,14 @@ weeks:
       number: "7"
       slug: /cloud-lectures/network
       description: "I molnet är det möjligt att bygga upp virtuella netvärk som kan vara ett viktigt verktyg för utveklarer"
-      start-full: 20210927T083000
+      start-full: 20210927T091000
       end-full: 20210927T095000
+    - activity: presentaions
+      title: "Redovisning av Databaser i molnet"
+      titleEn: "Oral presentaions"
+      description: "Redovisning av Databaser i molnet"
+      start-full: 20210927T100000
+      end-full: 20210927T103000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
@@ -250,8 +262,14 @@ weeks:
       number: "8"
       slug: /cloud-lectures/files
       description: "Stora datamängder kan uppbevaras i molnet med olika lösningar"
-      start-full: 20210929T083000
-      end-full: 20210929T093000
+      start-full: 20210929T091000
+      end-full: 20210929T095000
+    - activity: presentaions
+      title: "Redovisning av Webb applikationer i molnet"
+      titleEn: "Oral presentaions"
+      description: "Redovisning av Webb applikationer i molnet"
+      start-full: 20210929T100000
+      end-full: 20210929T103000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
@@ -283,8 +301,14 @@ weeks:
       number: "9"
       slug: /cloud-lectures/monitoring
       description: "Monitorering är viktigt för att vi kan hålla koll på vår moln applikation"
-      start-full: 20211004T090000
-      end-full: 20211004T160000
+      start-full: 20211004T091000
+      end-full: 20211004T095000
+    - activity: presentaions
+      title: "Redovisning av Nätverk i molnet"
+      titleEn: "Oral presentaions"
+      description: "Redovisning av Nätverk i molnet"
+      start-full: 20211004T100000
+      end-full: 20211004T103000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
@@ -309,8 +333,14 @@ weeks:
       number: "10"
       slug: /cloud-lectures/scaling
       description: "Molnet gör det möjligt att ändra server kapciteten när det behövs"
-      start-full: 20211006T090000
-      end-full: 20211006T160000
+      start-full: 20211006T091000
+      end-full: 20211006T095000
+    - activity: presentaions
+      title: "Redovisning av Filer i molnet"
+      titleEn: "Oral presentaions"
+      description: "Redovisning av Filer i molnet"
+      start-full: 20211006T100000
+      end-full: 20211006T103000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
@@ -341,9 +371,15 @@ weeks:
       titleEn: "Cloud security functionality"
       description: "Där finns fler olika funktioner som kan hjälpa skydda vår applikation molnet"
       slug: /cloud-lectures/security
-      start-full: 20211011T083000
-      end-full: 20211011T093000
+      start-full: 20211011T091000
+      end-full: 20211011T095000
       number: "11"
+    - activity: presentaions
+      title: "Redovisning av Monitorering av moln applikationer"
+      titleEn: "Oral presentaions"
+      description: "Redovisning av Monitorering av moln applikationer"
+      start-full: 20211011T100000
+      end-full: 20211011T103000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"

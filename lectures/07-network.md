@@ -21,9 +21,23 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_nae
 {% include lecturenontopics.html lectureData="lecture_naetverk_i_molnet" %}
 {% include lecturetopics.html lectureData="lecture_naetverk_i_molnet" %}
 
-# Övningsuppgifter
+# Indviduella övningsuppgifter
 
-TBA
+Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
+* [x](x), x min
+
+# Övningsuppgift
+
+Ensamt eller fler tillsammans. Det rekomenderas att börja med bronze och sen gå på silver och på slutet guld. Silver och guld är frivilliga.
+
+**Brons (enkel):**
+b
+
+**Silver (meddel):**
+s
+
+**Guld (avancerat):**
+g
 
 # Individuell inlämningsuppgift
 ## Blogg 07: Nätverk i molnet
