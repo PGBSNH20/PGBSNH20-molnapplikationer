@@ -28,31 +28,35 @@ Gå igennom dissa tre övningar, som är en del av kursen [Work with NoSQL data 
 * [Insert and query data in your Azure Cosmos DB database](https://docs.microsoft.com/en-us/learn/modules/access-data-with-cosmos-db-and-sql-api/), 58 min
 * [Build a .NET Core app for Azure Cosmos DB in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/build-cosmos-db-app-with-vscode/), 54 min
 
+Det primäre fokus på dissa är på Cosmos DB, primärt för att det är nytt, att få en SQL server upp att köra i molnet är inte så mycket annonlunda än vad vi är vanvid lokalt, största skildnad är att konfiguration och pris. Och är vad gäller utveckling är det enbart en fråga om connectionstring.
+
 # Övningsuppgift
 
-Göras ensamt eller fler tillsammans. Det rekomenderas att börja med bronze och sen gå på silver och på slutet guld. Silver och guld är frivilliga, och man behöver enbart i slutet att ha ett nivå, gå inte på silver/guld om du inte tror att du klara det innom deadline. VG är möjligt på alla nivåer.
+Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
 Skriv ett enkelt Azure Functions API som kan hämta och spara data i en databas som kör i molnet.
 
-Du får välja vad APIet gör, bara detta involvera en databas, där finns möjlighet att bygge videre på denna applikation under resten av kursen.
+Du får välja vad APIet gör, bara detta involvera en databas (läs och skiv data till databasen), där finns möjlighet att bygge vidre på denna applikation under resten av kursen.
 
-Ett förslag är ett API som har en POST som kan lägga till en item till en lista som spara i databasen, och en GET som hämter ut alla värden i databasen.
+Ett förslag är ett API som har en POST som kan lägga till en item till en lista som spara i databasen, och en GET som hämter ut alla värden i databasen. Detta kunna vara en typ av chat eller mini blogg. 
 
-
-
+Målet är att bygga en första applikation com enbart lever i molnet, och som kanske även är serverless. Bygg applikationen lokalt, och se till att ha koden i GitHub.
 
 **Brons (enkel):**
-Azure function
-sql server serverless
+Bygg som beskrivet ett REST API med Azure function, använn en [SQL Server Serverless](https://docs.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview) till att hålla data.
+
+Hints:
+* [Getting started with Azure SQL Serverless](https://laptrinhx.com/getting-started-with-azure-sql-serverless-2968233992/)
+* [Azure SQL Database Serverless – Facts!!](https://sqlworldwide.com/azure-sql-database-serverless-facts/)
 
 **Silver (meddel):**
-Azure function
-cosmos db
+Bygg som beskrivet ett REST API med Azure function, använn CosmosDB till att hålla data.
 
 **Guld (avancerat):**
-Azure funtion
-cosmos db
-build and deploy github actions
+Bygg som i *silver* ett REST API med Azure function, använn CosmosDB till att hålla data. **Lägg till** automatisk deploy med GitHub actions till Azure.
+
+Hints:
+* [Azure Functions Action](https://github.com/marketplace/actions/azure-functions-action)
 
 # Individuell inlämningsuppgift
 ## Blogg 05: Databaser i molnet
@@ -62,7 +66,10 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 Deadline på PingPong, tisdag den 21:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
-* 
-* 2
+* Koden?
+* Hur har du/ni fått den att köra i Azure functions? Screenshots, scrips, pipelines
+* Hur har du tänkt runt opdatring av databsen ifall scheman ändras?
+* Vad skulle det kosta att driva detta? Tänk gärna två scenarier: Nästan ingen använadere och jätte jätte mycket användere
+    * Använd [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) till att ta fram kostnad
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
