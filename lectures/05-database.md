@@ -16,6 +16,8 @@ Oftast när vi bygger en applikation har vi ett behov att ha data på ett strukt
 ## Lektionslitteratur
 *Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion, det antas att du har läst/set/lystnad detta innan lektionen starter.*
 
+Där finns till denna lektion inte så mycket matrial, men se till att göra dom indviduella övningsuppgifter.
+
 Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_databaser_i_molnet.contentTimeTotal.literatureTime}} min** (för den frivilliga fördjupningslitteratur gäller {{site.data.lecture_databaser_i_molnet.contentTimeTotal.optionalLiteratureTime}} min)
 
 {% include lecturenontopics.html lectureData="lecture_databaser_i_molnet" %}
@@ -38,9 +40,9 @@ Skriv ett enkelt Azure Functions API som kan hämta och spara data i en databas 
 
 Du får välja vad APIet gör, bara detta involvera en databas (läs och skiv data till databasen), där finns möjlighet att bygge vidre på denna applikation under resten av kursen.
 
-Ett förslag är ett API som har en POST som kan lägga till en item till en lista som spara i databasen, och en GET som hämter ut alla värden i databasen. Detta kunna vara en typ av chat eller mini blogg. 
+Ett förslag är ett API som har en POST som kan lägga till en item till en lista som spara i databasen, och en GET som hämter ut alla värden i databasen. Detta kunna vara en typ av chat eller mini blogg. Men du har säkkert en egen ide.
 
-Målet är att bygga en första applikation com enbart lever i molnet, och som kanske även är serverless. Bygg applikationen lokalt, och se till att ha koden i GitHub.
+Målet är att bygga en första applikation som enbart lever i molnet, och som även är serverless. Bygg applikationen lokalt, och se till att ha koden i GitHub.
 
 **Brons (enkel):**
 Bygg som beskrivet ett REST API med Azure function, använn en [SQL Server Serverless](https://docs.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview) till att hålla data.
@@ -49,7 +51,7 @@ Hints:
 * [Getting started with Azure SQL Serverless](https://laptrinhx.com/getting-started-with-azure-sql-serverless-2968233992/)
 * [Azure SQL Database Serverless – Facts!!](https://sqlworldwide.com/azure-sql-database-serverless-facts/)
 
-**Silver (meddel):**
+**Silver (meddel - rekomenderat):**
 Bygg som beskrivet ett REST API med Azure function, använn CosmosDB till att hålla data.
 
 **Guld (avancerat):**
