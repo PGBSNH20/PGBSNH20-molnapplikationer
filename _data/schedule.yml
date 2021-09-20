@@ -404,14 +404,14 @@ weeks:
       number: "12"
       slug: /cloud-lectures/lifecycle
       description: "Hur lever vår applikation i molnet och vad kan man gör åt miljöpåverkan"
-      start-full: 20211013T090000
-      end-full: 20211013T160000
+      start-full: 20211013T091000
+      end-full: 20211013T095000
     - activity: standup
-      title: "Sammanfattning på dagens lektion"
-      titleEn: "Summary of the lecture of the day"
-      description: "Är där frågor? Landing."
-      start-full: 20211013T160000
-      end-full: 20211013T163000
+      title: "Sammanfatning på kurs"
+      titleEn: "Summary on course"
+      description: "Vad har vi gjort dom senaste 6 veckor"
+      start-full: 20211013T100000
+      end-full: 20211013T150000
   - day: 2021-10-14
     weekday: "Torsdag"
     activities: null
