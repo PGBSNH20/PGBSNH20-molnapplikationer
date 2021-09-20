@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
   literatureTime: 51
-  optionalLiteratureTime: 82
+  optionalLiteratureTime: 99
 topics:
   - topic: "Versionskontroll"
     literatureTime: 13
@@ -55,7 +55,7 @@ topics:
         Should you keep all of your code in a single directory?
   - topic: "DevOps"
     literatureTime: 6
-    optionalLiteratureTime: 22
+    optionalLiteratureTime: 39
     description-include: devops.md
     literature:
     - title: "What is DevOps?"
@@ -78,6 +78,9 @@ topics:
     optionalLiterature:
     - title: "Guide to becoming an Dev Ops Goddess and a six figure tech Boss!"
       url: https://yasmintaylor846.medium.com/guide-to-becoming-an-dev-ops-goddess-and-a-six-figure-tech-boss-451cdfcb5b61
+      timeType: Article
+      timeMinutes: 17
+      timeBadge: info
       description: >
         14.04.2020
     - title: "The Eight Phases of a DevOps Pipeline"

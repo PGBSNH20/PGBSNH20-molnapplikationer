@@ -1,11 +1,11 @@
 ---
 contentTimeTotal:
-  literatureTime: 33
-  optionalLiteratureTime: 61
+  literatureTime: 79
+  optionalLiteratureTime: 217
 topics:
   - topic: "Azure Virtual Network"
-    literatureTime: 3
-    optionalLiteratureTime: 0
+    literatureTime: 8
+    optionalLiteratureTime: 140
     description-include: azure_virtual_network.md
     literature:
     - title: "What is Azure Private Link?"
@@ -17,19 +17,25 @@ topics:
         Overview of Azure Private Link features, architecture, and implementation. Learn how Azure Private Endpoints and Azure Private Link service works and how to use them.
     - title: "Azure Virtual Network"
       url: https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
       description: >
         Learn about Azure Virtual Network concepts and features, including address space, subnets, regions, and subscriptions.
     optionalLiterature:
     - title: "Private connectivity to Azure PaaS services using Private Link"
       url: https://www.youtube.com/watch?v=aVFV1_ZwAEY
       timeType: Video
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 31
+      timeBadge: danger
       description: >
         Azure Private Link Preview provides private connectivity from a virtual network to Azure platform as a service (PaaS), customer-owned, or Microsoft partner services. It simplifies the network architecture and secures the connection between endpoints in Azure by eliminating data exposure to the public internet.
         Link to download slide deck: https://nzpowerlunchfiles.blob.core.windows.net/data/azure-privatelink-for-Paas-2019-09-27.pdf
     - title: "How to connect and deliver services privately on Azure with Azure Private Link - Azure Friday"
       url: https://www.youtube.com/watch?v=AZ0iFcyPDkc
+      timeType: Video
+      timeMinutes: 16
+      timeBadge: danger
       description: >
         Narayan Annamalai joins Donovan Brown to introduce Azure Private Link. In this episode, Narayan demonstrates how you can secure Azure PaaS resources and your Azure network using Private Link and provide protection against data exfiltration.
         
@@ -50,6 +56,9 @@ topics:
         #microsoft #microsoftazure
     - title: "Azure Private Endpoint & Private Link explained in plain English with a story & demo in 5 minutes"
       url: https://www.youtube.com/watch?v=vVDql7IKneg
+      timeType: Video
+      timeMinutes: 11
+      timeBadge: danger
       description: >
         This is the ridiculously simple animated explanation of Azure Private Link ( Private Endpoint and Private Link Service ) using a story analogy and a step by step demo in less than 5 minutes for each of the concepts - I can assure you wont get bored :) . Here is part 1 of the video where I explain Azure Virtual Network Service Endpoints in plain english with a story and step by step demo - https://www.youtube.com/watch?v=gxsitRRgylI 
         
@@ -57,8 +66,8 @@ topics:
     - title: "Azure Virtual Network Service Endpoints - explained in plain English with a story and demo"
       url: https://www.youtube.com/watch?v=gxsitRRgylI
       timeType: Video
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 12
+      timeBadge: danger
       description: >
         This is the ridiculously simple animated explanation of Azure Virtual Network Service Endpoints and Service Endpoint Policies using a story and a step by step demo in less than 5 minutes ( well a little over 5 minutes :) - but I can assure you wont get bored. Watch for part 2 of the video where I explain Azure Private Link (Private Endpoint and Private Link Service) in less than 5 minutes using a story and step by step demo - https://www.youtube.com/watch?v=vVDql7IKneg
         Link for the Network Security Group Video - https://www.youtube.com/watch?v=vgnSLuf_zj0 
@@ -67,53 +76,56 @@ topics:
     - title: "Azure Private Link - Azure SQL Database and Azure Synapse Analytics"
       url: https://docs.microsoft.com/en-us/azure/azure-sql/database/private-endpoint-overview
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 8
+      timeBadge: info
       description: >
         Overview of Private endpoint feature.
     - title: "How to create a cloud-based virtual network in Microsoft Azure"
       url: https://www.techrepublic.com/article/how-to-create-a-cloud-based-virtual-network-in-microsoft-azure/
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 4
+      timeBadge: info
       description: >
         Virtual networks provide the secure connection 
         vital to the effective use of cloud-based services.
     - title: "Virtual network endpoints and rules for databases in Azure SQL Database - Azure SQL Database"
       url: https://docs.microsoft.com/en-us/azure/azure-sql/database/vnet-service-endpoint-rule-overview
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 13
+      timeBadge: info
       description: >
         Mark a subnet as a virtual network service endpoint. Then add the endpoint as a virtual network rule to the ACL for your database. Your database then accepts communication from all virtual machines and other nodes on the subnet.
     - title: "Azure vs AWS — Difference between Azure Virtual Network (VNet) and AWS Virtual Private Cloud (VPC)"
       url: https://medium.com/awesome-azure/azure-vs-aws-difference-between-azure-virtual-network-vnet-and-aws-virtual-private-cloud-vpc-2e8debc3290e
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 12
+      timeBadge: info
       description: >
         Azure Virtual Network (VNet) vs AWS Virtual Private Cloud (VPC)
     - title: "Integrate app with Azure Virtual Network - Azure App Service"
       url: https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 25
+      timeBadge: info
       description: >
         Integrate app in Azure App Service with Azure virtual networks.
     - title: "About Azure VPN Gateway"
       url: https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 8
+      timeBadge: info
       description: >
         Learn what VPN Gateway is, and how to use a VPN gateway to connect to IPsec IKE Site-to-Site, VNet-to-VNet, and Point-to-Site VPN virtual networks.
   - topic: "Virtual Private Cloud"
-    literatureTime: 0
-    optionalLiteratureTime: 0
+    literatureTime: 17
+    optionalLiteratureTime: 8
     description-include: virtual_private_cloud.md
     literature:
     - title: "Private Cloud Rules"
       url: https://www.youtube.com/watch?v=Tzqy8lW0bk4
+      timeType: Video
+      timeMinutes: 12
+      timeBadge: danger
       description: >
         For the past years one of the IT mega trends has been "the cloud". Many companies are rushing to the public cloud because it's easy for them and quite honestly...because everybody else is doing so.
         
@@ -129,6 +141,9 @@ topics:
         Who am I? Check my website: http://markus-leinonen.com
     - title: "What is a Virtual Private Cloud?"
       url: https://www.youtube.com/watch?v=NbkPRn1mqlU
+      timeType: Video
+      timeMinutes: 5
+      timeBadge: danger
       description: >
         Learn more about virtual private cloud: http://ibm.biz/learn-virtual-private-cloud 
         Checkout IBM Cloud Virtual Servers for VPC: http://ibm.biz/vpc-cloud-product
@@ -142,47 +157,51 @@ topics:
         Get started for free on IBM Cloud: http://ibm.biz/vpc-cloud-free
         
         #VirtualPrivateCloud #VPC #IBMCloud
-    - title: "Virtual private cloud - Wikipedia"
-      url: https://en.wikipedia.org/wiki/Virtual_private_cloud
     optionalLiterature:
     - title: "Vpc"
       url: https://www.ibm.com/cloud/learn/vpc
       timeType: Article
+      timeMinutes: 8
+      timeBadge: info
+    - title: "Virtual private cloud"
+      url: https://en.wikipedia.org/wiki/Virtual_private_cloud
+      timeType: Wiki
       timeMinutes: 0
       timeBadge: dark
   - topic: "Nätverk"
-    literatureTime: 0
-    optionalLiteratureTime: 0
+    literatureTime: 24
+    optionalLiteratureTime: 8
     description-include: naetverk.md
     literature:
     - title: "Firewall in Network Security"
       url: https://medium.com/@neil.wilston123/firewall-in-network-security-2a98795fcac1
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 4
+      timeBadge: info
       description: >
         Nowadays every organisation as well as personal computers runs on Internet that is connected with the organizational network. The internet…
-    - title: "Understanding Firewall Types"
-      url: https://medium.com/swlh/understanding-firewall-types-4a2869deb687
-      timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
-      description: >
-        Get a handle on the concept of perimeter defense and navigate the myriad of firewall types
     - title: "How VPN Works?"
       url: https://zicodeng.medium.com/how-vpn-works-b7549dcc6ce4
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 12
+      timeBadge: info
       description: >
         What is VPN? How does it work? Why is it so secure? Is it perfectly secure?
     - title: "Networking 101: Ethernet, LANs, and How They Work"
       url: https://www.makeuseof.com/tag/networking-101-ethernet-lans-work/
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 8
+      timeBadge: info
       description: >
         Even for modern users, the language surrounding home networking can be a little confusing. What's a LAN? Why do I need an Ethernet cable? Isn't it all the same?
+    optionalLiterature:
+    - title: "Understanding Firewall Types"
+      url: https://medium.com/swlh/understanding-firewall-types-4a2869deb687
+      timeType: Article
+      timeMinutes: 8
+      timeBadge: info
+      description: >
+        Get a handle on the concept of perimeter defense and navigate the myriad of firewall types
   - topic: "Service bus"
     literatureTime: 30
     optionalLiteratureTime: 61
@@ -190,9 +209,9 @@ topics:
     literature:
     - title: "Azure Service Bus from the ground up"
       url: https://www.youtube.com/watch?v=FRzMPqViwuY
-      timeType: Article
+      timeType: Video
       timeMinutes: 27
-      timeBadge: info
+      timeBadge: danger
       description: >
         Azure Service Bus Messaging
         
