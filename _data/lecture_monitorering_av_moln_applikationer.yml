@@ -1,25 +1,26 @@
 ---
 contentTimeTotal:
-  literatureTime: 33
-  optionalLiteratureTime: 44
+  literatureTime: 41
+  optionalLiteratureTime: 154
 topics:
   - topic: "Monitoring i Azure"
-    literatureTime: 0
-    optionalLiteratureTime: 0
+    literatureTime: 8
+    optionalLiteratureTime: 110
     description-include: monitoring_i_azure.md
     literature:
     - title: "Azure Monitor overview"
       url: https://docs.microsoft.com/en-us/azure/azure-monitor/overview
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 8
+      timeBadge: info
       description: >
-        Lenght: 8
-        
         Overview of Microsoft services and functionalities that contribute to a complete monitoring strategy for your Azure services and applications.
     optionalLiterature:
     - title: "Analyzing your applications with Application Insights"
       url: https://www.youtube.com/watch?v=pqZF8LjBh68
+      timeType: Video
+      timeMinutes: 26
+      timeBadge: danger
       description: >
         Application Insights is powerful Application Performance Management (APM) service for developers building application hosted in Azure, on-premise or elsewhere.
         
@@ -47,36 +48,60 @@ topics:
         Create a Free Account (Azure): https://aka.ms/azft-net
     - title: "Application Insights The Tool You Never Knew You Needed"
       url: https://www.youtube.com/watch?v=SMGokUCi9oo
+      timeType: Video
+      timeMinutes: 30
+      timeBadge: danger
       description: >
         Announcing .NET Core 3.0: https://aka.ms/dotnetcore3 
         
         Application Insights empowers developers! By adding AI (not that one) to our apps, we have access to a rich set of data allowing us to have a better understanding of what our apps are doing. With this information, we have the ability to better triage issues as well as provide rich reports.
     - title: "Azure Monitor and Azure Log Analytics: When to Use Which - DZone Big Data"
       url: https://dzone.com/articles/azure-monitor-and-azure-log-analytics-when-to-use
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
       description: >
         Learn about Azure Monitor and Log Analytics, what recommended approaches for logging and monitoring are, abd how to ingest data with Monitor and Log Analytics.
     - title: "Application Insights API for custom events and metrics - Azure Monitor"
       url: https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics
+      timeType: Article
+      timeMinutes: 25
+      timeBadge: info
       description: >
         Insert a few lines of code in your device or desktop app, webpage, or service, to track usage and diagnose issues.
     - title: "What is Azure Application Insights? - Azure Monitor"
       url: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
       description: >
         Application Performance Management and usage tracking of your live web application.  Detect, triage and diagnose problems, understand how people use your app.
     - title: "Monitor and debug - DevOps for ASP.NET Core Developers"
       url: https://docs.microsoft.com/en-us/dotnet/architecture/devops-for-aspnet-developers/monitoring?view=aspnetcore-3.1
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
       description: >
         Monitoring and debugging your code as part of a DevOps solution with ASP.NET Core and Azure
     - title: "Azure Monitor data platform - Azure Monitor"
       url: https://docs.microsoft.com/en-us/azure/azure-monitor//data-platform
+      timeType: Article
+      timeMinutes: 6
+      timeBadge: info
       description: >
         Monitoring data collected by Azure Monitor is separated into metrics that are lightweight and capable of supporting near real-time scenarios and logs that are used for advanced analysis.
-    - title: "Azure Monitor Application Insights Documentation - Azure Monitor"
+    - title: "Azure Monitor Application Insights Documentation"
       url: https://docs.microsoft.com/en-us/azure/azure-monitor/azure-monitor-app-hub
+      timeType: Overview
+      timeMinutes: 0
+      timeBadge: dark
       description: >
         Application Insights is part of the Azure Monitor service
     - title: "Collect & analyze resource logs - Azure Container Instances"
       url: https://docs.microsoft.com/en-us/azure/container-instances/container-instances-log-analytics
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
       description: >
         Learn how to send resource logs and event data from container groups in Azure Container Instances to Azure Monitor logs
   - topic: "Build measure learn"
