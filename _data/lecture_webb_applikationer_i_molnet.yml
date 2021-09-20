@@ -1,6 +1,6 @@
 ---
 contentTimeTotal:
-  literatureTime: 78
+  literatureTime: 83
   optionalLiteratureTime: 41
 notInTopic:
   literature:
@@ -80,7 +80,7 @@ topics:
       description: >
         The microservice architecture structures an application as a set of loosely coupled, deployable/executable components organized around business capabilities
   - topic: "Azure Web Apps"
-    literatureTime: 7
+    literatureTime: 12
     optionalLiteratureTime: 13
     description-include: azure_web_apps.md
     literature:
@@ -113,8 +113,8 @@ topics:
     - title: "Overview - Azure App Service"
       url: https://docs.microsoft.com/en-us/azure/app-service/overview
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 5
+      timeBadge: info
       description: >
         Learn how Azure App Service helps you develop and host web applications
     optionalLiterature:
