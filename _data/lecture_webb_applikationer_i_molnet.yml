@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
-  literatureTime: 28
-  optionalLiteratureTime: 41
+  literatureTime: 43
+  optionalLiteratureTime: 51
 notInTopic:
   literature:
   - title: "Azure hosting recommendations for ASP.NET Core web apps - Microsoft Docs"
@@ -32,7 +32,7 @@ notInTopic:
 topics:
   - topic: "Cloud native"
     literatureTime: 0
-    optionalLiteratureTime: 8
+    optionalLiteratureTime: 18
     description-include: cloud_native.md
     recommendedLiterature:
     - title: "Defining Cloud Native"
@@ -52,8 +52,12 @@ topics:
         Here are five tips for building cloud-aware application architecture that performs better, and is more resilient and easier to manage.
     - title: "5 principles for cloud-native architecture—what it is and how to master it"
       url: https://cloud.google.com/blog/products/application-development/5-principles-for-cloud-native-architecture-what-it-is-and-how-to-master-it
+      timeType: Article
+      timeMinutes: 10
+      timeBadge: info
       description: >
-        Learn to maximize your use of Google Cloud by adopting a cloud-native architecture.
+        Learn to maximize your use of Google Cloud by 
+        adopting a cloud-native architecture.
   - topic: "Microservices - Arkitektur"
     literatureTime: 7
     optionalLiteratureTime: 10
@@ -81,15 +85,15 @@ topics:
       description: >
         The microservice architecture structures an application as a set of loosely coupled, deployable/executable components organized around business capabilities
   - topic: "Azure Web Apps"
-    literatureTime: 12
+    literatureTime: 27
     optionalLiteratureTime: 13
     description-include: azure_web_apps.md
     literature:
     - title: "Azure Web App for Containers"
       url: https://www.youtube.com/watch?v=xnUOu-yPEzo
       timeType: Video
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 15
+      timeBadge: danger
       description: >
         This video covers deploying your React app sitting inside a Docker Image to Azure Web App for Containers.
         
