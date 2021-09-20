@@ -43,48 +43,48 @@ Vi kommer under denna kurs att ha 10 uppgifter som är betygsgrundande, målet i
 ## Blogg 05
 * Uppgift: [Databaser i molnet]({{ site.baseurl }}/cloud-lectures/databases#individuell-inlämningsuppgift)
 * Start: 2021-09-20 - Måndag
-* Deadline: 2021-09-21 23:55 - Tisdag
-* Kammeratgranskning deadline: 2021-09-23 12:00 - Torsdag
+* Deadline: 2021-09-22 23:55 - Onsdag
+* Kammeratgranskning deadline: 2021-09-24 12:00 - Fredag
 * Inlämning: Blogg
 * Betygsgrundande: IG / G / VG
 
 ## Blogg 06
 * Uppgift: [Webbapplikationer i molnet]({{ site.baseurl }}/cloud-lectures/webapplications#individuell-inlämningsuppgift)
 * Start: 2021-09-22 - Onsdag
-* Deadline: 2021-09-23 23:55 - Torsdag
-* Kammeratgranskning deadline: 2021-09-27 12:00 - Måndag
+* Deadline: 2021-09-24 23:55 - Fredag
+* Kammeratgranskning deadline: 2021-09-28 12:00 - Tisdag
 * Inlämning: Blogg
 * Betygsgrundande: IG / G / VG
 
 ## Blogg 07
 * Uppgift: [Nätverk i molnet]({{ site.baseurl }}/cloud-lectures/network#individuell-inlämningsuppgift)
 * Start: 2021-09-27 - Måndag
-* Deadline: 2021-09-28 23:55 - Tisdag
-* Kammeratgranskning deadline: 2021-09-30 12:00 - Torsdag
+* Deadline: 2021-09-29 23:55 - Onsdag
+* Kammeratgranskning deadline: 2021-10-01 12:00 - Fredag
 * Inlämning: Blogg
 * Betygsgrundande: IG / G / VG
 
 ## Blogg 08
 * Uppgift: [Filer i molnet]({{ site.baseurl }}/cloud-lectures/files#individuell-inlämningsuppgift)
 * Start: 2021-09-29 - Onsdag
-* Deadline: 2021-09-30 23:55 - Torsdag
-* Kammeratgranskning deadline: 2021-10-04 12:00 - Måndag
+* Deadline: 2021-10-01 23:55 - Fredag
+* Kammeratgranskning deadline: 2021-10-05 12:00 - Tisdag
 * Inlämning: Blogg
 * Betygsgrundande: IG / G / VG
 
 ## Blogg 09
 * Uppgift: [Monitorering av molnapplikationer]({{ site.baseurl }}/cloud-lectures/monitoring#individuell-inlämningsuppgift)
 * Start: 2021-10-04 - Måndag
-* Deadline: 2021-10-05 23:55 - Tisdag
-* Kammeratgranskning deadline: 2021-10-07 12:00 - Torsdag
+* Deadline: 2021-10-06 23:55 - Onsdag
+* Kammeratgranskning deadline: 2021-10-08 12:00 - Fredag
 * Inlämning: Blogg
 * Betygsgrundande: IG / G / VG
 
 ## Blogg 10
 * Uppgift: [Skalning, upp och ut]({{ site.baseurl }}/cloud-lectures/scaling#individuell-inlämningsuppgift)
 * Start: 2021-10-06 - Onsdag
-* Deadline: 2021-10-07 23:55 - Torsdag
-* Kammeratgranskning deadline: 2021-09-11 12:00 - Måndag
+* Deadline: 2021-10-08 23:55 - Fredag
+* Kammeratgranskning deadline: 2021-09-12 12:00 - Tisdag
 * Inlämning: Blogg
 * Betygsgrundande: IG / G / VG
 </div>

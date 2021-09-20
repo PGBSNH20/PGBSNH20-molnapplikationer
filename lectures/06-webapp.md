@@ -44,7 +44,7 @@ g
 
 Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektioner. Det rekomenderas att skriva på samma språk som din första blogg post.
 
-Deadline på PingPong, torsdag den 23:e september kl 23:55. Posta ett länk till dagens blog post.
+Deadline på PingPong, fredag den 24:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
 * 1
