@@ -60,6 +60,7 @@ Bygg som beskrivet ett REST API med Azure function, använn CosmosDB Serverless 
 
 Hints:
 * [Rapid API Development with Azure Functions](https://markheath.net/post/azure-functions-rest-csharp-bindings)
+* [Building and Deploying a REST API using Azure Functions and Azure DevOps Pipelines](https://cloudskills.io/blog/azure-functions-rest-api)
 
 **Guld (avancerat):**
 Bygg som i *silver* ett REST API med Azure function, använn CosmosDB Serverless till att hålla data. **Lägg till** automatisk deploy med GitHub actions till Azure.
