@@ -1,15 +1,18 @@
 ---
 contentTimeTotal:
-  literatureTime: 0
+  literatureTime: 11
   optionalLiteratureTime: 0
 topics:
   - topic: "Availability, Redudancy and Resiliency"
-    literatureTime: 0
+    literatureTime: 11
     optionalLiteratureTime: 0
     description-include: availability_redudancy_and_resiliency.md
     literature:
     - title: "The Ultimate Guide to Running Healthy Apps in the Cloud"
       url: https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html
+      timeType: Article
+      timeMinutes: 11
+      timeBadge: info
       description: >
         Modern-day data centers are extremely complex and have many moving parts. VMs can restart or move, systems are upgraded, and file servers are scaled up and down. All these events are to be expected in a cloud environment. However, you can make your cloud application resilient to these events by following best practices. This document outlines 13 crucial steps that you can take to ensure that your app is cloud ready. By taking these steps, you will ensure that any events in the data center will have negligible effects on your app and that your app will be more resilient and future proof.
     - title: "Architecting for Resiliency"

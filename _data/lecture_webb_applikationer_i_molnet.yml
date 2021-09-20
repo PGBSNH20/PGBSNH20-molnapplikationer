@@ -1,6 +1,6 @@
 ---
 contentTimeTotal:
-  literatureTime: 83
+  literatureTime: 28
   optionalLiteratureTime: 41
 notInTopic:
   literature:
@@ -55,10 +55,16 @@ topics:
       description: >
         Learn to maximize your use of Google Cloud by adopting a cloud-native architecture.
   - topic: "Microservices - Arkitektur"
-    literatureTime: 62
+    literatureTime: 7
     optionalLiteratureTime: 10
     description-include: microservices_-_arkitektur.md
     literature:
+    - title: "Four architecture choices for application development"
+      url: https://www.ibm.com/cloud/blog/four-architecture-choices-for-application-development
+      timeType: Article
+      timeMinutes: 7
+      timeBadge: info
+    recommendedLiterature:
     - title: "Why You Should Care About Microservices"
       url: https://channel9.msdn.com/Events/dotnetConf/Focus-on-Microservices/Why-You-Should-Care-About-Microservices?ocid=player
       timeType: Video
@@ -66,11 +72,6 @@ topics:
       timeBadge: danger
       description: >
         Hear from the co-founder of Kubernetes about why microservices are important and why you should care about them.
-    - title: "Four architecture choices for application development"
-      url: https://www.ibm.com/cloud/blog/four-architecture-choices-for-application-development
-      timeType: Article
-      timeMinutes: 7
-      timeBadge: info
     optionalLiterature:
     - title: "Microservices Pattern: Microservice Architecture pattern"
       url: https://microservices.io/patterns/microservices.html
