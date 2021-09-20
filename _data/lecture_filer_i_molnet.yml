@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
-  literatureTime: 22
-  optionalLiteratureTime: 36
+  literatureTime: 29
+  optionalLiteratureTime: 100
 topics:
   - topic: "Azure Storage Tools"
     literatureTime: 0
@@ -21,7 +21,7 @@ topics:
         And make sure to keep an eye on our Azure Portal "How to" Series playlist: https://www.youtube.com/playlist?list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR
     - title: "Azure Storage Explorer – cloud storage management"
       url: https://azure.microsoft.com/en-us/features/storage-explorer/#overview
-      timeType: Article
+      timeType: Reklam
       timeMinutes: 0
       timeBadge: dark
       description: >
@@ -35,7 +35,11 @@ topics:
         The Azure Storage Emulator (deprecated) provides a free local development environment for developing and testing your Azure Storage applications.
     - title: "GitHub - Azure/Azurite"
       url: https://github.com/azure/azurite
+      timeType: GitHub
+      timeMinutes: 0
+      timeBadge: dark
       description: >
+        -repo
         A lightweight server clone of Azure Storage that simulates most of the commands supported by it with minimal dependencies - GitHub - Azure/Azurite: A lightweight server clone of Azure Storage that ...
   - topic: "Azure storage"
     literatureTime: 19
@@ -44,6 +48,9 @@ topics:
     literature:
     - title: "Azure Cloud Storage Solutions and Services"
       url: https://azure.microsoft.com/en-us/product-categories/storage/
+      timeType: Reklam
+      timeMinutes: 0
+      timeBadge: dark
       description: >
         View a variety of Azure storage products and tools. Find massively scalable cloud storage systems to secure your data from unauthorized access.
     - title: "AZ-900 Episode 11 - Azure Storage Services - Blob, Queue, Table, Files, Disk and Storage Tiers"
@@ -62,15 +69,15 @@ topics:
       description: >
         Analyzes differences and similarities between two types of queues offered by Azure.
   - topic: "GDPR"
-    literatureTime: 3
-    optionalLiteratureTime: 0
+    literatureTime: 10
+    optionalLiteratureTime: 64
     description-include: gdpr.md
     literature:
-    - title: "Integritetsskyddsmyndigheten - IMY"
+    - title: "Grundläggande principer i dataskyddsförordningen"
       url: https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/grundlaggande-principer/
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 7
+      timeBadge: info
       description: >
         Vi arbetar för att skydda alla dina personuppgifter, till exempel om hälsa och ekonomi, så att de hanteras korrekt och inte hamnar i orätta händer.
     - title: "Introduktion till Dataskyddsförordningen/GDPR"
@@ -83,11 +90,20 @@ topics:
     optionalLiterature:
     - title: "What Happens When You ‘Delete’ Something On The Internet"
       url: https://www.techworm.net/2016/04/happens-delete-something-internet.html
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
       description: >
         Have you ever thought what really happens when you delete data on the Internet? Many a times we post something on our Facebook or Twitter wall only to
     - title: "GDPR Developer Guide"
       url: https://lincnil.github.io/GDPR-Developer-Guide/
-    - title: "Integritetsskyddsmyndigheten - IMY"
+      timeType: Article
+      timeMinutes: 58
+      timeBadge: info
+    - title: "Dataskydd"
       url: https://www.imy.se/verksamhet/dataskydd/
+      timeType: Article
+      timeMinutes: 1
+      timeBadge: info
       description: >
         Vi arbetar för att skydda alla dina personuppgifter, till exempel om hälsa och ekonomi, så att de hanteras korrekt och inte hamnar i orätta händer.

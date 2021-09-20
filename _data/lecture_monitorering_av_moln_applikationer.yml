@@ -1,6 +1,6 @@
 ---
 contentTimeTotal:
-  literatureTime: 9
+  literatureTime: 33
   optionalLiteratureTime: 0
 topics:
   - topic: "Monitoring i Azure"
@@ -8,13 +8,14 @@ topics:
     optionalLiteratureTime: 0
     description-include: monitoring_i_azure.md
     literature:
-    - title: "Azure Monitor overview - Azure Monitor - Microsoft Docs"
+    - title: "Azure Monitor overview"
       url: https://docs.microsoft.com/en-us/azure/azure-monitor/overview
       timeType: Article
       timeMinutes: 0
       timeBadge: dark
       description: >
         Lenght: 8
+        
         Overview of Microsoft services and functionalities that contribute to a complete monitoring strategy for your Azure services and applications.
     optionalLiterature:
     - title: "Analyzing your applications with Application Insights"
@@ -79,12 +80,15 @@ topics:
       description: >
         Learn how to send resource logs and event data from container groups in Azure Container Instances to Azure Monitor logs
   - topic: "Build measure learn"
-    literatureTime: 9
+    literatureTime: 14
     optionalLiteratureTime: 0
     description-include: build_measure_learn.md
     literature:
     - title: "What Is Telemetry? How Telemetry Works, Benefits of Telemetry, Challenges, Tutorial, and More"
       url: https://stackify.com/telemetry-tutorial/
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
       description: >
         Telemetry is a powerful feature of APM because it offers visibility into app performance. Learn more about telemetry, how it works, and why it matters.
     - title: "The Build-Measure-Learn Feedback Loop: Creating Real Value by Testing Ideas"
@@ -104,19 +108,22 @@ topics:
       description: >
         A complete guide to understanding the build-measure-learn cycle including practical insights from Zappos beginnings.
   - topic: "Logging"
-    literatureTime: 0
+    literatureTime: 19
     optionalLiteratureTime: 0
     description-include: logging.md
     literature:
     - title: "Logging in C# .NET Modern-day Practices: The Complete Guide"
       url: https://michaelscodingspot.com/logging-in-dotnet/
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 17
+      timeBadge: info
       description: >
         Logging is a big part of software development for many years now. This guide is a bird's eye view of modern solutions for logging in .NET space.
     - title: "The Twelve-Factor App"
       url: https://12factor.net/logs
+      timeType: Article
+      timeMinutes: 2
+      timeBadge: info
       description: >
         A methodology for building modern, scalable, maintainable software-as-a-service apps.
     - title: "Logging Best Practices: The 13 You Should Know"
