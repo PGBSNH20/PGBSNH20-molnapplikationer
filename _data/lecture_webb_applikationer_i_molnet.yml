@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
-  literatureTime: 23
-  optionalLiteratureTime: 13
+  literatureTime: 78
+  optionalLiteratureTime: 41
 notInTopic:
   literature:
   - title: "Azure hosting recommendations for ASP.NET Core web apps - Microsoft Docs"
@@ -18,21 +18,21 @@ notInTopic:
   - title: "Azure Function v.s. Web App aka. Serverless v.s. PaaS"
     url: https://www.taztopia.com/single-post/2019/07/28/Azure-Function-vs-Web-App-aka-Serverless-vs-PaaS
     timeType: Article
-    timeMinutes: 0
-    timeBadge: dark
+    timeMinutes: 8
+    timeBadge: info
     description: >
       This article will talk to some thoughts around governance / assessing the best hosting service for our applications on Azure, however these principles can be ap
   - title: "The Twelve-Factor App"
     url: https://12factor.net/
     timeType: Article
-    timeMinutes: 0
-    timeBadge: dark
+    timeMinutes: 2
+    timeBadge: info
     description: >
       A methodology for building modern, scalable, maintainable software-as-a-service apps.
 topics:
   - topic: "Cloud native"
     literatureTime: 0
-    optionalLiteratureTime: 0
+    optionalLiteratureTime: 8
     description-include: cloud_native.md
     recommendedLiterature:
     - title: "Defining Cloud Native"
@@ -45,6 +45,9 @@ topics:
     optionalLiterature:
     - title: "5 steps to building a cloud-ready application architecture"
       url: https://techbeacon.com/enterprise-it/5-steps-building-cloud-ready-application-architecture
+      timeType: Article
+      timeMinutes: 8
+      timeBadge: info
       description: >
         Here are five tips for building cloud-aware application architecture that performs better, and is more resilient and easier to manage.
     - title: "5 principles for cloud-native architecture—what it is and how to master it"
@@ -52,15 +55,15 @@ topics:
       description: >
         Learn to maximize your use of Google Cloud by adopting a cloud-native architecture.
   - topic: "Microservices - Arkitektur"
-    literatureTime: 7
-    optionalLiteratureTime: 0
+    literatureTime: 62
+    optionalLiteratureTime: 10
     description-include: microservices_-_arkitektur.md
     literature:
     - title: "Why You Should Care About Microservices"
       url: https://channel9.msdn.com/Events/dotnetConf/Focus-on-Microservices/Why-You-Should-Care-About-Microservices?ocid=player
       timeType: Video
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 55
+      timeBadge: danger
       description: >
         Hear from the co-founder of Kubernetes about why microservices are important and why you should care about them.
     - title: "Four architecture choices for application development"
@@ -72,8 +75,8 @@ topics:
     - title: "Microservices Pattern: Microservice Architecture pattern"
       url: https://microservices.io/patterns/microservices.html
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 10
+      timeBadge: info
       description: >
         The microservice architecture structures an application as a set of loosely coupled, deployable/executable components organized around business capabilities
   - topic: "Azure Web Apps"

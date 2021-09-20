@@ -76,6 +76,10 @@ topics:
         
         #DevOps #DeliveryPipeline #IBMCloud
     optionalLiterature:
+    - title: "Guide to becoming an Dev Ops Goddess and a six figure tech Boss!"
+      url: https://yasmintaylor846.medium.com/guide-to-becoming-an-dev-ops-goddess-and-a-six-figure-tech-boss-451cdfcb5b61
+      description: >
+        14.04.2020
     - title: "The Eight Phases of a DevOps Pipeline"
       url: https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba
       timeType: Article
