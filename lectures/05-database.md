@@ -56,10 +56,10 @@ Hints:
 * [Azure SQL Database Serverless – Facts!!](https://sqlworldwide.com/azure-sql-database-serverless-facts/)
 
 **Silver (meddel - rekomenderat):**
-Bygg som beskrivet ett REST API med Azure function, använn CosmosDB till att hålla data.
+Bygg som beskrivet ett REST API med Azure function, använn CosmosDB Serverless till att hålla data.
 
 **Guld (avancerat):**
-Bygg som i *silver* ett REST API med Azure function, använn CosmosDB till att hålla data. **Lägg till** automatisk deploy med GitHub actions till Azure.
+Bygg som i *silver* ett REST API med Azure function, använn CosmosDB Serverless till att hålla data. **Lägg till** automatisk deploy med GitHub actions till Azure.
 
 Hints:
 * [Azure Functions Action](https://github.com/marketplace/actions/azure-functions-action)
