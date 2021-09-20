@@ -11,11 +11,11 @@ Oftast när vi bygger en applikation har vi ett behov att ha data på ett strukt
 
 ## Lektionsplan
 
-Förre lektion: <a href="{{site.data.schedule.weeks[1].days[2].activities[1].slug | prepend: site.baseurl }}">{{site.data.schedule.weeks[1].days[2].activities[1].title}}</a>
+Förre lektion ({{site.data.schedule.weeks[1].days[2].activities[1].number}}): <a href="{{site.data.schedule.weeks[1].days[2].activities[1].slug | prepend: site.baseurl }}">{{site.data.schedule.weeks[1].days[2].activities[1].title}}</a>
 
 {% include lectureplan.html lectureWeek=2 lectureDay=0 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}
 
-Nästa lektion: <a href="{{site.data.schedule.weeks[2].days[2].activities[1].slug | prepend: site.baseurl }}">{{site.data.schedule.weeks[2].days[2].activities[1].title}}</a>
+Nästa lektion ({{site.data.schedule.weeks[2].days[2].activities[1].number}}): <a href="{{site.data.schedule.weeks[2].days[2].activities[1].slug | prepend: site.baseurl }}">{{site.data.schedule.weeks[2].days[2].activities[1].title}}</a> 
 
 ## Lektionslitteratur
 *Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion, det antas att du har läst/set/lystnad detta innan lektionen starter.*
