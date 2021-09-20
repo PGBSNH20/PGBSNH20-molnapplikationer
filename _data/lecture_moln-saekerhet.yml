@@ -1,11 +1,14 @@
 ---
 contentTimeTotal:
-  literatureTime: 28
+  literatureTime: 35
   optionalLiteratureTime: 0
 notInTopic:
   literature:
   - title: "Hacking challenge at DEFCON"
     url: https://www.youtube.com/watch?v=fHhNWAKw0bY
+    timeType: Video
+    timeMinutes: 7
+    timeBadge: danger
     description: >
       Watch what happens when journalist Kevin Roose challenges hackers to hack him.
       
@@ -34,10 +37,13 @@ topics:
     - title: "Azure Security Best Practices"
       url: https://microsoft.github.io/AzureTipsAndTricks/blog/tip272.html
       timeType: Article
+      timeMinutes: 11
+      timeBadge: info
+    - title: "Azure Defender"
+      url: https://azure.microsoft.com/en-us/services/azure-defender/
+      timeType: Reklam
       timeMinutes: 0
       timeBadge: dark
-    - title: "Azure Defender"
-      url: https://azure.microsoft.com/en-us/services/azure-defender/#features
       description: >
         Protect your hybrid cloud workloads with Azure Defender—helping you streamline security with AI and automation.
   - topic: "Compliance"

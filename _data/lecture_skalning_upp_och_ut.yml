@@ -1,10 +1,10 @@
 ---
 contentTimeTotal:
-  literatureTime: 11
+  literatureTime: 110
   optionalLiteratureTime: 0
 topics:
   - topic: "Availability, Redudancy and Resiliency"
-    literatureTime: 11
+    literatureTime: 43
     optionalLiteratureTime: 0
     description-include: availability_redudancy_and_resiliency.md
     literature:
@@ -17,18 +17,30 @@ topics:
         Modern-day data centers are extremely complex and have many moving parts. VMs can restart or move, systems are upgraded, and file servers are scaled up and down. All these events are to be expected in a cloud environment. However, you can make your cloud application resilient to these events by following best practices. This document outlines 13 crucial steps that you can take to ensure that your app is cloud ready. By taking these steps, you will ensure that any events in the data center will have negligible effects on your app and that your app will be more resilient and future proof.
     - title: "Architecting for Resiliency"
       url: https://medium.com/capital-one-tech/architecting-for-resiliency-9ec663db5c94
+      timeType: Article
+      timeMinutes: 6
+      timeBadge: info
       description: >
         Do We Need It Vs. How Much Of It Do We Need?
     - title: "Cloud Management: 5 Best Practices to Ensure Cloud Success"
       url: https://daydigital.com/cloud-management-best-practices
+      timeType: Article
+      timeMinutes: 6
+      timeBadge: info
       description: >
         This article will guide you with 5 Cloud management best practices to avoid pitfalls and ensure that your business is getting the most from your cloud.
     - title: "Architecting for resiliency and availability - Azure Architecture Center"
       url: https://docs.microsoft.com/en-us/azure/architecture/reliability/architect
+      timeType: Article
+      timeMinutes: 18
+      timeBadge: info
       description: >
         Learn how to build resiliency and availability into your Azure application by starting at the design stage and building key elements into your architecture.
     - title: "Principles of the reliability pillar - Azure Architecture Center"
       url: https://docs.microsoft.com/en-us/Azure/architecture/framework/resiliency/principles
+      timeType: Article
+      timeMinutes: 2
+      timeBadge: info
       description: >
         Understand the principles of the reliability pillar. Review application framework tips to make the application more reliable.
     optionalLiterature:
@@ -41,12 +53,15 @@ topics:
       description: >
         Use these recommendations to avoid having single points of failure, by building redundancy into your application.
   - topic: "Scaling out and up"
-    literatureTime: 0
+    literatureTime: 28
     optionalLiteratureTime: 0
     description-include: scaling_out_and_up.md
     literature:
     - title: "Scaling Up and Out With Microsoft® Azure"
       url: https://www.youtube.com/watch?v=Oy32KEeREVI
+      timeType: Video
+      timeMinutes: 19
+      timeBadge: danger
       description: >
         Learn more: https://slrwnds.com/scaling-up
         
@@ -61,8 +76,8 @@ topics:
     - title: "Scaling Up vs. Scaling Out: What’s the Difference?"
       url: https://pagely.com/blog/scaling-up-vs-scaling-out/
       timeType: Article
-      timeMinutes: 0
-      timeBadge: dark
+      timeMinutes: 9
+      timeBadge: info
       description: >
         Whether you’re running a single WordPress site or a million, you’ve likely come across this question at least once: how do I scale as I grow? It’s a tough question […]
     optionalLiterature:
@@ -75,14 +90,20 @@ topics:
       description: >
         Understanding how to scale your cloud environment is critical for meeting business demand. Learn the benefits of scale up vs scale out.
   - topic: "Chaos engineering"
-    literatureTime: 0
+    literatureTime: 9
     optionalLiteratureTime: 0
     description-include: chaos_engineering.md
     literature:
     - title: "Principles of chaos engineering"
       url: https://principlesofchaos.org/
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
     - title: "Chaos engineering - Azure Architecture Center"
       url: https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/chaos-engineering
+      timeType: Article
+      timeMinutes: 5
+      timeBadge: info
       description: >
         Understand chaos engineering fundamentals for improving the reliability of a service that's built on Azure.
     optionalLiterature:
@@ -118,16 +139,22 @@ topics:
         
         Chaos Engineering isn’t the process of creating chaos, but rather surfacing chaos that is inherent in the behavior of these systems at scale. By focusing on high level business metric, we side step understanding *how* a particular model works in order to identify *whether* it work under realistic, turbulent conditions in production. This fills a gap that arms SREs with a better, holistic understanding of the system’s behavior.
   - topic: "Azure"
-    literatureTime: 0
+    literatureTime: 26
     optionalLiteratureTime: 0
     description-include: azure.md
     literature:
-    - title: "What is Azure Load Balancer? - Azure Load Balancer"
+    - title: "What is Azure Load Balancer?"
       url: https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview
+      timeType: Article
+      timeMinutes: 3
+      timeBadge: info
       description: >
         Overview of Azure Load Balancer features, architecture, and implementation. Learn how the Load Balancer works and how to use it in the cloud.
-    - title: "How to create a load balancer - Azure Portal Series"
+    - title: "How to create a load balancer"
       url: https://www.youtube.com/watch?v=-VMPzVoo5Nk
+      timeType: Video
+      timeMinutes: 5
+      timeBadge: danger
       description: >
         In this video of the Azure Portal “How To” Series, you will learn how to configure load balancers and how to add virtual machines to them in the Azure Portal. 
         
@@ -136,6 +163,9 @@ topics:
         And make sure to keep an eye on our Azure Portal "How to" Series playlist for a new video every week: https://www.youtube.com/playlist?list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR
     - title: "Autoscale on Azure App Services"
       url: https://www.youtube.com/watch?v=7SlUWlzpTS4
+      timeType: Video
+      timeMinutes: 18
+      timeBadge: danger
       description: >
         Being able to dynamically scale an application in the cloud is one of the value proposition for using the cloud. Azure makes this easy with Azure App Services and Autoscaling, which enables apps to scale on all kinds of metrics. In this video, we'll show you how to use it.
         
@@ -170,14 +200,17 @@ topics:
       description: >
         Learn how to use geo-redundant storage to design a highly available application that is flexible enough to handle outages.
   - topic: "Multi cloud"
-    literatureTime: 0
+    literatureTime: 4
     optionalLiteratureTime: 0
     description-include: multi_cloud.md
     literature:
     - title: "Multi Cloud Strategies"
       url: https://shunvel.medium.com/multi-cloud-strategies-338cf81313a2
+      timeType: Article
+      timeMinutes: 4
+      timeBadge: info
       description: >
-        What is Multi Cloud:
+        What is Multi Cloud
     optionalLiterature:
     - title: "Multi-cloud strategy: 8 things to know"
       url: https://enterprisersproject.com/article/2017/9/multi-cloud-strategy-8-things-know
