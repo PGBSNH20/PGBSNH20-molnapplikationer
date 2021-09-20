@@ -10,7 +10,7 @@ Termen serverless gör det extremt enkelt att börja att använda sig av molnet,
 
 ## Lektionsplan
 
-Förre lektion ({{site.data.schedule.weeks[1].days[1].activities[1].number}}): <a href="{{site.data.schedule.weeks[1].days[1].activities[1].slug | prepend: site.baseurl }}">{{site.data.schedule.weeks[1].days[1].activities[1].title}}</a>
+Förre lektion ({{site.data.schedule.weeks[1].days[0].activities[1].number}}): <a href="{{site.data.schedule.weeks[1].days[0].activities[1].slug | prepend: site.baseurl }}">{{site.data.schedule.weeks[1].days[0].activities[1].title}}</a>
 
 {% include lectureplan.html lectureWeek=1 lectureDay=2 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}
 
