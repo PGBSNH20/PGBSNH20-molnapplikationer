@@ -68,7 +68,9 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 Deadline på PingPong, tisdag den 21:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
-* Koden?
+* Beskriv kort applikationen, vad gör den?
+* Beskriv koden
+* Beskriv databasen
 * Hur har du/ni fått den att köra i Azure functions? Screenshots, scrips, pipelines
 * Hur har du tänkt runt opdatring av databsen ifall scheman ändras?
 * Vad skulle det kosta att driva detta? Tänk gärna två scenarier: Nästan ingen använadere och jätte jätte mycket användere
