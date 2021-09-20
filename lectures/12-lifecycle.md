@@ -13,6 +13,8 @@ Efter denna lektion kommer ni att få tillgång till tenta uppgiften.
 
 ## Lektionsplan
 
+Förre lektion ({{site.data.schedule.weeks[5].days[0].activities[1].number}}): <a href="{{site.data.schedule.weeks[5].days[0].activities[1].slug | prepend: site.baseurl }}">{{site.data.schedule.weeks[5].days[0].activities[1].title}}</a>
+
 {% include lectureplan.html lectureWeek=5 lectureDay=2 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}
 
 ## Lektionslitteratur

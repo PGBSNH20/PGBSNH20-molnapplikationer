@@ -15,6 +15,8 @@ Utover repetition av speciellt nätverksteori, kommer vi att prata mere om molne
 
 {% include lectureplan.html lectureWeek=0 lectureDay=0 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}
 
+Nästa lektion ({{site.data.schedule.weeks[0].days[2].activities[1].number}}): <a href="{{site.data.schedule.weeks[0].days[2].activities[1].slug | prepend: site.baseurl }}">{{site.data.schedule.weeks[0].days[2].activities[1].title}}</a> 
+
 ## Lektionslitteratur
 *Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion, det antas att du har läst/set/lystnad detta innan lektionen starter.*
 
