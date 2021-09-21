@@ -27,23 +27,38 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_web
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa tre övningar, som är en del av kursen [Architect modern applications in Azure](https://docs.microsoft.com/en-us/learn/paths/architect-modern-apps/):
+Gå igennom dissa fyre övningar, som är en del av kursen [Architect modern applications in Azure](https://docs.microsoft.com/en-us/learn/paths/architect-modern-apps/):
 * [Explore Azure App Service](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-app-service/), 39 min
 * [Host a web application with Azure App Service](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service/), 31 min
+* [Build and store container images with Azure Container Registry](https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/), 49 min
 * [Deploy and run a containerized web app with Azure App Service](https://docs.microsoft.com/en-us/learn/modules/deploy-run-container-app-service/), 46 min
 
 # Övningsuppgift
 
 Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
-**Brons (enkel):**
-b
+I förre lektion gjorde du/ni en databas som höll en data struktur efter ditt eget val. Målet i denna övning är att du ska bygga en liten webapplikation som i princip kan samma som det API du gjorde.
 
-**Silver (meddel):**
-parket som docker
+Webbapplikationen ska vara skriven med Razor Pages och det ska vara möjligt att få präsenterat data från databasen och lägga till nytt data. Tanken är **inte** att du ska använda ditt API men att göra alla anrop direkt från din razor page model. Det viktiga mål är att denna webbapplikation ska du få att köra i Azure App Service.
+
+**Brons (enkel):**
+Bygg webbapplikationen med Razor Pages och publish den till Azure App Services med [Visual Studio](https://docs.microsoft.com/en-US/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2019) eller [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
+
+**Silver (meddel - rekomenderat):**
+Bygg webbapplikationen med Razor Pages, lägg till en **dockerfile** så att du kan bygga ett image, [push detta image till ACR](https://blog.hildenco.com/2020/10/pushing-docker-images-to-azure.html).
+
+När ditt image är i ACR konfigurera en ny Azure App Services så att den hämtar och kör ditt docker image.
+
+Hints:
+* [Deploy docker image to Azure App Service using Visual Studio Code](https://code.visualstudio.com/docs/containers/app-service)
 
 **Guld (avancerat):**
-g
+Bygg webbapplikationen med Razor Pages, lägg till en **dockerfile** så att du kan bygga ett image, push alt till ett GitHub repo.
+
+Configurera GitHub actions så att ett docker image byggs till GitHub packages (som i lektion 2), konfigurera en ny Azure App Services så att den hämtar och kör ditt docker image från GitHub packages.
+
+Hints:
+* [How to deploy docker image from Github Package Registry to Azure Web Apps](https://stackoverflow.com/questions/64853326/how-to-deploy-docker-image-from-github-package-registry-to-azure-web-apps)
 
 # Individuell inlämningsuppgift
 ## Blogg 06: Webbapplikationer i molnet
@@ -53,7 +68,10 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 Deadline på PingPong, fredag den 24:e september kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
-* 1
-* 2
+* Beskriv kort applikationen, vad gör den?
+* Beskriv koden
+* Hur har du/ni fått den att köra i Azure App Service? Screenshots, scrips, pipelines
+* Vad skulle det kosta att driva detta? Tänk gärna två scenarier: Nästan ingen använadere och jätte jätte mycket användere
+    * Använd [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) till att ta fram kostnad
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
