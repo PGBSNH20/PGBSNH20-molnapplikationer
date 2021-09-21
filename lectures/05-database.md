@@ -62,7 +62,7 @@ Hints:
 * [Rapid API Development with Azure Functions](https://markheath.net/post/azure-functions-rest-csharp-bindings)
 * [Building and Deploying a REST API using Azure Functions and Azure DevOps Pipelines](https://cloudskills.io/blog/azure-functions-rest-api)
 
-Förslag till hur man kan komma pågång:
+Förslag till hur man kan komma på gång med silver (och också Guld för den del):
 1. Skåpa en konsol applikation som jobbar (skriv och läs) med data i en CosmosDb (se [Using Azure CosmosDB With .NET Core](https://dotnetcoretutorials.com/2020/05/02/using-azure-cosmosdb-with-net-core/))
 1. Skåpa en Azure function, med ett GET och ett POST endpoint, testa att det "funkar"
 1. Kopiera kode från konsol appliktion till Azure Funtions projektet, testa att det funkar lokalt
