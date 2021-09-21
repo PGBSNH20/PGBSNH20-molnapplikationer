@@ -29,6 +29,7 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_ska
 # Indviduella övningsuppgifter
 
 Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
+* [Scale apps in Azure App Service](https://docs.microsoft.com/en-us/learn/modules/scale-apps-app-service/), 21 min
 * [x](x), x min
 
 # Övningsuppgift

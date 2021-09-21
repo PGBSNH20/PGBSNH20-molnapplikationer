@@ -27,8 +27,10 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_web
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
-* [x](x), x min
+Gå igennom dissa tre övningar, som är en del av kursen [Architect modern applications in Azure](https://docs.microsoft.com/en-us/learn/paths/architect-modern-apps/):
+* [Explore Azure App Service](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-app-service/), 39 min
+* [Host a web application with Azure App Service](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service/), 31 min
+* [Deploy and run a containerized web app with Azure App Service](https://docs.microsoft.com/en-us/learn/modules/deploy-run-container-app-service/), 46 min
 
 # Övningsuppgift
 
