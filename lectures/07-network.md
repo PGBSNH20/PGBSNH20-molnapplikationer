@@ -27,21 +27,11 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_nae
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
-* [x](x), x min
 
-# Övningsuppgift
+Gå igennom kursen [Connect your services together](https://docs.microsoft.com/en-us/learn/paths/connect-your-services-together/) (4h 4min)
 
-Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
+Och denna övning [Introduction to Azure virtual networks](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-virtual-networks/), 78 min
 
-**Brons (enkel):**
-b
-
-**Silver (meddel):**
-s
-
-**Guld (avancerat):**
-g
 
 # Individuell inlämningsuppgift
 ## Blogg 07: Nätverk i molnet
@@ -50,8 +40,32 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 
 Deadline på PingPong, onsdag den 29:e september kl 23:55. Posta ett länk till dagens blog post.
 
-Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
-* 1
-* 2
+*Denna övning är av teoretisk karaktär*
+
+Ni jobbar i ett företag som har en intern applikation som ni gärna vill modernisera, denna interna applikation använder tillgång till interna server och resurser, och jobbar med klassificerade data som inte får öppet skickas via nätat, och därför är det i följa din CTO inte möjligt att använda en PaaS moln-lösning.
+
+Ett viktigt punkt i modernisering är att implementera en enterprise bus, och ni vill gärna använda er av Azure Service Bus, men tyvär säger eran CTO säger "nej", på grund av data inte får skickas öppet.
+
+Skriv (i eran blogg) ett argument till eran CTO som förklara och övertyga hen om att ni med hjälp av ett Azure Private Link kan använda Azure Service Bus i eran interna applikation. Förklara begrepp som Virtual Private Cloud i eran förklaring.
+
+Om ni lyckas att övertyga eran CTO till att tillåta att ni använder Azure Service Bus, kommer ni i framtiden att kunna använda andra Azure PaaS tjänster (vilket gör livet som utvecklare mycket bättre) :-)
+
+Fakta om eran CTO, hen är:
+
+* inte så svår att övertyga, om bara ni använder fakta
+* visuell och älskar därför diagram och ritningar (men se till att göra egna, använd t.ex. draw.io)
+* fan av teknisk, så var inte rädd om att använda tekniska termer
+
+**Hints**:
+
+* [Connect an on-premises network to a Microsoft Azure virtual network](https://docs.microsoft.com/en-us/microsoft-365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network?view=o365-worldwide)
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
+
+# Frivillig övelse
+
+Om man saknar litet kod, kan man göra denna övelse. 
+
+Skåpa en konsol applikation som använder Azure Service Bus : [Get started with Service Bus queues](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
+
+Denna övning ska **inte** vara i eran blog.
