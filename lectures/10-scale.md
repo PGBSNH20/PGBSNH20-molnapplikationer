@@ -28,9 +28,9 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_ska
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
+Gå igennom dissa x övningar, som är en del av kursen [Architect migration, business continuity, and disaster recovery in Azure](https://docs.microsoft.com/en-us/learn/paths/architect-migration-bcdr/):
 * [Scale apps in Azure App Service](https://docs.microsoft.com/en-us/learn/modules/scale-apps-app-service/), 21 min
-* [x](x), x min
+* [Scale an App Service web app to efficiently meet demand with App Service scale up and scale out](https://docs.microsoft.com/en-us/learn/modules/app-service-scale-up-scale-out/), 46 min
 
 # Övningsuppgift
 
