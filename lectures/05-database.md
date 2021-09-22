@@ -59,8 +59,11 @@ Hints:
 Bygg som beskrivet ett REST API med Azure function, använn CosmosDB Serverless till att hålla data.
 
 Hints:
+* Step 1:[Reading Azure Cosmos DB Data In Azure Functions](http://dontcodetired.com/blog/post/Reading-Azure-Cosmos-DB-Data-In-Azure-Functions)
+* Step 2:[Writing Azure Cosmos DB Data from Azure Functions](http://dontcodetired.com/blog/post/Writing-Azure-Cosmos-DB-Data-from-Azure-Functions)
 * [Rapid API Development with Azure Functions](https://markheath.net/post/azure-functions-rest-csharp-bindings)
 * [Building and Deploying a REST API using Azure Functions and Azure DevOps Pipelines](https://cloudskills.io/blog/azure-functions-rest-api)
+
 
 Förslag till hur man kan komma på gång med silver (och också Guld för den del):
 1. Skåpa en konsol applikation som jobbar (skriv och läs) med data i en CosmosDb (se [Using Azure CosmosDB With .NET Core](https://dotnetcoretutorials.com/2020/05/02/using-azure-cosmosdb-with-net-core/))
