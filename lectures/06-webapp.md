@@ -60,6 +60,15 @@ Configurera GitHub actions så att ett docker image byggs till GitHub packages (
 Hints:
 * [How to deploy docker image from Github Package Registry to Azure Web Apps](https://stackoverflow.com/questions/64853326/how-to-deploy-docker-image-from-github-package-registry-to-azure-web-apps)
 
+**Platina (mycket avancerat)**
+Bygg webbappliktionen som en statisk web applikation, som hämter data via Azure Functions. Ett förslag är att använda React som frontend ramverk.
+
+Deploy till **Azure Static Web Apps** från GitHub.
+
+Hints:
+* [Building Single Page App with Azure Functions and improving cold start time](https://itnext.io/building-single-page-app-with-azure-functions-and-improving-cold-start-time-79a0faec9913)
+* [Building An React App With Azure Static Web Apps Service](https://medium.com/bb-tutorials-and-thoughts/building-an-react-app-with-azure-static-web-apps-service-4e3e23e9870c)
+
 # Individuell inlämningsuppgift
 ## Blogg 06: Webbapplikationer i molnet
 
