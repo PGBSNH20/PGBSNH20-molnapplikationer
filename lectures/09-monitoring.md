@@ -34,8 +34,14 @@ Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
 
 Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
+Bygg en konsol applikation som loggar med strukturerat logging, ni väljer själv om ni vill använda .NET Core Logging eller Serilog (som ofta använs i .NET Core applikationer) som logging-provider.
+
+Börja med att få till logging till konsolen.
+
+Ett exempel på hur output av eran konsol applikation kan se ut: 
+
 **Brons (enkel):**
-b
+Bygg en konsol applikation som loggar med strukturerat logging, ni väljer själv om ni vill använda .NET Core Logging eller Serilog (som ofta använs i .NET Core applikationer) som logging-provider.
 
 **Silver (meddel):**
 s
@@ -50,7 +56,7 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 
 Deadline på PingPong, onsdag den 6:e oktober kl 23:55. Posta ett länk till dagens blog post.
 
-Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
+Skriv ett blogg post som följer denna lektion, detta post ska innehålla en text som svara på dissa frågor:
 * 1
 * 2
 

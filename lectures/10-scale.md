@@ -32,18 +32,13 @@ Gå igennom dissa x övningar, som är en del av kursen [Architect migration, bu
 * [Scale apps in Azure App Service](https://docs.microsoft.com/en-us/learn/modules/scale-apps-app-service/), 21 min
 * [Scale an App Service web app to efficiently meet demand with App Service scale up and scale out](https://docs.microsoft.com/en-us/learn/modules/app-service-scale-up-scale-out/), 46 min
 
+
 # Övningsuppgift
 
 Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
-**Brons (enkel):**
-b
+Deploya eran Azure Function och eran App Server (webb appliktion), använn <loader.io> till att skåpa så mycket trafik att appliketion börjar att skala. Någon konfiguration kan behövas.
 
-**Silver (meddel):**
-s
-
-**Guld (avancerat):**
-g
 
 # Individuell inlämningsuppgift
 ## Blogg 10: Skalning, upp och ut
@@ -52,7 +47,7 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 
 Deadline på PingPong, fredag den 08:e oktober kl 23:55. Posta ett länk till dagens blog post.
 
-Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
+Skriv ett blogg post som följer denna lektion, detta post ska innehålla en text som svara på dissa frågor:
 * 1
 * 2
 

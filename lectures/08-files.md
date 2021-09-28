@@ -28,21 +28,37 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_fil
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
-* [x](x), x min
+Gå igennom kursen [Store data in Azure](https://docs.microsoft.com/en-us/learn/paths/store-data-in-azure/) (3h 40min)
+
+Och denna övning [Azure Storage CRUD Operations In MVC Using C# - Azure Table Storage - Part One](https://www.c-sharpcorner.com/article/azure-storage-crud-operations-in-mvc-using-c-sharp-azure-table-storage-part-one/) 
 
 # Övningsuppgift
 
 Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
-**Brons (enkel):**
-b
+Gör en .NET-konsol applikation med C# som kan ladda upp ett bild till en Azure blob storage. När man har laddat upp bilden ska applikationen visa URLen till bilden i bloben.
+
+Hints:
+
+* [Azure Blob Storage using a .NET Core Console Application](https://medium.com/@rammonzito/azure-blob-storage-using-a-net-core-console-application-106a0c2e6de5)
+
+**Brons (enkel): Konsol applikation**
+
+Testa lokalt med en storage emulator (välj själv emellam [The Microsoft Azure Storage Emulator](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator?toc=/azure/storage/blobs/toc.json) och [Azurite](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azurite?toc=/azure/storage/blobs/toc.json)), innan ni ansluttar mot Azure.
 
 **Silver (meddel):**
-s
+Skåpa en web app som läser bilderna som finns i eran blob och visa dom.
+
+Lokalt ska webb applikationen jobba mot eran storage emulator.
+
+**Hints**:
+
+* Artikel: [Azure Storage CRUD Operations In MVC Using C# - Azure Blob Storage - Part Two](https://www.c-sharpcorner.com/article/azure-storage-crud-operations-in-mvc-using-c-sharp-part-two/)
+* Video: [How to create a storage account and upload a blob](https://www.youtube.com/watch?v=UJG6viKU_A8)
 
 **Guld (avancerat):**
-g
+Bygg som i *silver* en web app som läser av era filer i blob storage. **Lägg till** automatisk deploy med GitHub actions till Azure.
+
 
 # Individuell inlämningsuppgift
 ## Blogg 08: Filer i molnet
@@ -51,8 +67,12 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 
 Deadline på PingPong, fredag den 01:e oktober kl 23:55. Posta ett länk till dagens blog post.
 
-Skriv ett blogg post som följer denna lektion ska innehålla en text som svara på dissa frågor:
-* 1
-* 2
+Skriv ett blogg post som följer denna lektion, detta post ska innehålla en text som svara på dissa frågor:
+* Beskriv kort applikationen, vad gör den? 
+* Gör en diagram (använn eg [draw.io](https://draw.io)) som visar hur data flyter.
+* Beskriv koden
+* Vad skulle det kosta att driva en applikation som spara och läser filer i Azure? Låt oss säga att man ska bygga en applikation som [shutterstock](https://shutterstock.com). Vad skulle hända med kostnad över tid om du har 1000 använder som lägger upp 100 MB nya bilder varje dag (med din konsoll app), och alla bilder som finns i din blob laddas ner tre gångar per dag (med ditt web UI).
+* Explain with your own words what Microsoft does to secure your blob data ([hint](https://cloudacademy.com/blog/how-does-azure-encrypt-data/))
+* För guld: Hur har du/ni fått den din applikation köra i Azure? Screenshots, scrips, pipelines
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
