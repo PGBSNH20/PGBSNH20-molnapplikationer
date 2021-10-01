@@ -49,7 +49,7 @@ Testa lokalt med en storage emulator (välj själv emellam [The Microsoft Azure 
 **Silver (meddel):**
 Skåpa en web app som läser läser vilka bilder som finns i eran blob, läsa deras URL  och använn denna till att vises bilderna i en HTML sida.
 
-Lokalt ska webb applikationen jobba mot eran storage emulator.
+Lokalt kan webb applikationen jobba mot eran storage emulator eller mot en container i Azure.
 
 **Hints**:
 * Om man använder *Azure.Storage.Blobs* kan man generera URLen till bilden med blob-containerens URI kombinerat med namnet på bloben. Eg: `string blobUrl = $"{containerClient.Uri}/{blob.Name}";`
