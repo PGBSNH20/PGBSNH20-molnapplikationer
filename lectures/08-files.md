@@ -71,7 +71,7 @@ Skriv ett blogg post som följer denna lektion, detta post ska innehålla en tex
 * Beskriv kort applikationen, vad gör den? 
 * Gör en diagram (använn eg [draw.io](https://draw.io)) som visar hur data flyter.
 * Beskriv koden
-* Vad skulle det kosta att driva en applikation som spara och läser filer i Azure? Låt oss säga att man ska bygga en applikation som [shutterstock](https://shutterstock.com). Vad skulle hända med kostnad över tid om du har 1000 använder som lägger upp 100 MB nya bilder varje dag (med din konsoll app), och alla bilder som finns i din blob laddas ner tre gångar per dag (med ditt web UI).
+* Vad skulle det kosta att driva en applikation som spara och läser filer i Azure? Låt oss säga att man ska bygga en applikation som [shutterstock](https://shutterstock.com). Vad skulle hända med kostnad över tid om du har 1000 använder som var isär lägger upp 100 MB nya bilder varje dag (med din konsoll app), och alla bilder som finns i din blob laddas ner tre gångar per dag (med ditt web UI).
 * Explain with your own words what Microsoft does to secure your blob data ([hint](https://cloudacademy.com/blog/how-does-azure-encrypt-data/))
 * För guld: Hur har du/ni fått den din applikation köra i Azure? Screenshots, scrips, pipelines
 
