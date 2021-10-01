@@ -52,7 +52,7 @@ Skåpa en web app som läser läser vilka bilder som finns i eran blob, läsa de
 Lokalt ska webb applikationen jobba mot eran storage emulator.
 
 **Hints**:
-* Om man använder *Azure.Storage.Blobs* kan man generera URLen till bilden med blob-containerens URI kombinerat med namnet på bloben. Eg: `{containerClient.Uri}/{blob.Name}`
+* Om man använder *Azure.Storage.Blobs* kan man generera URLen till bilden med blob-containerens URI kombinerat med namnet på bloben. Eg: `string blobUrl = $"{containerClient.Uri}/{blob.Name}"`
 * Artikel: [Azure Storage CRUD Operations In MVC Using C# - Azure Blob Storage - Part Two](https://www.c-sharpcorner.com/article/azure-storage-crud-operations-in-mvc-using-c-sharp-part-two/)
 * Video: [How to create a storage account and upload a blob](https://www.youtube.com/watch?v=UJG6viKU_A8)
 
