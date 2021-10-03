@@ -38,20 +38,16 @@ Gå igennom dissa fem övningar:
 
 Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
-Bygg en konsol applikation som loggar med strukturerat logging, ni väljer själv om ni vill använda .NET Core Logging eller Serilog (som ofta använs i .NET Core applikationer) som logging-provider.
+Ta en av dina webbapplikationer, detta kunna vara webb applikation som du/ni byggd i [lektion 6](https://pgbsnh20.github.io/PGBSNH20-molnapplikationer/cloud-lectures/webapplications#övningsuppgift).
 
-Börja med att få till logging till konsolen.
+Implementera logging och konfigura så att loggen hamnar i Application Insights. Deploya applikationen till Azure App Service. 
 
-Ett exempel på hur output av eran konsol applikation kan se ut: 
+Ta frem minst två [Kusto](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/) "queries" (förfrågningar) som viser data om din applikation, eksampler på queries:
+* En som visar alla *Errors* och *Warnings* i applikationen
+* En som visar tiden det tar att inläsa en websida
 
-**Brons (enkel):**
-Bygg en konsol applikation som loggar med strukturerat logging, ni väljer själv om ni vill använda .NET Core Logging eller Serilog (som ofta använs i .NET Core applikationer) som logging-provider.
-
-**Silver (meddel):**
-s
-
-**Guld (avancerat):**
-g
+Hints:
+* [Application Insights for ASP.NET Core applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-core)
 
 # Individuell inlämningsuppgift
 ## Blogg 09: Monitorering av molnapplikationer
@@ -61,7 +57,10 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 Deadline på PingPong, onsdag den 6:e oktober kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion, detta post ska innehålla en text som svara på dissa frågor:
-* 1
-* 2
+* Beskriv kort applikationen, vad gör den? 
+* Gör en diagram (använn eg [draw.io](https://draw.io)) hur den applikation är förbundet andra tjäster
+* Beskriv koden, med fokus på den del som rör din log implementation
+* Fundera på och beskriv hur logging av din applikation kan kan avhjälpa säkerhetsproblem i din applikation
+* Förklara dina queries; vad gör dom? varför är dissa data som tas fram interesanta? 
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
