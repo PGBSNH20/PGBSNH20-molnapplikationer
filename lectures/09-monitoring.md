@@ -27,8 +27,12 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_mon
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
-* [x](x), x min
+Gå igennom dissa fem övningar:
+* [Introduction to Azure Monitor](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-monitor/), 49 min
+* [Analyze your Azure infrastructure by using Azure Monitor logs](https://docs.microsoft.com/en-us/learn/modules/analyze-infrastructure-with-azure-monitor-logs/), 36 min
+* [Capture and view page load times in your Azure web app with Application Insights](https://docs.microsoft.com/en-us/learn/modules/capture-page-load-times-application-insights/), 45 min
+* [Instrument server-side web application code with Application Insights](https://docs.microsoft.com/en-us/learn/modules/instrument-web-app-code-with-application-insights/), 34 min
+* [Implement logging in a .NET Framework ASP.NET web application](https://docs.microsoft.com/en-us/learn/modules/aspnet-logging/), 24 min
 
 # Övningsuppgift
 
