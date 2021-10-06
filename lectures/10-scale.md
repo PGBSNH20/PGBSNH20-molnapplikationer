@@ -50,6 +50,16 @@ Hint: [Load-Testing Azure Functions with Loader.io](https://mikhail.io/2019/07/l
 
 ![Proxy example]({{ "/_images/azureproxy.png" | prepend: site.baseurl }})
 
+Om man vill se hur många instanser som har körst under testet kan man unde rlogs använda sig av följande KQL:
+```
+let grainTime = 30sec;
+
+traces
+| where timestamp >= ago(24h)
+| summarize ['rate/minute'] = dcount(cloud_RoleInstance) by timestamp
+| render timechart
+```
+
 # Individuell inlämningsuppgift
 ## Blogg 10: Skalning, upp och ut
 
