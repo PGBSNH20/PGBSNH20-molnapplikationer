@@ -28,7 +28,7 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_ska
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa x övningar, som är en del av kursen [Architect migration, business continuity, and disaster recovery in Azure](https://docs.microsoft.com/en-us/learn/paths/architect-migration-bcdr/):
+Gå igennom dissa två övningar, som är en del av kursen [Architect migration, business continuity, and disaster recovery in Azure](https://docs.microsoft.com/en-us/learn/paths/architect-migration-bcdr/):
 * [Scale apps in Azure App Service](https://docs.microsoft.com/en-us/learn/modules/scale-apps-app-service/), 21 min
 * [Scale an App Service web app to efficiently meet demand with App Service scale up and scale out](https://docs.microsoft.com/en-us/learn/modules/app-service-scale-up-scale-out/), 46 min
 
@@ -37,6 +37,7 @@ Gå igennom dissa x övningar, som är en del av kursen [Architect migration, bu
 
 Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
+**inte klar än**
 Deploya eran Azure Function och eran App Server (webb appliktion), använn <loader.io> till att skåpa så mycket trafik att appliketion börjar att skala. Någon konfiguration kan behövas.
 
 
