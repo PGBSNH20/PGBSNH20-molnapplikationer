@@ -47,7 +47,7 @@ Hint: [Load-Testing Azure Functions with Loader.io](https://mikhail.io/2019/07/l
 * När du ska verficera din azure funtion är det enklaste att lägga upp en Function Proxy.
 * Verificera din function i Loader och lägg upp dit första test
 
-![Proxy example](images/azureproxy.png)
+![Proxy example]({{ "/images/azureproxy.png" | prepend: site.baseurl }})
 
 # Individuell inlämningsuppgift
 ## Blogg 10: Skalning, upp och ut
