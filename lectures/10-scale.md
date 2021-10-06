@@ -44,7 +44,7 @@ Hint: [Load-Testing Azure Functions with Loader.io](https://mikhail.io/2019/07/l
 * Se till att ha en Azure function, eller lägg upp en ny.
 * Skåpa en konto på <loader.io> 
 * Lägg till den azure function host i Loader
-* När du ska verficera din azure funtion är det enklaste att lägga upp en Function Proxy.
+* När du ska verficera din azure funtion är det enklaste att lägga upp en Function Proxy (se bild här under).
 * Verificera din function i Loader och lägg upp dit första test
 * Låt test köra ett tag och se om din function skalar som tänkt
 
@@ -62,6 +62,7 @@ Skriv ett blogg post som följer denna lektion, detta post ska innehålla en tex
 * Hur påverker det kostnad att ha en applikation Azure som skalar horisontalt vs vertikalt?
     * För en app service
     * En en virtuell maskin
+* Inte alla Azure Service App plans gir möjlighet att skala, vilka gir vilka möjligheter?
 
 Att prata om vertikal skalning ger mest mening på virtelle maskiner eftersom där finns fler typer av instanser att välja på. Men kan också vara relevant för App Services.
 
