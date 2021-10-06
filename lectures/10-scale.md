@@ -37,9 +37,17 @@ Gå igennom dissa två övningar, som är en del av kursen [Architect migration,
 
 Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
-**inte klar än**
-Deploya eran Azure Function och eran App Server (webb appliktion), använn <loader.io> till att skåpa så mycket trafik att appliketion börjar att skala. Någon konfiguration kan behövas.
+Målet med dagens övning är att se hur man kan sätt upp ett last-test med <loader.io> och samtidigt se att en Azure Function automatisk börjar att skala när där kommer tillräckligt med last.
 
+Hint: [Load-Testing Azure Functions with Loader.io](https://mikhail.io/2019/07/load-testing-azure-functions-with-loaderio/)
+
+* Se till att ha en Azure function, eller lägg upp en ny.
+* Skåpa en konto på <loader.io> 
+* Lägg till den azure function host i Loader
+* När du ska verficera din azure funtion är det enklaste att lägga upp en Function Proxy.
+* Verificera din function i Loader och lägg upp dit första test
+
+![Proxy example](images/azureproxy.png)
 
 # Individuell inlämningsuppgift
 ## Blogg 10: Skalning, upp och ut
@@ -49,7 +57,11 @@ Gör ett nytt inlägg på din blog som du gjorde i samband med dom förra lektio
 Deadline på PingPong, fredag den 08:e oktober kl 23:55. Posta ett länk till dagens blog post.
 
 Skriv ett blogg post som följer denna lektion, detta post ska innehålla en text som svara på dissa frågor:
-* 1
-* 2
+* Förklara skildnad på att skala en applikation horisontalt och vertikalt
+* Hur påverker det kostnad att ha en applikation Azure som skalar horisontalt vs vertikalt?
+    * För en app service
+    * En en virtuell maskin
+
+Att prata om vertikal skalning ger mest mening på virtelle maskiner eftersom där finns fler typer av instanser att välja på. Men kan också vara relevant för App Services.
 
 Om du vill kan du nu välja att dela denna blogpost på sociala media (Linked, Twitter, Facebook etc.) kom ihåg att använda lämpliga hashtags som: #1 #2
