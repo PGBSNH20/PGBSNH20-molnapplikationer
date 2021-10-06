@@ -47,10 +47,11 @@ Hint: [Load-Testing Azure Functions with Loader.io](https://mikhail.io/2019/07/l
 * När du ska verficera din azure funtion är det enklaste att lägga upp en Function Proxy (se bild här under).
 * Verificera din function i Loader och lägg upp dit första test
 * Låt test köra ett tag och se om din function skalar som tänkt
+* Kolla "metrics" i din Azure-portalen för din function
 
 ![Proxy example]({{ "/_images/azureproxy.png" | prepend: site.baseurl }})
 
-Om man vill se hur många instanser som har körst under testet kan man unde rlogs använda sig av följande KQL:
+Om man vill se hur många instanser som har körst under testet kan man under logs använda sig av följande KQL (det går inte enkelt att se någonstans):
 ```
 let grainTime = 30sec;
 
