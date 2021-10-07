@@ -37,12 +37,12 @@ Gå igennom dissa två övningar, som är en del av kursen [Architect migration,
 
 Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
 
-Målet med dagens övning är att se hur man kan sätt upp ett last-test med <loader.io> och samtidigt se att en Azure Function automatisk börjar att skala när där kommer tillräckligt med last.
+Målet med dagens övning är att se hur man kan sätt upp ett last-test med [loader.io](https://loader.io) och samtidigt se att en Azure Function automatisk börjar att skala när där kommer tillräckligt med last.
 
 Hint: [Load-Testing Azure Functions with Loader.io](https://mikhail.io/2019/07/load-testing-azure-functions-with-loaderio/)
 
 * Se till att ha en Azure function, eller lägg upp en ny.
-* Skåpa en konto på <loader.io> 
+* Skåpa en konto på [loader.io](https://loader.io)
 * Lägg till den azure function host i Loader
 * När du ska verficera din azure funtion är det enklaste att lägga upp en Function Proxy (se bild här under).
 * Verificera din function i Loader och lägg upp dit första test
