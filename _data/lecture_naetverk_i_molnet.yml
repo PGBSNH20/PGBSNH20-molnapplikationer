@@ -23,6 +23,10 @@ topics:
       description: >
         Learn about Azure Virtual Network concepts and features, including address space, subnets, regions, and subscriptions.
     optionalLiterature:
+    - title: "Skydda och isolera åtkomst till Azure-resurser med hjälp av nätverkssäkerhetsgrupper och tjänstslutpunkter - Learn"
+      url: https://docs.microsoft.com/sv-se/learn/modules/secure-and-isolate-with-nsg-and-service-endpoints/
+      description: >
+        Lär dig hur nätverkssäkerhetsgrupper och säkerhetsgrupper hjälper dig att skydda dina virtuella datorer och Azure-tjänster från obehörig nätverksåtkomst.
     - title: "Private connectivity to Azure PaaS services using Private Link"
       url: https://www.youtube.com/watch?v=aVFV1_ZwAEY
       timeType: Video

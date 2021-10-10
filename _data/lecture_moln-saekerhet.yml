@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
   literatureTime: 44
-  optionalLiteratureTime: 61
+  optionalLiteratureTime: 120
 notInTopic:
   literature:
   - title: "Hacking challenge at DEFCON"
@@ -13,13 +13,6 @@ notInTopic:
       Watch what happens when journalist Kevin Roose challenges hackers to hack him.
       
       CREDIT: FUSION MEDIA NETWORK 2015
-  - title: "Introduction to Azure security - Microsoft Docs"
-    url: https://docs.microsoft.com/en-us/azure/security/fundamentals/overview
-    timeType: Article
-    timeMinutes: 28
-    timeBadge: info
-    description: >
-      Introduce yourself to Azure Security, its various services, and how it works by reading this overview.
 topics:
   - topic: "Application Security"
     literatureTime: 9
@@ -84,9 +77,43 @@ topics:
       description: >
         Cisco’s CloudLock Cloud Access Security Broker (CASB) solution protects your cloud users, secures your cloud data, and defends your cloud apps.
   - topic: "Azure säkerhet"
-    literatureTime: 0
-    optionalLiteratureTime: 61
+    literatureTime: 28
+    optionalLiteratureTime: 120
     description-include: azure_saekerhet.md
+    literature:
+    - title: "Azure Security Center"
+      url: https://www.youtube.com/watch?v=t6gp9k78XEw
+      description: >
+        Kelly Anderson joins Scott Hanselman to discuss Azure Security Center, which offers built-in security management and threat protection for your cloud workloads. Azure Security Center helps you find & fix vulnerabilities, aids in blocking malicious access and alerts you when your resources are under attack. 
+        
+        For more information:
+        
+        Azure Security Center documentation - https://aka.ms/azfr/399/01
+        Azure Security blog  - https://aka.ms/azfr/399/02
+        Azure Security Center overview  - https://aka.ms/azfr/399/03
+        Azure Security Center pricing  - https://aka.ms/azfr/399/04
+        Create a Free Account (Azure) - https://aka.ms/azfr/399/05
+    - title: "What is Azure Backup? - Azure Backup"
+      url: https://docs.microsoft.com/en-us/azure/backup/backup-overview
+      description: >
+        Provides an overview of the Azure Backup service, and how it contributes to your business continuity and disaster recovery (BCDR) strategy.
+    - title: "Azure Essentials: Defense in depth security"
+      url: https://www.youtube.com/watch?v=OTGMi0ksjXY
+      description: >
+        Overview of Azure services and capabilities to secure, manage and monitor your cloud data, apps and infrastructure. In this Azure Essentials, we also go in-depth on the controls of the Azure Security Center and explain the controls your can leverage as well as what Microsoft does to keep your data, apps, compute and networking resources secure. Identity and access management is also a key component in maintaining defense in depth, so check out our Azure Essentials on Azure Active Directory to further your skills here: https://youtu.be/nRk1_koNBB8 
+         
+        www.azure.com/essentials (Azure Essentials)
+    - title: "Introduction to Azure security - Microsoft Docs"
+      url: https://docs.microsoft.com/en-us/azure/security/fundamentals/overview
+      timeType: Article
+      timeMinutes: 28
+      timeBadge: info
+      description: >
+        Introduce yourself to Azure Security, its various services, and how it works by reading this overview.
+    - title: "Secure development best practices on Microsoft Azure"
+      url: https://docs.microsoft.com/en-us/azure/security/develop/secure-dev-overview
+      description: >
+        Best practices to help you develop more secure code and deploy a more secure application in the cloud.
     recommendedLiterature:
     - title: "Azure Security Best Practices"
       url: https://microsoft.github.io/AzureTipsAndTricks/blog/tip272.html
@@ -101,6 +128,13 @@ topics:
       description: >
         Protect your hybrid cloud workloads with Azure Defender—helping you streamline security with AI and automation.
     optionalLiterature:
+    - title: "Azure Security Basics"
+      url: https://www.youtube.com/watch?v=YskZ3WcK2jM
+      timeType: Video
+      timeMinutes: 59
+      timeBadge: danger
+      description: >
+        When Tailwind Traders acquired Northwind Traders, we needed a way to teach employees at Northwind how security in the cloud is different than security in our on-premises data centers. In this talk we’ll show you how we used Azure Security Center to scan our resources and help us manage threat protection and monitoring of our SQL Database. As our security scan is happening, we’ll then implement Role Based Access Control (RBAC) and assign our IT professionals roles within our cloud using Identity and Access Management. Finally, when our security scan is complete, we’ll implement the recommendations from the Azure Security Center and watch as our risk indicators go from red to orange to yellow!
     - title: "Top 10 Best Practices for Azure Security"
       url: https://www.youtube.com/watch?v=g0hgtxBDZVE
       timeType: Video
@@ -122,3 +156,8 @@ topics:
     literatureTime: 0
     optionalLiteratureTime: 0
     description-include: compliance.md
+    literature:
+    - title: "Cloud Compliance: What you need to know"
+      url: https://www.michalsons.com/blog/cloud-compliance/22643
+      description: >
+        Cloud compliance is about complying with the laws and regulations that apply to using the cloud. Most organisations are moving to the cloud.

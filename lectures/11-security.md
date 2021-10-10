@@ -33,3 +33,12 @@ Gå igennom dissa 3 övningar, som är en del av kursen [Secure your cloud appli
 * [Manage secrets in your server apps with Azure Key Vault](https://docs.microsoft.com/en-us/learn/modules/manage-secrets-with-azure-key-vault/), 46 min
 * [Control authentication for your APIs with Azure API Management](https://docs.microsoft.com/en-us/learn/modules/control-authentication-with-apim/), 50 min
 
+Dissa 2 kan också vara bra:
+* [Protect against security threats on Azure](https://docs.microsoft.com/en-us/learn/modules/protect-against-security-threats-azure/), 28 min
+* [Secure and isolate access to Azure resources by using network security groups and service endpoints](https://docs.microsoft.com/en-us/learn/modules/secure-and-isolate-with-nsg-and-service-endpoints/), 43 min
+
+# Övningsuppgift
+Bygg en Azure fuction som använder data från en Azure Key Vault.
+
+Hints:
+* [Storing and using secrets in Azure](https://devblogs.microsoft.com/dotnet/storing-and-using-secrets-in-azure/)
