@@ -1,7 +1,7 @@
 ---
 contentTimeTotal:
-  literatureTime: 35
-  optionalLiteratureTime: 0
+  literatureTime: 44
+  optionalLiteratureTime: 61
 notInTopic:
   literature:
   - title: "Hacking challenge at DEFCON"
@@ -22,16 +22,70 @@ notInTopic:
       Introduce yourself to Azure Security, its various services, and how it works by reading this overview.
 topics:
   - topic: "Application Security"
-    literatureTime: 0
+    literatureTime: 9
     optionalLiteratureTime: 0
     description-include: application_security.md
+    literature:
+    - title: "We Hack Purple – Secure all the things!"
+      url: https://wehackpurple.com/pushing-left-like-a-boss-part-1/
+    - title: "Develop secure applications on Microsoft Azure"
+      url: https://docs.microsoft.com/en-us/azure/security/develop/secure-develop
+      timeType: Article
+      timeMinutes: 9
+      timeBadge: info
+      description: >
+        This article discusses best practices to consider during the implementation and verification phases of your web application project.
+    optionalLiterature:
+    - title: "Everything You Need to Know About CI/CD and Security"
+      url: https://www.tripwire.com/state-of-security/devops/everything-need-to-know-about-ci-cd-security/
+      description: >
+        Understand what CI/CD means, learn about security in CI/CD pipelines, and learn how to determine if there are potential security risks.
+    - title: "Lesson 18: Application Isolation — OSU DevOps BootCamp 0.0.1 documentation"
+      url: https://devopsbootcamp.osuosl.org/application-isolation.html
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+    - title: "Hardening ASP.NET Core 3.1 Docker Images"
+      url: https://michaeldimoudis.medium.com/hardening-asp-net-core-3-1-docker-images-f0c2ede1667f
+      description: >
+        In this blog post I’ll be consolidating a few already available resources online to harden a docker image to specifically run ASP.NET Core…
   - topic: "Cloud security"
     literatureTime: 0
     optionalLiteratureTime: 0
     description-include: cloud_security.md
+    literature:
+    - title: "Cloud Cybersecurity in Under 5 Minutes"
+      url: https://www.youtube.com/watch?v=k2684fuzHLs
+      description: >
+        Watch this video for an overview of cloud cybersecurity in under 5 minutes:
+    - title: "Google Data Center Security: 6 Layers Deep"
+      url: https://www.youtube.com/watch?v=kd33UVZhnAA
+      description: >
+        Security is one of the most critical elements of our data centers’ DNA. With dozens of data centers globally, security operations means managing a massively complex network. Follow Stephanie Wong, as she journeys to the core of a data center, to show you the six layers of physical security designed to thwart unauthorized access. She’ll meet experts along the way to explore the inner workings of the technology and systems that make Google Cloud one of the most robust enterprise risk management platforms. 
+        
+        Data Centers (Data & Security) → https://goo.gle/2LmkzF3 
+        Google Cloud (Trust & Security)→ http://goo.gle/38bAn8F 
+        Listen to Where the Internet Lives podcast → https://goo.gle/3u2PKZP 
+        
+        Follow Stephanie on Twitter→ @swongful
+        Subscribe to Google Cloud Platform → https://goo.gle/GCP 
+        
+        Product: Data Center; fullname: Stephanie Wong;
+    - title: "DevOps Handbook Summary 4 of 4 - Security"
+      url: http://agilejazz.blogspot.com/p/the-devops-handbook-summary-4-of-4.html
+      description: >
+        Book summary of  The DevOps Handbook  by Gene Kim et. al. Excerpted content is formatted in  italics .     Part VI: The Technical Practices ...
+    recommendedLiterature:
+    - title: "Cloud Security: It's Tuesday, Carl"
+      url: https://www.youtube.com/watch?v=NI-plwor2Xw
+      timeType: Video
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Cisco’s CloudLock Cloud Access Security Broker (CASB) solution protects your cloud users, secures your cloud data, and defends your cloud apps.
   - topic: "Azure säkerhet"
     literatureTime: 0
-    optionalLiteratureTime: 0
+    optionalLiteratureTime: 61
     description-include: azure_saekerhet.md
     recommendedLiterature:
     - title: "Azure Security Best Practices"
@@ -46,6 +100,24 @@ topics:
       timeBadge: dark
       description: >
         Protect your hybrid cloud workloads with Azure Defender—helping you streamline security with AI and automation.
+    optionalLiterature:
+    - title: "Top 10 Best Practices for Azure Security"
+      url: https://www.youtube.com/watch?v=g0hgtxBDZVE
+      timeType: Video
+      timeMinutes: 61
+      timeBadge: danger
+      description: >
+        There is so much opportunity to use Azure to improve your security posture, but where to start? What are the most effective and easiest measures to implement? In this overview session, you will learn about the top 10 Azure security best practices (across people, process, and technology), discover the latest Azure security innovations.
+        
+        ► Subscribe to Microsoft Security on YouTube here: https://aka.ms/SubscribeMicrosoftSecurity
+        
+        ► Follow us on social: 
+        LinkedIn: https://www.linkedin.com/showcase/microsoft-security/
+        Twitter: https://twitter.com/msftsecurity
+        
+        ► For more about Microsoft Security: https://msft.it/6002T9HQY
+        
+        #MicrosoftSecurity #Ignite #Azure
   - topic: "Compliance"
     literatureTime: 0
     optionalLiteratureTime: 0
