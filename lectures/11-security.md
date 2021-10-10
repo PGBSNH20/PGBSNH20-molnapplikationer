@@ -28,7 +28,8 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_mol
 
 # Indviduella övningsuppgifter
 
-Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
+Gå igennom dissa 3 övningar, som är en del av kursen [Secure your cloud applications in Azure](https://docs.microsoft.com/en-us/learn/paths/secure-your-cloud-apps/):
 * [Top 5 security items to consider before pushing to production](https://docs.microsoft.com/en-us/learn/modules/top-5-security-items-to-consider/), 45 min
+* [Manage secrets in your server apps with Azure Key Vault](https://docs.microsoft.com/en-us/learn/modules/manage-secrets-with-azure-key-vault/), 46 min
+* [Control authentication for your APIs with Azure API Management](https://docs.microsoft.com/en-us/learn/modules/control-authentication-with-apim/)
 
-# Övningsuppgift
