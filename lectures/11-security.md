@@ -29,19 +29,6 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_mol
 # Indviduella övningsuppgifter
 
 Gå igennom dissa x övningar, som är en del av kursen [x](https://x):
-* [x](x), x min
+* [Top 5 security items to consider before pushing to production](https://docs.microsoft.com/en-us/learn/modules/top-5-security-items-to-consider/), 45 min
 
 # Övningsuppgift
-
-Göras ensamt eller fler tillsammans. Målet är altid en fungerande applikation, och det rekomenderas därför att börja med brons och sen gå på silver och på slutet guld (men det är såklart möjligt att gå på silver eller guld direkt). Silver och guld är frivilliga, hellere en fungerende brons än en ofungerende silver. VG är möjligt på alla nivåer.
-
-https://github.com/Azure/azure-quickstart-templates/tree/master/demos/xss-attack-prevention
-
-**Brons (enkel):**
-b
-
-**Silver (meddel):**
-s
-
-**Guld (avancerat):**
-g
