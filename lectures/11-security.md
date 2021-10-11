@@ -38,7 +38,11 @@ Dissa 2 kan också vara bra:
 * [Secure and isolate access to Azure resources by using network security groups and service endpoints](https://docs.microsoft.com/en-us/learn/modules/secure-and-isolate-with-nsg-and-service-endpoints/), 43 min
 
 # Övningsuppgift
-Bygg en Azure fuction som använder data från en Azure Key Vault.
+Bygg en Azure fuction eller en konsol applikation som använder data från en Azure Key Vault.
+
+Tanken är att ni har en hemlighet som ni ligger i Azure Key Valut och denna ska ni läsa i applikation och använda på något sätt.
+
+Förslag: Bygg en quiz vart svar och fråga ligge i Azure Key Valut. Frågan läsa och presenteras till användern (GET) och använderen svara (POS) och det valideras mot svaret i Key Valut.
 
 Hints:
 * [Storing and using secrets in Azure](https://devblogs.microsoft.com/dotnet/storing-and-using-secrets-in-azure/)
