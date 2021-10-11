@@ -42,7 +42,7 @@ Bygg en Azure fuction eller en konsol applikation som använder data från en Az
 
 Tanken är att ni har en hemlighet som ni ligger i Azure Key Valut och denna ska ni läsa i applikation och använda på något sätt.
 
-Förslag: Bygg en quiz vart svar och fråga ligge i Azure Key Valut. Frågan läsa och presenteras till användern (GET) och använderen svara (POS) och det valideras mot svaret i Key Valut.
+Förslag: Bygg en quiz vart svar och fråga ligge i Azure Key Valut. Frågan läsa och presenteras till användern (GET) och använderen svara (POST) och det valideras mot svaret i Key Valut.
 
 Hints:
 * [Storing and using secrets in Azure](https://devblogs.microsoft.com/dotnet/storing-and-using-secrets-in-azure/)
