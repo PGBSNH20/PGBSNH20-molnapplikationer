@@ -4,17 +4,89 @@ contentTimeTotal:
   optionalLiteratureTime: 0
 notInTopic:
   literature:
-  - title: "Application Lifecycle in the Cloud"
-    url: https://gevaperry.typepad.com/main/2009/11/application-lifecycle-in-the-cloud.html
-    timeType: Article
-    timeMinutes: 0
-    timeBadge: dark
+  - title: "Is Cloud Computing Environmentally Friendly?"
+    url: https://www.business2community.com/cloud-computing/is-cloud-computing-environmentally-friendly-02392578
     description: >
-      Cloud computing is having a profound effect on the software application lifecycle. Almost every phase of creating and rolling out software applications is now addressed by a growing number of cloud services: from prototyping, to development, testing & QA, continuous...
+      Yes, it is! And sustainable, too. But it comes with a catch. Fortunately, main cloud providers have assertive initiatives in…
+  - title: "Net-zero cloud strategy depends on providers' credentials"
+    url: https://techmonitor.ai/leadership/sustainability/net-zero-cloud-strategy-aws-azure-google-cloud
+    description: >
+      Businesses seeking to implement a net-zero cloud strategy must choose their provider carefully, as approaches to carbon emissions vary.
+  - title: "Green cloud tools are profitable for you and the planet"
+    url: https://www.thoughtworks.com/insights/articles/green-cloud
+    description: >
+      A path to environmentally conscious computing
+  recommendedLiterature:
+  - title: "Microsoft Emissions Impact Dashboard"
+    url: https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard?activetab=pivot_2%3aprimaryr12
+    description: >
+      Understand your impact with the Emissions Impact Dashboard. Measure your carbon footprint, quantify your impact, and learn ways to reduce emissions.
   optionalLiterature:
-  - title: "Human Factors in Software Development: A Systematic Literature Review"
-    url: https://publications.lib.chalmers.se/records/fulltext/126748.pdf
-    timeType: Document
-    timeMinutes: 0
-    timeBadge: dark
+  - title: "Reklam: Green Computing (2018)"
+    url: https://www.youtube.com/watch?v=LlSUzlKUVMU
+    description: >
+      IT Industry’s responsibility towards a Greener Earth.
+      
+      Watch Mission: Green Computing the Movie - Online Now. https://www.supermicro.com/WeKeepITGreen 
+       
+      #MissionGreenComputing 
+      
+      
+      Sign up for newsletters https://www.supermicro.com/newsroom/social_media/ 
+      
+      Connect with us:
+      
+      Supermicro on Facebook: https://www.facebook.com/Supermicro
+      Supermicro on Twitter: https://twitter.com/Supermicro_SMCI 
+      Supermicro on Google+: https://plus.google.com/+Supermicro_SMCI 
+      
+      Subscribe to Supermicro on YouTube: http://bit.ly/2eIqOCu
+  - title: "Are tech companies green enough for their workers? - Tech Wash"
+    url: https://www.youtube.com/watch?v=F53dcBoTtww
+    description: >
+      FT's Kiran Stacey looks at why tech companies are doubling down on their sustainable targets as their employees join green protests. Read more: https://on.ft.com/2mrNYV5
+      
+      ► Check out our Community tab for more stories on the economy.
+      ►  Listen to our podcasts: https://www.ft.com/podcasts
+      ►  Follow us on Instagram:  https://www.instagram.com/financialtimes
 topics:
+  - topic: "Dev Kultur"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: dev_kultur.md
+    literature:
+    - title: "A Look At Software Development Culture"
+      url: https://www.accelerance.com/blog/software-development-culture
+      description: >
+        Software developers have different workplace needs than other professionals. Get our latest on software development culture.
+    optionalLiterature:
+    - title: "Human Factors in Software Development: A Systematic Literature Review"
+      url: https://publications.lib.chalmers.se/records/fulltext/126748.pdf
+      timeType: Document
+      timeMinutes: 0
+      timeBadge: dark
+    - title: "Lessons from 7 highly successful software engineering cultures - TechBeacon"
+      url: https://techbeacon.com/app-dev-testing/lessons-7-highly-successful-software-engineering-cultures
+      description: >
+        The ties that bind great software engineering teams and company cultures are right in their employee handbooks.
+  - topic: "Livscykel"
+    literatureTime: 0
+    optionalLiteratureTime: 0
+    description-include: livscykel.md
+    literature:
+    - title: "Application Lifecycle in the Cloud"
+      url: https://gevaperry.typepad.com/main/2009/11/application-lifecycle-in-the-cloud.html
+      timeType: Article
+      timeMinutes: 0
+      timeBadge: dark
+      description: >
+        Cloud computing is having a profound effect on the software application lifecycle. Almost every phase of creating and rolling out software applications is now addressed by a growing number of cloud services: from prototyping, to development, testing & QA, continuous...
+    optionalLiterature:
+    - title: "What Is SDLC? Understand the Software Development Life Cycle"
+      url: https://stackify.com/what-is-sdlc/
+      description: >
+        SDLC (Software Development Life Cycle) includes a plan for how to develop, alter, and maintain a software system. Learn the stages and get best practices.
+    - title: "SSDLC 101: What Is the Secure Software Development Life Cycle? - DZone Security"
+      url: https://dzone.com/articles/ssdlc-101-what-is-the-secure-software-development
+      description: >
+        A security consultant discusses SSDLC, how it is helping companies develop more secure code, and how companies can get started with this DevSecOps process.
