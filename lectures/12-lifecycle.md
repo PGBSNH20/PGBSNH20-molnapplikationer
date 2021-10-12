@@ -28,5 +28,5 @@ Estimerat samlat "läs"-tid för lektionslittertur är **{{site.data.lecture_mol
 
 # Tenta
 
-Se [tenta](/tenta)
+Se [tenta]({{ "/assignments/tenta" | prepend: site.baseurl }})
 
